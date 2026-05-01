@@ -629,103 +629,313 @@
     },
     "lucidBlocksSteamDeckAndController": {
       "title": "NBA The Run Courts",
-      "displayType": "faq",
-      "intro": "NBA THE RUN court identity is rooted in global streetball culture, mixing iconic settings with stylized presentation and tournament-ready layouts.",
-      "faqs": [
+      "displayType": "cardList",
+      "intro": "NBA THE RUN sends teams across iconic streetball courts around the world in online Knockout Tournaments, with championship games ending on one of four finals courts.",
+      "items": [
         {
-          "question": "Which NBA The Run court location is already highlighted?",
-          "answer": "NBA The Run promotional material highlights Venice Beach as a signature court location."
+          "icon": "Gamepad2",
+          "title": "NBA The Run Venice Beach",
+          "location": "Venice Beach",
+          "type": "Confirmed Streetball Court",
+          "description": "NBA The Run Venice Beach is one of the named legendary courts in the global Knockout route where teams lock in, win, advance, and repeat.",
+          "highlights": [
+            "Named in official store descriptions",
+            "Part of online multiplayer Knockout Tournaments",
+            "Core result for map and arena searches"
+          ]
         },
         {
-          "question": "What global flavor do NBA The Run courts bring?",
-          "answer": "NBA The Run courts are presented as worldwide streetball destinations rather than one-region arenas."
+          "icon": "Home",
+          "title": "NBA The Run The Tenement",
+          "location": "Philippines",
+          "type": "Confirmed Streetball Court",
+          "description": "NBA The Run The Tenement is another confirmed location and gives the game a global streetball identity beyond typical U.S. basketball landmarks.",
+          "highlights": [
+            "Named alongside Venice Beach",
+            "Used in the worldwide tournament framing",
+            "Important for Philippines court lookups"
+          ]
         },
         {
-          "question": "How do NBA The Run courts affect match feel?",
-          "answer": "NBA The Run courts reinforce pace and identity through visual style, crowd atmosphere, and match framing."
+          "icon": "TrendingUp",
+          "title": "NBA The Run Run the World Courts",
+          "location": "Worldwide Rotation",
+          "type": "Tournament Court Rotation",
+          "description": "NBA The Run Run the World is a four-round Knockout Tournament where teams of three compete across changing courts with short rounds and randomized rulesets.",
+          "highlights": [
+            "Four-round tournament structure",
+            "Teams of three compete head-to-head",
+            "Court-to-court strategy changes by ruleset"
+          ]
         },
         {
-          "question": "How should players track new NBA The Run courts?",
-          "answer": "NBA The Run court tracking should follow official updates and store media releases for confirmed additions."
+          "icon": "Star",
+          "title": "NBA The Run Finals Court Rotation",
+          "location": "Championship Round",
+          "type": "Finals Courts",
+          "description": "Each NBA The Run Run the World Tournament ends at one of four designated finals courts where teams compete for the trophy and bragging rights.",
+          "highlights": [
+            "Four designated finals courts",
+            "Championship game destination",
+            "Connected to Run the World trophy progression"
+          ]
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
       "title": "NBA The Run Multiplayer",
-      "displayType": "settings",
-      "intro": "NBA THE RUN multiplayer emphasizes online competition, cross-platform connectivity, and team coordination across different queue styles.",
-      "settings": [
+      "displayType": "accordion",
+      "intro": "NBA THE RUN multiplayer is built around online 3v3 street basketball with Solos, Squads, private tournaments, and cross-platform features.",
+      "items": [
         {
-          "name": "NBA The Run Online Matchmaking",
-          "type": "Core Multiplayer",
-          "description": "Online queues are central to the NBA THE RUN experience and tournament flow."
+          "question": "How many online players does NBA The Run support?",
+          "answer": "NBA The Run is designed around online 3v3 basketball. Platform listings show support up to six players online depending on store definitions.",
+          "details": [
+            "Main match format is online 3v3",
+            "PlayStation listing includes up to 6 online players",
+            "Xbox listing includes 2-6 online multiplayer",
+            "Steam feature row lists Online PvP"
+          ]
         },
         {
-          "name": "NBA The Run Cross-Platform Play",
-          "type": "Core Multiplayer",
-          "description": "Store messaging highlights cross-platform multiplayer as a key ecosystem feature."
+          "question": "What is NBA The Run Knockout Squads?",
+          "answer": "NBA The Run Knockout Squads lets you control one player on a three-player squad and complete the lineup with friends or matched teammates.",
+          "details": [
+            "Squad size is 3 players",
+            "You control one player on the squad",
+            "Fill the team with friends or matchmaking"
+          ]
         },
         {
-          "name": "NBA The Run Team Queue Options",
-          "type": "Core Multiplayer",
-          "description": "Players can align queue style around solo progression or organized squad play."
+          "question": "What is NBA The Run Knockout Solos?",
+          "answer": "NBA The Run Knockout Solos lets you build and control a full team of three against other player-built teams in the same competitive bracket format.",
+          "details": [
+            "Build a full team of 3",
+            "Control your team directly",
+            "Compete against other player teams"
+          ]
         },
         {
-          "name": "NBA The Run Competitive Session Design",
-          "type": "Core Multiplayer",
-          "description": "Short knockout rounds reward tight communication and fast tactical adjustments."
+          "question": "What is NBA The Run Knockout Friends?",
+          "answer": "NBA The Run Knockout Friends is the private tournament mode with solo-versus-AI runs, friend squads versus AI, and invited head-to-head competition.",
+          "details": [
+            "Private tournament format",
+            "Play alone against AI",
+            "Crew up with friends against AI",
+            "Supports invited head-to-head tournament play",
+            "Supports up to 48 players at launch"
+          ]
+        },
+        {
+          "question": "Does NBA The Run support cross-platform multiplayer?",
+          "answer": "NBA The Run store listings highlight cross-platform multiplayer support on Steam and Xbox across the launch platform lineup.",
+          "details": [
+            "Steam feature row lists Cross-Platform Multiplayer",
+            "Xbox capabilities include cross-platform multiplayer",
+            "Launch platforms include PS5, Xbox Series X|S, and PC via Steam"
+          ]
+        },
+        {
+          "question": "What online requirements are listed for NBA The Run?",
+          "answer": "NBA The Run platform pages list online play requirements by ecosystem, including subscriptions on console and internet connection requirements on PC.",
+          "details": [
+            "PS5 lists online play required",
+            "PS5 lists PS Plus required for online play",
+            "Xbox requires Game Pass Core or Ultimate for console multiplayer",
+            "PC Steam requirements include broadband internet"
+          ]
+        },
+        {
+          "question": "How should players view local or offline play in NBA The Run?",
+          "answer": "NBA The Run launch messaging centers on online PvP, Solos, Squads, Shootaround practice, and AI-supported private tournaments.",
+          "details": [
+            "Store feature rows center on online play",
+            "Shootaround is listed as a practice mode",
+            "Knockout Friends supports private sessions with AI and invited players"
+          ]
         }
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
       "title": "NBA The Run Progression",
-      "displayType": "timeline",
-      "intro": "NBA THE RUN progression is centered on match performance, Cred earnings, unlock pathways, and personalization through The Shop ecosystem.",
-      "entries": [
+      "displayType": "cardList",
+      "intro": "NBA THE RUN progression loops through wins, Cred, The Shop, ranking rewards, and trophy runs so players can prioritize the unlock path they care about most.",
+      "items": [
         {
-          "type": "Progression Core",
-          "title": "NBA The Run Cred Economy",
-          "description": "Winning and consistent performance feed Cred growth that supports unlock progression."
+          "icon": "BookOpen",
+          "title": "NBA The Run Cred",
+          "reward_type": "In-Game Currency",
+          "unlock_path": "Earned by Winning Matches",
+          "description": "NBA The Run Cred is the core progression currency used to unlock rewards through The Shop after competitive match wins.",
+          "examples": [
+            "Cosmetics",
+            "Jerseys",
+            "Advanced dunks",
+            "Taunts",
+            "Badges",
+            "Banners"
+          ]
         },
         {
-          "type": "Progression Core",
-          "title": "NBA The Run The Shop Unlocks",
-          "description": "Players can unlock cosmetics, style options, and presentation rewards through progression."
+          "icon": "Package",
+          "title": "NBA The Run The Shop",
+          "reward_type": "Reward Hub",
+          "unlock_path": "Spend Cred on Selected Rewards",
+          "description": "NBA The Run The Shop is built around player choice, covering visual identity, animation style, and high-value character variants.",
+          "examples": [
+            "Throwback NBA fits",
+            "720 dunks",
+            "Too small taunts",
+            "Rookie Variants"
+          ]
         },
         {
-          "type": "Progression Core",
-          "title": "NBA The Run Cosmetic Identity",
-          "description": "Jerseys, celebrations, and visual personalization reinforce long-term player identity."
+          "icon": "Sparkles",
+          "title": "NBA The Run Style Cosmetics",
+          "reward_type": "Customization",
+          "unlock_path": "Unlocked with Cred",
+          "description": "NBA The Run style rewards customize how players present themselves in matches through apparel, flair, and signature animations.",
+          "examples": [
+            "Jerseys",
+            "Advanced dunk animations",
+            "Taunts",
+            "Badges",
+            "Banners"
+          ]
         },
         {
-          "type": "Progression Core",
-          "title": "NBA The Run Variant Collection",
-          "description": "Rookie variants and special unlock tracks provide additional collection goals."
+          "icon": "Users",
+          "title": "NBA The Run Rookie Variants",
+          "reward_type": "Player Variants",
+          "unlock_path": "Available Through The Shop",
+          "description": "NBA The Run Rookie Variants are alternate versions of NBA All-Stars with different looks and play identities.",
+          "examples": [
+            "Steph Curry in 2009",
+            "Kevin Durant on the SuperSonics",
+            "Five rookie NBA All-Star variants"
+          ]
+        },
+        {
+          "icon": "Shield",
+          "title": "NBA The Run Streetball Legends",
+          "reward_type": "Rank Unlocks",
+          "unlock_path": "Unlocked by Ranking Up",
+          "description": "NBA The Run rank progression unlocks fictional Streetball Legends designed with clear strengths, weaknesses, and distinct styles.",
+          "examples": [
+            "Five fictional Streetball Legends at launch",
+            "Distinct strengths and weaknesses",
+            "Handcrafted stylized characters"
+          ]
+        },
+        {
+          "icon": "MessageCircle",
+          "title": "NBA The Run Bobbito Garcia",
+          "reward_type": "Playable Legend",
+          "unlock_path": "Streetball Legend Progression",
+          "description": "NBA The Run includes Bobbito Garcia as a playable Streetball Legend, connecting the game announcer identity to roster progression.",
+          "examples": [
+            "Playable legend",
+            "Announcer connection",
+            "Handle-focused streetball identity"
+          ]
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "NBA The Run Tournament Trophies",
+          "reward_type": "Competitive Progression",
+          "unlock_path": "Stack Trophies Through Knockout Tournaments",
+          "description": "NBA The Run tournament runs deliver a repeatable competitive goal as teams push through quick rounds toward finals courts and trophies.",
+          "examples": [
+            "Four-round tournaments",
+            "Championship game finish",
+            "Run the World trophy chase"
+          ]
         }
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
       "title": "NBA The Run System Requirements",
-      "displayType": "steps",
-      "intro": "NBA THE RUN system requirements coverage should separate confirmed platform details from pending PC specification updates and setup recommendations.",
-      "steps": [
+      "displayType": "table",
+      "intro": "NBA THE RUN system requirements and store features currently confirm 64-bit support, online requirements, and platform capabilities while several detailed PC hardware fields are still marked TBD.",
+      "rows": [
         {
-          "title": "NBA The Run Track Official PC Specs",
-          "description": "Follow the Steam store page for confirmed minimum and recommended requirement updates."
+          "category": "NBA The Run PC Release Platform",
+          "pc_minimum": "PC via Steam",
+          "pc_recommended": "PC via Steam",
+          "platform_notes": "NBA The Run is listed on Steam with a planned June 2026 release."
         },
         {
-          "title": "NBA The Run Verify Online Setup",
-          "description": "Ensure stable internet and platform account readiness before multiplayer sessions."
+          "category": "NBA The Run Processor and Operating System",
+          "pc_minimum": "Requires a 64-bit processor and operating system",
+          "pc_recommended": "Requires a 64-bit processor and operating system",
+          "platform_notes": "Steam lists 64-bit support for minimum and recommended requirement sections."
         },
         {
-          "title": "NBA The Run Confirm Platform Features",
-          "description": "Review platform store details for performance capabilities and multiplayer support notes."
+          "category": "NBA The Run Operating System",
+          "pc_minimum": "TBD",
+          "pc_recommended": "TBD",
+          "platform_notes": "Detailed Steam OS fields are currently listed as TBD."
         },
         {
-          "title": "NBA The Run Recheck Before Launch",
-          "description": "Run a final setup review close to launch to match the latest official technical details."
+          "category": "NBA The Run Processor",
+          "pc_minimum": "TBD",
+          "pc_recommended": "TBD",
+          "platform_notes": "Detailed Steam processor fields are currently listed as TBD."
+        },
+        {
+          "category": "NBA The Run Graphics",
+          "pc_minimum": "TBD",
+          "pc_recommended": "TBD",
+          "platform_notes": "Detailed Steam graphics fields are currently listed as TBD."
+        },
+        {
+          "category": "NBA The Run Network",
+          "pc_minimum": "Broadband internet connection",
+          "pc_recommended": "Broadband internet connection",
+          "platform_notes": "Steam requirements include broadband internet connectivity."
+        },
+        {
+          "category": "NBA The Run Sound Card",
+          "pc_minimum": "TBD",
+          "pc_recommended": "TBD",
+          "platform_notes": "Detailed Steam sound card fields are currently listed as TBD."
+        },
+        {
+          "category": "NBA The Run Steam Features",
+          "pc_minimum": "Online PvP, Cross-Platform Multiplayer, Steam Achievements, Family Sharing",
+          "pc_recommended": "Online PvP, Cross-Platform Multiplayer, Steam Achievements, Family Sharing",
+          "platform_notes": "Steam lists online PvP and cross-platform multiplayer as key PC features."
+        },
+        {
+          "category": "NBA The Run Steam Interactive Elements",
+          "pc_minimum": "In-game purchases, in-game chat, online interactivity",
+          "pc_recommended": "In-game purchases, in-game chat, online interactivity",
+          "platform_notes": "Steam lists these as interactive elements on the store page."
+        },
+        {
+          "category": "NBA The Run PlayStation 5 Online Requirements",
+          "pc_minimum": "Not applicable",
+          "pc_recommended": "Not applicable",
+          "platform_notes": "PlayStation lists PS Plus required for online play, online play required, and support for up to 6 online players."
+        },
+        {
+          "category": "NBA The Run Xbox Online Requirements",
+          "pc_minimum": "Not applicable",
+          "pc_recommended": "Not applicable",
+          "platform_notes": "Xbox lists online multiplayer for 2-6 players and requires Game Pass Core or Ultimate for online multiplayer on console."
+        },
+        {
+          "category": "NBA The Run Xbox Performance and Platform Features",
+          "pc_minimum": "Not applicable",
+          "pc_recommended": "Not applicable",
+          "platform_notes": "Xbox highlights 4K Ultra HD, ray tracing, 60 fps+, spatial sound, cloud saves, achievements, and Xbox Series X|S optimization."
         }
-      ]
+      ],
+      "supportLinks": [
+        "NBA The Run Official Discord",
+        "NBA The Run Steam Community"
+      ],
+      "supportPrompt": "Use official NBA The Run community channels for technical updates and support posts."
     }
   },
   "faq": {
