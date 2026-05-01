@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages, getTranslations } from 'next-intl/server'
+import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing, type Locale } from '@/i18n/routing'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
@@ -36,14 +36,16 @@ export function generateStaticParams() {
 // 生成元数据
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	const { locale } = await params
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
-
-	// 获取 SEO 翻译
-	const t = await getTranslations('seo.home')
+	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.nbatherun.wiki'
+	const path = '/'
+	const localizedUrl = locale === 'en' ? siteUrl : `${siteUrl}/${locale}`
+	const metadataTitle = 'NBA THE RUN - Release Date, Roster & Gameplay Guide'
+	const metadataDescription =
+		'NBA THE RUN guide covering release date, Steam beta, roster, 3v3 gameplay, platforms, system requirements, trailers, news, and beginner tips.'
 
 	return {
-		title: t('title'),
-		description: t('description'),
+		title: metadataTitle,
+		description: metadataDescription,
 		robots: {
 			index: true,
 			follow: true,
@@ -58,25 +60,25 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 		openGraph: {
 			type: 'website',
 			locale: locale,
-			url: locale === 'en' ? siteUrl : `${siteUrl}/${locale}`,
-			siteName: 'Lucid Blocks Wiki',
-			title: t('ogTitle'),
-			description: t('ogDescription'),
+			url: localizedUrl,
+			siteName: 'NBA The Run',
+			title: metadataTitle,
+			description: metadataDescription,
 			images: [
 				{
 					url: `${siteUrl}/images/hero.webp`,
 					width: 1920,
 					height: 1080,
-					alt: 'Lucid Blocks - Surreal Voxel Sandbox',
+					alt: 'NBA THE RUN - Official Hero Image',
 				},
 			],
 		},
 		twitter: {
 			card: 'summary_large_image',
-			title: t('twitterTitle'),
-			description: t('twitterDescription'),
+			title: metadataTitle,
+			description: metadataDescription,
 			images: [`${siteUrl}/images/hero.webp`],
-			creator: '@lucidblocks',
+			creator: '@NBATHERUN',
 		},
 		icons: {
 			icon: [
@@ -89,7 +91,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 			],
 		},
 		manifest: '/manifest.json',
-		alternates: buildLanguageAlternates('/', locale as Locale, siteUrl),
+		alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
 	}
 }
 

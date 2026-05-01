@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Fast-Paced 3v3 Street Basketball",
+    "title": "NBA THE RUN",
+    "description": "NBA THE RUN is an online 3v3 street basketball game featuring NBA stars, Street Legends, Knockout Tournaments, rollback netcode, stylish courts, and arcade-style action.",
+    "getFreeCodesCTA": "Wishlist on Steam",
+    "playOnSteamCTA": "Official Site",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "June 2026",
+        "label": "Planned Release"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "3v3",
+        "label": "Online Streetball"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "3",
+        "label": "Launch Platforms"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "5",
+        "label": "Steam Languages"
       }
     }
   },
@@ -785,27 +785,28 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready for NBA THE RUN?",
+    "description": "Join the official NBA THE RUN community and stay updated on playtests, release news, and gameplay updates.",
+    "joinCommunity": "Join Official Discord",
+    "joinGame": "Wishlist on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "NBA THE RUN Wiki",
+    "description": "Your fan resource hub for NBA THE RUN release updates, modes, roster tracking, and gameplay guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
+    "discord": "Official Discord",
+    "twitter": "Official X",
     "steamCommunity": "Steam Community",
     "steamStore": "Steam Store",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyright": "© 2026 NBA THE RUN Wiki. Unofficial fan-made resource not affiliated with Play by Play Studios, the NBA, or the NBPA.",
+    "disclaimer": "All trademarks and game assets belong to their respective owners.",
+    "youtube": "Official YouTube Trailer"
   },
   "pages": {
     "guides": {
