@@ -40,6 +40,11 @@ const LoadingPlaceholder = ({ height = 'h-64' }: { height?: string }) => (
   <div className={`${height} bg-white/5 border border-border rounded-xl animate-pulse`} />
 )
 
+function localizePath(path: string, locale: string): string {
+  if (!path.startsWith('/')) return path
+  return locale === 'en' ? path : `/${locale}${path}`
+}
+
 // Conditionally render text as a link or plain span
 function LinkedTitle({
   linkData,
@@ -52,8 +57,18 @@ function LinkedTitle({
   className?: string
   locale: string
 }) {
-  void linkData
-  void locale
+  if (linkData?.url) {
+    return (
+      <Link
+        href={localizePath(linkData.url, locale)}
+        className={className}
+        title={linkData.title}
+      >
+        {children}
+      </Link>
+    )
+  }
+
   return <span className={className}>{children}</span>
 }
 
@@ -1181,7 +1196,7 @@ export default function HomePageClient({
               <ul className="space-y-2 text-sm">
                 <li>
                   <Link
-                    href="/about"
+                    href={localizePath('/about', locale)}
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.about}
@@ -1189,7 +1204,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <Link
-                    href="/privacy-policy"
+                    href={localizePath('/privacy-policy', locale)}
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.privacy}
@@ -1197,7 +1212,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <Link
-                    href="/terms-of-service"
+                    href={localizePath('/terms-of-service', locale)}
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.terms}
@@ -1205,7 +1220,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <Link
-                    href="/copyright"
+                    href={localizePath('/copyright', locale)}
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.copyrightNotice}

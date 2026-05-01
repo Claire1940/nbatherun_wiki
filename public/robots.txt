@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.nbatherun.wiki/sitemap.xml
+Host: https://www.nbatherun.wiki

@@ -1,933 +1,1146 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "description": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricación, biomas, logros, supervivencia, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "ogDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "twitterDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros y consejos de supervivencia para el sandbox surrealista de vóxeles en Steam."
+      "title": "NBA THE RUN - Fecha de lanzamiento, lista y guía de juego",
+      "description": "Guía NBA THE RUN que cubre la fecha de lanzamiento, la prueba de juego Steam, la lista, el juego 3v3, las plataformas, los requisitos del sistema, los avances y los consejos para principiantes.",
+      "keywords": "NBA THE RUN, NBA The Run fecha de lanzamiento, NBA The Run prueba de juego, NBA The Run lista, NBA The Run jugabilidad, NBA The Run plataformas, NBA The Run wiki",
+      "ogTitle": "NBA THE RUN - Fecha de lanzamiento, lista y guía de juego",
+      "ogDescription": "Guía NBA THE RUN que cubre la fecha de lanzamiento, la prueba de juego Steam, la lista, el juego 3v3, las plataformas, los requisitos del sistema, los avances y los consejos para principiantes.",
+      "twitterTitle": "NBA THE RUN - Fecha de lanzamiento, lista y guía de juego",
+      "twitterDescription": "Guía NBA THE RUN para actualizaciones de lanzamiento, pruebas de juego, noticias sobre la plantilla, sistemas de juego y detalles de la plataforma."
     }
   },
   "nav": {
-    "release": "Release",
-    "playtest": "Playtest",
-    "platforms": "Platforms",
-    "price": "Price",
-    "guide": "Guide",
-    "modes": "Modes",
-    "roster": "Roster"
+    "release": "Liberar",
+    "playtest": "Prueba de juego",
+    "platforms": "Plataformas",
+    "price": "Precio",
+    "guide": "Guía",
+    "modes": "Modos",
+    "roster": "Lista"
   },
   "common": {
-    "home": "Inicio",
+    "home": "Hogar",
     "more": "Más",
     "playNow": "Juega en Steam",
     "switchLanguage": "Cambiar idioma",
     "switchTheme": "Cambiar tema",
-    "lightMode": "Modo claro",
+    "lightMode": "Modo de luz",
     "darkMode": "Modo oscuro",
     "notFound": "Página no encontrada",
     "notFoundDescription": "La página que buscas no existe.",
-    "backToHome": "Volver al inicio",
+    "backToHome": "Volver a Inicio",
     "relatedArticles": "Artículos relacionados",
     "readMore": "Leer más",
     "articlesComingSoon": "Artículos próximamente"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de supervivencia de vóxeles",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explora biomas oníricos, fusiona objetos con Apotheosis, construye libremente y sobrevive a criaturas extrañas en este sandbox surrealista de mundo abierto en Steam.",
-    "getFreeCodesCTA": "Explorar guía de fabricación",
-    "playOnSteamCTA": "Jugar en Steam",
+    "badge": "Baloncesto callejero 3v3 de ritmo rápido",
+    "title": "NBA THE RUN",
+    "description": "NBA THE RUN es un juego de baloncesto callejero 3v3 en línea que presenta estrellas de la NBA, Street Legends, Knockout Tournaments, código de red revertido, canchas elegantes y acción estilo arcade.",
+    "getFreeCodesCTA": "Lista de deseos el Steam",
+    "playOnSteamCTA": "Sitio oficial",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Jugadores en línea"
+        "value": "junio 2026",
+        "label": "Lanzamiento planificado"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Pico de CCU"
+        "value": "3v3",
+        "label": "Baloncesto callejero en línea"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Reseñas positivas"
+        "value": "3",
+        "label": "Plataformas de lanzamiento"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Fecha de lanzamiento"
+        "value": "5",
+        "label": "Steam Idiomas"
       }
     }
   },
   "gameFeature": {
-    "title": "Jugabilidad de Lucid Blocks",
-    "description": "Explora biomas surrealistas, fusiona objetos con Apotheosis y sobrevive a criaturas extrañas en este sandbox de vóxeles onírico en Steam."
+    "title": "NBA The Run Jugabilidad",
+    "description": "Mira el tráiler oficial de NBA THE RUN y aprende cómo el streetball 3v3, las habilidades In The Zone y los torneos eliminatorios dan forma a cada partido."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Recursos",
-    "subtitle": "Todo lo que necesitas para explorar, fabricar y sobrevivir en Lucid Blocks",
+    "title": "NBA The Run",
+    "titleHighlight": "Navegador de módulos",
+    "subtitle": "Vaya a cada módulo de la página de inicio NBA The Run y desplácese directamente a cada sección",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Guía para principiantes",
-        "description": "Primeros pasos, exploración y progresión inicial"
+        "title": "NBA The Run Fecha de lanzamiento",
+        "description": "Ventana de lanzamiento, estado oficial y cronograma de lanzamiento."
       },
       {
         "icon": "Sparkles",
-        "title": "Fabricación de Apotheosis",
-        "description": "Sistema de fusión libre y recetas iniciales"
+        "title": "NBA The Run Steam Prueba de juego",
+        "description": "Cómo registrarse, flujo de invitaciones y cronograma de pruebas de juego."
       },
       {
         "icon": "Hammer",
-        "title": "Herramientas y armas",
-        "description": "Pico de escarcha, Azrael, __PROTECTED_6a765cb2__ y más"
+        "title": "NBA The Run Plataformas",
+        "description": "Steam, cobertura de la tienda PS5 y Xbox en una sola vista."
       },
       {
         "icon": "Package",
-        "title": "Almacenamiento e inventario",
-        "description": "Cubos de suministros, gabinetes y almacenamiento de Qualia"
+        "title": "NBA The Run Tráiler del juego",
+        "description": "Aspectos destacados del avance oficial y características del juego."
       },
       {
         "icon": "Home",
-        "title": "Qualia y construcción de bases",
-        "description": "Qualia personal y configuración de la base"
+        "title": "NBA The Run Descripción general del juego",
+        "description": "Bucle central, ritmo y estructura de partidos competitivos."
       },
       {
         "icon": "Eye",
-        "title": "Regiones del mundo",
-        "description": "Fog Meadow, Ciénaga de la Esencia y más"
+        "title": "NBA The Run Guía para principiantes",
+        "description": "Prioridades de la primera sesión para nuevos jugadores."
       },
       {
         "icon": "AlertTriangle",
-        "title": "Criaturas y enemigos",
-        "description": "Maniquíes, arañas y cómo sobrevivir"
+        "title": "NBA The Run Modos de juego",
+        "description": "Solos, Squads y formatos de torneos de amigos."
       },
       {
         "icon": "ArrowRight",
-        "title": "Equipo de movilidad",
-        "description": "__PROTECTED_6a765cb2__, Guante planeador, __PROTECTED_163b9bec__"
+        "title": "NBA The Run Knockout Tournament",
+        "description": "Estructura redonda, reglas aleatorias y flujo final."
       },
       {
         "icon": "TrendingUp",
-        "title": "Cultivo y crecimiento",
-        "description": "Progresión de semillas y recolección de materiales"
+        "title": "NBA The Run Lista",
+        "description": "Grupos de revelación agrupados para estrellas, variantes y leyendas."
       },
       {
         "icon": "Star",
-        "title": "Mejores desbloqueos iniciales",
-        "description": "Mejoras prioritarias para la primera hora"
+        "title": "NBA The Run Lista de seguimiento de los mejores jugadores",
+        "description": "Núcleos de alineación escalonada, anotadores, rematadores y defensores."
       },
       {
         "icon": "ClipboardCheck",
-        "title": "Seguimiento de logros",
-        "description": "Los 19 logros y condiciones de Steam"
+        "title": "NBA The Run En la zona Habilidades",
+        "description": "Ventanas de mejor uso y consejos de escuadrón para cada mejora de firma."
       },
       {
         "icon": "MessageCircle",
-        "title": "Preguntas frecuentes del modo un jugador",
-        "description": "Preguntas sobre plataformas, precio, cooperativo e idiomas"
+        "title": "NBA The Run Controles y movimientos de habilidad",
+        "description": "Flujo de práctica paso a paso para movimiento, defensa y sincronización."
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck y controles",
-        "description": "Configuración de Proton 9.0.4 y consejos para el control"
+        "title": "NBA The Run Tribunales",
+        "description": "Ubicaciones confirmadas de streetball e identidad de la cancha."
       },
       {
         "icon": "Settings",
-        "title": "Ajustes y accesibilidad",
-        "description": "Ocultar manos, __PROTECTED_38625270__ y opciones de pantalla"
+        "title": "NBA The Run Multijugador",
+        "description": "Recuento de jugadores, juego cruzado y requisitos en línea."
       },
       {
         "icon": "Clock",
-        "title": "Actualizaciones y notas del parche",
-        "description": "Correcciones recientes y notas de la hoja de ruta"
+        "title": "NBA The Run Progresión",
+        "description": "Cred, cosméticos y desbloqueo de hitos."
       },
       {
         "icon": "Shield",
-        "title": "Solución de cierres inesperados",
-        "description": "Verificación de __PROTECTED_38625270__, ruta de registros y reporte de errores"
+        "title": "NBA The Run Requisitos del sistema",
+        "description": "Especificaciones de PC, notas de rendimiento y lista de verificación de configuración."
       }
     ]
   },
   "modules": {
     "lucidBlocksBeginnerGuide": {
-      "title": "Guía para principiantes de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "Comienza aprendiendo cómo se conectan la exploración, la fusión y la progresión. Lucid Blocks premia la experimentación, por lo que el progreso temprano proviene de recolectar materiales inusuales, probar combinaciones y desbloquear tu Qualia personal.",
+      "title": "NBA The Run Fecha de lanzamiento",
+      "displayType": "pasos",
+      "intro": "NBA THE RUN está actualmente programado para su lanzamiento en junio de 2026. Los anuncios oficiales y las páginas de la tienda se alinean en torno al mismo período de lanzamiento y conjunto de plataformas.",
       "steps": [
         {
-          "title": "Explora antes de comprometerte",
-          "description": "Camina hacia el exterior, mina bloques comunes y conserva cualquier botín extraño que encuentres. El progreso inicial se trata menos de misiones fijas y más de descubrir en qué se pueden convertir los materiales."
+          "title": "NBA The Run Ventana de lanzamiento confirmada",
+          "description": "Los mensajes oficiales actuales apuntan a una ventana de lanzamiento en junio de 2026 para NBA THE RUN."
         },
         {
-          "title": "Desbloquea tu Qualia personal pronto",
-          "description": "Tu Qualia personal es uno de los hitos iniciales más importantes. Te brinda un lugar confiable para reagruparte y construir a su alrededor."
+          "title": "NBA The Run Steam Estado de lanzamiento",
+          "description": "La página Steam enumera NBA THE RUN según lo previsto para su lanzamiento y disponible en la lista de deseos antes del lanzamiento."
         },
         {
-          "title": "Usa Osmio para progresar rápido al inicio",
-          "description": "El Osmio es uno de los materiales iniciales más útiles. Una ruta inicial popular es combinar Osmio con palos para fabricar un Pico de Escarcha para minar rápido."
+          "title": "NBA The Run Planes de lanzamiento de consola",
+          "description": "PlayStation 5 y Xbox Series X|S están incluidas en la línea de plataformas de lanzamiento anunciada."
         },
         {
-          "title": "Registra las buenas fusiones",
-          "description": "Lleva un registro de las combinaciones exitosas en tu diario. Lucid Blocks tiene muchas rutas de fusión posibles, por lo que anotar los resultados útiles ahorra mucho tiempo."
+          "title": "NBA The Run Información oficial del estudio",
+          "description": "Play by Play Studios es el desarrollador y editor detrás de NBA THE RUN."
         }
       ],
       "quickTips": [
-        "Apotheosis no requiere una lista de recetas fija.",
-        "La generación de mundo infinito significa que moverte hacia arriba o hacia lo profundo puede revelar materiales completamente diferentes.",
-        "Las herramientas de movimiento y el equipo de utilidad se convierten en una gran mejora de calidad de vida una vez que comienzas a desbloquearlos.",
-        "Perderse al principio es normal, pero las herramientas útiles, el almacenamiento y las opciones de movimiento crecen como bola de nieve rápidamente una vez que tus primeras buenas fusiones empiezan a funcionar."
+        "Los mensajes de lanzamiento de NBA The Run se centran en junio de 2026 en los canales oficiales.",
+        "Las páginas de la tienda NBA The Run son útiles para realizar un seguimiento de los cambios de estado previos al lanzamiento.",
+        "Los anuncios de la plataforma NBA The Run actualmente dan prioridad a PS5, Xbox Series X|S y Steam en PC.",
+        "Las actualizaciones de lanzamiento de NBA The Run son más activas en torno a las publicaciones oficiales del sitio y las noticias Steam."
       ]
     },
     "lucidBlocksApotheosisCrafting": {
-      "title": "Artesanía de Apotheosis en Lucid Blocks",
-      "displayType": "cards",
-      "intro": "Apotheosis es el sistema de fusión sin restricciones del juego. En lugar de memorizar un libro de recetas tradicional, combinas materiales, observas el resultado y construyes tu propio conocimiento de artesanía con el tiempo.",
+      "title": "NBA The Run Steam Prueba de juego",
+      "displayType": "tarjetas",
+      "intro": "El flujo de prueba de juego beta cerrada NBA THE RUN se basa en invitaciones. Los jugadores pueden unirse primero a la lista de espera y luego continuar a través del panel de prueba de juego cuando sean seleccionados.",
       "cards": [
         {
-          "name": "Fusión de forma libre",
-          "description": "Apotheosis te permite fusionar diferentes objetos sin necesidad de seguir una lista de recetas fija."
+          "name": "NBA The Run Ventana de prueba de juego",
+          "description": "La primera sesión beta cerrada se presenta como una prueba breve y programada antes del lanzamiento."
         },
         {
-          "name": "Múltiples resultados útiles",
-          "description": "Diferentes materiales suelen orientarse hacia ciertos resultados. Los descubrimientos de la comunidad muestran que insumos similares pueden derivar en herramientas prácticas, almacenamiento o mejoras de combate."
+          "name": "NBA The Run Registro de FirstLook",
+          "description": "Utilice la página oficial NBA THE RUN FirstLook para registrarse para la selección de prueba de juego."
         },
         {
-          "name": "Artesanía basada en el diario",
-          "description": "La mejor manera de aprender Apotheosis es registrar tus combinaciones exitosas. Tu diario se convertirá rápidamente en tu propia referencia de artesanía."
+          "name": "NBA The Run Invitar a seguimiento",
+          "description": "Los jugadores seleccionados continúan desde el correo electrónico de invitación hasta el acceso al panel de cuenta."
         },
         {
-          "name": "Fusiones iniciales probadas por la comunidad",
-          "description": "Ejemplos iniciales populares incluyen Osmio más Palo para un Pico de Escarcha, Palo más Apéndice de Tungsteno para Azrael, y Azrael más Magnetita para el Estoque de Zarcillo."
+          "name": "NBA The Run Seguimiento de la lista de deseos",
+          "description": "Mantenga NBA THE RUN en la lista de deseos en Steam para seguir las pruebas y lanzar actualizaciones en un solo lugar."
         }
       ],
       "milestones": [
-        "Fusionar un objeto",
-        "Fusionar una alimaña",
-        "Fusionar un artefacto divino"
+        "NBA The Run Consulta el calendario de pruebas de juego",
+        "NBA The Run Enviar registro de FirstLook",
+        "NBA The Run Confirmar invitación y acceso"
       ]
     },
     "lucidBlocksToolsAndWeapons": {
-      "title": "Herramientas y armas de Lucid Blocks",
+      "title": "NBA The Run Plataformas",
       "displayType": "itemCards",
-      "intro": "Lucid Blocks mezcla equipo de utilidad oficial con armas iniciales descubiertas por la comunidad. La mejor configuración suele ser una mezcla de minería rápida, travesía segura y una opción de combate confiable.",
+      "intro": "NBA THE RUN está oficialmente vinculado a tres plataformas de lanzamiento, cada una con su propio escaparate y detalles de funciones antes del lanzamiento.",
       "items": [
         {
-          "name": "Pico de Escarcha",
-          "type": "Herramienta de minería",
-          "description": "Un pico inicial rápido y económico hecho de Osmio y Palo. Los jugadores lo usan para acelerar la recolección inicial de materiales."
+          "name": "NBA The Run Steam",
+          "type": "Plataforma de PC",
+          "description": "Steam admite listas de deseos y destaca PvP en línea, funciones multijugador y soporte para logros."
         },
         {
-          "name": "Azrael",
-          "type": "Arma inicial",
-          "description": "Una ruta práctica para un arma inicial fabricada con un Palo y un Apéndice de Tungsteno."
+          "name": "NBA The Run PlayStation 5",
+          "type": "Plataforma de consola",
+          "description": "La lista de PlayStation presenta NBA THE RUN como un lanzamiento centrado en línea para jugadores de PS5."
         },
         {
-          "name": "Estoque de Zarcillo",
-          "type": "Arma mejorada",
-          "description": "Una continuación más fuerte creada al combinar Azrael con Magnetita. Es una de las rutas de combate inicial-media más útiles compartidas por los jugadores."
+          "name": "NBA The Run Xbox Series X|S",
+          "type": "Plataforma de consola",
+          "description": "Los detalles de la tienda Xbox incluyen funciones destacadas de rendimiento y multijugador en línea."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de travesía oficial que mejora enormemente el movimiento y la exploración vertical."
-        },
-        {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de movimiento oficial que ayuda a cubrir terreno de forma más segura y eficiente."
-        },
-        {
-          "name": "Varita de Bola",
-          "type": "Arma de utilidad",
-          "description": "Un objeto de utilidad a distancia oficial que expande tus opciones de combate y acertijos."
-        },
-        {
-          "name": "Equipo de buceo",
-          "type": "Equipo de travesía",
-          "description": "Un objeto de utilidad oficial para llegar a áreas que de otro modo ralentizarían la exploración."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Destacados oficialmente como parte del conjunto de herramientas principal y útiles para atravesar amenazas u obstáculos."
+          "name": "NBA The Run Sitio web oficial",
+          "type": "Centro oficial",
+          "description": "El sitio oficial enlaza con tiendas de plataforma y comunicaciones centrales de lanzamiento."
         }
       ]
     },
     "lucidBlocksStorageAndInventory": {
-      "title": "Almacenamiento e inventario de Lucid Blocks",
-      "displayType": "solutionCards",
-      "intro": "La presión del inventario comienza temprano en Lucid Blocks, por lo que construir almacenamiento debería ser uno de tus primeros objetivos. Ya destacan varias soluciones probadas por jugadores reales.",
+      "title": "NBA The Run Tráiler del juego",
+      "displayType": "soluciónTarjetas",
+      "intro": "El tráiler oficial NBA THE RUN presenta transiciones rápidas, canchas estilizadas, remates verticales y defensa de alto impacto en un formato compacto de 3 contra 3.",
       "solutions": [
         {
-          "name": "Cubo de Almacenamiento",
-          "role": "Almacenamiento tipo cofre",
-          "description": "Los Cubos de Almacenamiento son una de las soluciones prácticas más tempranas y los jugadores los tratan como el contenedor principal tipo cofre del juego."
+          "name": "NBA The Run Tráiler oficial del juego",
+          "role": "Función de vídeo",
+          "description": "El primer avance importante establece el tono, el ritmo y la dirección de la presentación del juego."
         },
         {
-          "name": "Gabinete",
-          "role": "Almacenamiento de base simple",
-          "description": "Los gabinetes son otra opción de almacenamiento confirmada. Una receta inicial compartida usa 1 de Madera cortada y 1 de Cuerda."
+          "name": "NBA The Run Imágenes del nocaut",
+          "role": "Vista previa del modo",
+          "description": "Las secuencias del tráiler muestran la progresión de las rondas del torneo y la presión de la variación de las reglas."
         },
         {
-          "name": "Qualia personal",
-          "role": "Centro de almacenamiento a largo plazo",
-          "description": "Una vez desbloqueada, tu Qualia personal se convierte en un lugar natural para organizar materiales, fabricar en paz y expandir la configuración de tu base."
+          "name": "NBA The Run En los momentos de la zona",
+          "role": "Vista previa mecánica",
+          "description": "Las activaciones de habilidades basadas en el impulso se presentan como momentos importantes del swing del partido."
         },
         {
-          "name": "Seguimiento en el diario",
-          "role": "Eficiencia de inventario",
-          "description": "Registrar combinaciones útiles en tu diario reduce el desperdicio de materiales y facilita mucho la gestión del inventario."
+          "name": "NBA The Run Identidad visual de Streetball",
+          "role": "Vista previa de estilo",
+          "description": "La atmósfera de la cancha, el estilo de los jugadores y la dirección de animación se centran en la energía del streetball arcade."
         }
       ],
       "managementTips": [
-        "Prioriza una opción de almacenamiento confiable antes de acumular botines raros.",
-        "Construye alrededor de tu Qualia personal una vez que esté disponible.",
-        "Mantén separados los materiales de artesanía, las herramientas de combate y el equipo de movimiento para que las mejoras sean más fáciles de planificar.",
-        "Usa tu diario como parte de la gestión del inventario, no solo para descubrir recetas."
+        "Los clips de avance NBA The Run son útiles para comprender rápidamente el ritmo del juego.",
+        "Las imágenes del juego NBA The Run enfatizan posesiones cortas de alta presión.",
+        "NBA The Run el estilo visual combina el talento oficial de la NBA con el tono del streetball.",
+        "NBA The Run los momentos del avance son una buena vista previa de las posibles características del lanzamiento."
       ]
     },
     "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Qualia y construcción de bases en Lucid Blocks",
-      "displayType": "cards",
-      "intro": "La Qualia es uno de los hitos de progresión más importantes en Lucid Blocks. Te brinda un espacio personal para reagruparte, almacenar materiales y convertir gradualmente el progreso de exploración en una verdadera base de operaciones.",
+      "title": "NBA The Run Descripción general del juego",
+      "displayType": "tarjetas",
+      "intro": "NBA The Run es un juego de baloncesto callejero 3 contra 3 en línea creado para ofrecer velocidad, estilo y presión de nocaut. El ciclo principal es simple: elige a tus jugadores, ingresa Solos o Squads, juega partidos rápidos en canchas icónicas, gana para avanzar y gana Cred.",
       "cards": [
         {
-          "name": "Qualia personal",
-          "description": "Desbloquear una Qualia es un hito inicial que te da un lugar más confiable al cual regresar mientras exploras el mundo exterior."
+          "name": "NBA The Run Baloncesto callejero 3v3 en línea",
+          "description": "NBA The Run se basa en un trepidante baloncesto 3v3 en línea en canchas de streetball de todo el mundo. Los jugadores llevan a estrellas de la NBA y leyendas del streetball a enfrentamientos cortos y llenos de energía donde ganar mantiene viva la racha."
         },
         {
-          "name": "Construcción centrada en el almacenamiento",
-          "description": "Muchos jugadores comienzan usando su Qualia como un centro de almacenamiento antes de convertirla en una base más grande con espacios organizados para artesanía y construcción."
+          "name": "NBA The Run Ofensiva estilo arcade",
+          "description": "La ofensiva está diseñada en torno a posterizar mates, triples con logotipos de paso atrás, trucos para romper tobillos, alley-oops, movimientos giratorios y decisiones en el aire, como cambiar de un mate a una bandeja para evitar un bloqueo."
         },
         {
-          "name": "Construcción creativa de hogares",
-          "description": "Lucid Blocks admite la construcción creativa, y los jugadores ya están usando los espacios de Qualia para crear casas y diseños personalizados."
+          "name": "NBA The Run La defensa es una característica principal",
+          "description": "La defensa se trata como una parte importante de la diversión, no sólo como una función de apoyo. Los bloqueos, robos, lanzarse en busca de balones sueltos y las jugadas defensivas físicas pueden crear cambios de impulso y conducir directamente a victorias."
         },
         {
-          "name": "Centro de progresión",
-          "description": "Una base sólida te ayuda a separar el botín de exploración, los materiales de artesanía, las semillas, las herramientas y el equipo de movilidad para planificar mejor tus próximas mejoras."
+          "name": "NBA The Run Rollback Netcode para jugar en línea",
+          "description": "NBA The Run utiliza un verdadero código de red de reversión para que acciones como cruces, inmersiones con balón suelto y alley-oops permanezcan sincronizadas para los jugadores en línea. Esto respalda el enfoque del juego en un control multijugador rápido y receptivo."
+        },
+        {
+          "name": "NBA The Run Flujo del primer partido del torneo",
+          "description": "En lugar de presentar únicamente coincidencias independientes, NBA The Run se centra en Knockout Tournaments. Los jugadores ingresan, ganan, avanzan y repiten en rondas cortas con conjuntos de reglas aleatorias que cambian la sensación de cada juego."
         }
       ],
       "highlights": [
-        "Entrar en una qualia",
-        "Almacenar materiales de forma segura",
-        "Expandir de la utilidad a la decoración",
-        "Usar el espacio de la base para apoyar la artesanía y el cultivo"
+        "NBA The Run Partidos 3v3 en línea",
+        "NBA The Run Ofensa por encima del aro",
+        "NBA The Run Cambios de impulso de defensa",
+        "NBA The Run Verdadero Rollback Netcode",
+        "NBA The Run Knockout Tournament Flujo"
       ]
     },
     "lucidBlocksWorldRegions": {
-      "title": "Regiones del mundo de Lucid Blocks",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks utiliza generación de mundo infinito, por lo que los jugadores siguen descubriendo nuevos entornos y estructuras. Algunos lugares con nombre ya aparecen en los logros y en las discusiones de la comunidad.",
+      "title": "NBA The Run Guía para principiantes",
+      "displayType": "regiónTarjetas",
+      "intro": "NBA The Run el progreso para principiantes es más rápido cuando aprendes primero el formato de nocaut y luego desarrollas tu ofensiva, defensa, sincronización de impulso y rutina de práctica en ese orden.",
       "regions": [
         {
-          "name": "Fog Meadow",
-          "type": "Área destacada por la comunidad",
-          "description": "Fog Meadow ya es conocida entre los jugadores como un área tensa asociada con amenazas ocultas y encuentros peligrosos."
+          "name": "NBA The Run Paso 1: Elija Solos o Squads",
+          "type": "Paso principiante",
+          "description": "Comience eligiendo cuánto control desea. En Knockout Solos, construyes y controlas tu propio equipo de tres. En Knockout Squads, controlas a un jugador en un equipo de tres jugadores. Consejo para principiantes: elija Solos para tener control total del equipo o Squads para una experiencia de rol cooperativo."
         },
         {
-          "name": "Línea ley de Tiamana",
-          "type": "Punto de referencia de descubrimiento",
-          "description": "La línea ley de tiamana es lo suficientemente importante como para tener su propio hito de logro, lo que la convierte en uno de los descubrimientos mundiales con nombre más claros hasta ahora."
+          "name": "NBA The Run Paso 2: comprender el formato knockout",
+          "type": "Paso principiante",
+          "description": "Cada carrera se basa en un torneo eliminatorio de cuatro rondas. Gana para avanzar y adaptarte a conjuntos de reglas aleatorias en cada ronda. Consejo para principiantes: trate cada ronda como un desafío corto y aprenda rápidamente el giro de las reglas."
         },
         {
-          "name": "Clonaqualia",
-          "type": "Espacio de construcción",
-          "description": "Los jugadores ya están usando Clonaqualia como un lugar para construir casas, almacenar materiales y experimentar con diseños más permanentes."
+          "name": "NBA The Run Paso 3: Conozca el flujo ofensivo",
+          "type": "Paso principiante",
+          "description": "La ofensiva es rápida y se basa en momentos destacados, con mates de cartel, triples con pasos atrás, cruces, alley-oops, movimientos giratorios y lecturas rápidas del aro. Consejo para principiantes: juega con ritmo y sincronización en lugar de ralentizar cada posesión."
         },
         {
-          "name": "Ciénaga de Esencia",
-          "type": "Área de recolección",
-          "description": "La Ciénaga de Esencia está siendo compartida por los jugadores como una ubicación útil para recolectar recursos, especialmente para luchar contra slimes y ganar experiencia."
+          "name": "NBA The Run Paso 4: No ignorar la defensa",
+          "type": "Paso principiante",
+          "description": "La defensa es tan importante como el ataque. Los bloqueos, los robos, la presión física y los lanzamientos con balón suelto crean oportunidades directas de gol. Consejo para principiantes: aprenda cuándo presionar, cuándo competir y cuándo apostar por un robo."
+        },
+        {
+          "name": "NBA The Run Paso 5: Usar en la zona Momentum",
+          "type": "Paso principiante",
+          "description": "En la Zona hay un sistema de impulso que desbloquea poderosas habilidades distintivas. Las jugadas grandes lo cargan más rápido y el tiempo puede cambiar los juegos cerrados. Consejo para principiantes: guarde su momento de mayor impulso para posesiones clave."
+        },
+        {
+          "name": "NBA The Run Paso 6: Gana Cred y desbloquea recompensas de estilo",
+          "type": "Paso principiante",
+          "description": "Al ganar partidos, se obtienen Cred por elementos estéticos como camisetas, mates avanzados, burlas, insignias, pancartas y variantes de novato. Consejo para principiantes: primero cree un estilo que le guste y luego amplíe su plan de desbloqueo."
+        },
+        {
+          "name": "NBA The Run Paso 7: Practica antes de carreras competitivas",
+          "type": "Paso principiante",
+          "description": "Shootaround es el espacio de práctica principal, mientras que Knockout Friends admite configuraciones de torneos privados versus IA, con amigos o contra jugadores invitados. Consejo para principiantes: utilice la práctica y el juego privado para fijar el movimiento y finalizar el tiempo."
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
-      "title": "Criaturas y enemigos de Lucid Blocks",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mezcla criaturas surreales con peligros reales. Las descripciones oficiales y las publicaciones de la comunidad apuntan a un mundo lleno de vida extraña, amenazas hostiles y algunos encuentros destacados que los jugadores recuerdan rápidamente.",
+      "title": "NBA The Run Modos de juego",
+      "displayType": "tarjetas de amenaza",
+      "intro": "NBA The Run se lanza con tres modos eliminatorios confirmados. Cada uno cambia a quién controlas, cómo funciona la configuración del equipo y cómo se maneja el juego social o privado.",
       "creatures": [
         {
-          "name": "Maniquíes",
-          "role": "Enemigo hostil",
-          "description": "Los maniquíes son uno de los enemigos nombrados oficialmente en el mundo y parte del catálogo de amenazas surreales del juego."
+          "name": "NBA The Run Nocaut Squads",
+          "role": "Modo eliminatorio cooperativo",
+          "description": "Controlas a un jugador en un equipo de tres y llenas el equipo con amigos o jugadores emparejados. Lo mejor para juegos en equipo basados ​​en roles donde cada persona controla a un atleta."
         },
         {
-          "name": "Geles blandos",
-          "role": "Enemigo hostil",
-          "description": "Los geles blandos son otro tipo de enemigo nombrado oficialmente y ayudan a definir el extraño estilo biológico del juego."
+          "name": "NBA The Run Nocaut Solos",
+          "role": "Modo de control de todo el equipo",
+          "description": "Construyes y controlas tu propio equipo de tres contra otros equipos de tres jugadores. Lo mejor para jugadores que desean un control total sobre los cambios, la ofensiva, la defensa y las decisiones de partido."
         },
         {
-          "name": "Seres de dimensiones superiores",
-          "role": "Enemigo hostil",
-          "description": "Estos seres se presentan como parte del catálogo de enemigos más abstractos e inquietantes del mundo."
-        },
-        {
-          "name": "Arañas colosales",
-          "role": "Amenaza mayor",
-          "description": "Las arañas son uno de los enemigos más temidos de inmediato en las discusiones de la comunidad y son claramente un peligro memorable."
-        },
-        {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "Criatura con nombre",
-          "description": "__PROTECTED_26ee183b__ es lo suficientemente notable como para tener su propio logro, lo que lo convierte en uno de los encuentros con criaturas nombradas más claros del juego."
-        },
-        {
-          "name": "Alimañas adorables",
-          "role": "Criatura interactuable",
-          "description": "Las alimañas no solo son parte de la progresión de fusión, también se les puede cambiar el nombre, dándoles un papel más personal que a los enemigos estándar."
-        },
-        {
-          "name": "Criatura blasfema",
-          "role": "Amenaza de élite",
-          "description": "La criatura blasfema está vinculada a un logro de combate dedicado, lo que la marca como un encuentro enemigo significativo."
+          "name": "NBA The Run Amigos noqueadores",
+          "role": "Modo torneo privado",
+          "description": "Formato de torneo privado con el rango de configuración más amplio: juega solo contra la IA, forma equipo con amigos contra la IA o organiza competencias cara a cara invitadas. Admite hasta 48 jugadores en el lanzamiento."
         }
       ]
     },
     "lucidBlocksMobilityGear": {
-      "title": "Equipo de movilidad de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Las mejoras de movimiento son uno de los mayores saltos en la calidad de vida en Lucid Blocks. Una vez que desbloqueas tus primeras herramientas de travesía, la exploración se vuelve más rápida, segura y mucho más gratificante.",
+      "title": "NBA The Run Knockout Tournament",
+      "displayType": "tarjetas",
+      "intro": "Los torneos NBA The Run se llevan a cabo con una estructura eliminatoria de cuatro rondas: ingresa, sobrevive a rondas cortas de 3 contra 3, adáptate a los cambios en el conjunto de reglas, llega a la cancha final y regresa con recompensas Cred.",
       "items": [
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de travesía",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y tiene su propio logro dedicado."
+          "name": "NBA The Run Paso 1: Ingrese un Knockout Tournament",
+          "type": "Torneo Paso 1",
+          "description": "Cada juego comienza como una racha eliminatoria de cuatro asaltos. La entrada puede realizarse a través de Solos, Squads o la configuración privada de Knockout Friends. Objetivo del jugador: comenzar la carrera y prepararse para ganar varias rondas cortas."
         },
         {
-          "name": "Guante planeador",
-          "type": "Movilidad aérea",
-          "description": "El guante planeador permite un viaje mucho más fluido y es otro hito importante de progresión con su propio logro."
+          "name": "NBA The Run Paso 2: Juega rondas rápidas de 3 contra 3",
+          "type": "Torneo Paso 2",
+          "description": "Equipos de tres juegan rondas rápidas en canchas de streetball icónicas de todo el mundo. Objetivo del jugador: ganar el enfrentamiento actual y mantenerse con vida en el grupo."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de travesía",
-          "description": "Los planeadores abeja se destacan oficialmente como parte del conjunto de herramientas de movimiento del juego para cubrir terreno de manera más eficiente."
+          "name": "NBA The Run Paso 3: Adaptarse a conjuntos de reglas aleatorias",
+          "type": "Torneo Paso 3",
+          "description": "Cada ronda puede incluir un conjunto de reglas aleatorias que cambian las decisiones ofensivas, defensivas y de impulso. Objetivo del jugador: leer la regla rápidamente y ajustarla antes de que lo hagan los oponentes."
         },
         {
-          "name": "Varita de Bola",
-          "type": "Equipo de utilidad",
-          "description": "Las varitas de bola son una de las herramientas especiales destacadas oficialmente y expanden la forma en que te mueves o interactúas con el mundo."
+          "name": "NBA The Run Paso 4: Ganar para avanzar",
+          "type": "Torneo Paso 4",
+          "description": "El bucle es directo: ganar, avanzar, repetir. Una derrota pone fin a la racha, mientras que una victoria lleva a tu equipo hacia la final. Objetivo del jugador: acumular victorias en las cuatro rondas."
         },
         {
-          "name": "Equipo de buceo",
-          "type": "Equipo de exploración",
-          "description": "El equipo de buceo figura oficialmente como parte del conjunto de utilidad principal para llegar a áreas que de otro modo serían más difíciles de explorar."
+          "name": "NBA The Run Paso 5: Llega al juego de campeonato",
+          "type": "Torneo Paso 5",
+          "description": "Cada torneo finaliza en una de las cuatro canchas finales designadas donde se decide el trofeo Run the World. Objetivo del jugador: ganar la final y completar la carrera."
         },
         {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Los explosivos están destacados oficialmente y vinculados a un hito de logro, lo que los hace parte de la progresión de utilidad principal del juego."
+          "name": "NBA The Run Paso 6: Obtenga Cred y vuelva a ejecutarlo",
+          "type": "Torneo Paso 6",
+          "description": "Al ganar rondas y torneos, se obtienen Cred por artículos cosméticos que incluyen camisetas, mates avanzados, burlas, insignias, pancartas y variantes de novato. Objetivo del jugador: personalizar tu estilo y luego poner en cola la siguiente carrera."
         }
       ],
       "unlockMilestones": [
-        "Dominar un gancho",
-        "Volar con el guante planeador",
-        "Empuñar una varita de proyectiles",
-        "Empuñar un explosivo"
+        "NBA The Run Ingrese a través de Solos, Squads o amigos",
+        "NBA The Run Adaptarse a conjuntos de reglas aleatorias",
+        "NBA The Run Gana el juego de campeonato",
+        "NBA The Run Convierte ganancias en Cred Desbloqueos"
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
-      "title": "Cultivo y crecimiento en Lucid Blocks",
-      "displayType": "mixedCards",
-      "intro": "El crecimiento es parte de la progresión real en Lucid Blocks. El cultivo no se trata solo de plantar y cosechar, sino también de establecer rutas de materiales repetibles que mantengan el flujo de tus herramientas, armas y opciones de artesanía.",
+      "title": "NBA The Run Lista",
+      "displayType": "secciones",
+      "intro": "NBA THE RUN centra su plantilla en roles de streetball de alto impacto: tiradores, volcadores, anclas defensivas, creadores de juego, jóvenes estrellas de dos vías y Street Legends. El grupo de lanzamiento incluye más de 30 estrellas de la NBA, cinco variantes novatos de NBA All-Stars y cinco Street Legends ficticios liderados por el locutor jugable Bobbito García.",
       "sections": [
         {
-          "name": "Progresión de semillas",
-          "description": "Plantar y fertilizar semillas es un hito real en el juego, y cosechar una nuez completamente crecida es parte de la misma ruta de crecimiento."
+          "name": "NBA The Run Visionarios de la corte",
+          "description": "Tipo: Estrellas de la NBA. Jugadores: LeBron James, Cade Cunningham, Tyrese Haliburton. Enfoque de rol: creación de juego principal, control del tempo, pases y creación de media cancha. Contexto de desbloqueo: grupo de revelación de la lista base."
         },
         {
-          "name": "Recolección de materiales",
-          "description": "Un ciclo práctico de recolección inicial es crear Cápsulas de Mercurio, que generan pequeños slimes que sueltan zarcillos y viscosidad para materiales de artesanía repetibles."
+          "name": "NBA The Run Luz verde",
+          "description": "Tipo: Estrellas de la NBA. Jugadores: Stephen Curry, Donovan Mitchell, Jalen Brunson. Enfoque de rol: tiros profundos, anotaciones rápidas, creación de guardias y ofensiva de control de calor. Contexto de desbloqueo: grupo de revelación de la lista base."
         },
         {
-          "name": "Sustento de herramientas",
-          "description": "La recolección de recursos se vuelve mucho más fuerte una vez que puedes reunir consistentemente Osmio, fragmentos de vidrio, plantas y materiales de slime para artesanías posteriores."
+          "name": "NBA The Run Maestros de rango medio",
+          "description": "Tipo: Estrellas de la NBA. Jugadores: Kevin Durant, Devin Booker, Shai Gilgeous-Alexander. Enfoque de rol: creación de tiros, puntuación de media distancia, ofensiva de aislamiento y canastas decisivas. Contexto de desbloqueo: grupo de revelación de la lista base."
         },
         {
-          "name": "Rutina de base",
-          "description": "La mejor configuración de cultivo apoya más que solo la comida. Debería abastecer tu almacenamiento, herramientas de movimiento, mejoras de armas y futuros experimentos de fusión."
+          "name": "NBA The Run Pasó a continuación",
+          "description": "Tipo: Estrellas de la NBA. Jugadores: Cooper Flagg, Amen Thompson, Victor Wembanyama. Enfoque de rol: Jóvenes bidireccionales, longitud, atletismo y jugadas destacadas. Contexto de desbloqueo: grupo de revelación de la lista base."
+        },
+        {
+          "name": "NBA The Run Club de vuelo",
+          "description": "Tipo: Estrellas de la NBA. Jugadores: Anthony Edwards, Ja Morant, Zion Williamson. Enfoque de rol: remate vertical, mates de contacto, velocidad y presión por encima del aro. Contexto de desbloqueo: grupo de revelación de la lista base."
+        },
+        {
+          "name": "NBA The Run Bestias en el Este",
+          "description": "Tipo: Estrellas de la NBA. Jugadores: Giannis Antetokounmpo, Jayson Tatum, Paolo Banchero. Enfoque de rol: anotación de ala grande, impulsos físicos, versatilidad defensiva y potencial de adquisición. Contexto de desbloqueo: grupo de revelación de la lista base."
+        },
+        {
+          "name": "NBA The Run Zona de exclusión aérea",
+          "description": "Tipo: Estrellas de la NBA. Jugadores: Bam Adebayo, Scottie Barnes, Anthony Davis. Enfoque de rol: defensa, protección del aro, cambios, robos, bloqueos y presión con balón suelto. Contexto de desbloqueo: grupo de revelación de la lista base."
+        },
+        {
+          "name": "NBA The Run MVP de triple amenaza",
+          "description": "Tipo: Estrellas de la NBA. Jugadores: Nikola Jokić, James Harden, Joel Embiid. Enfoque de rol: anotación a nivel de MVP, pases, presión posterior y control de enfrentamientos. Contexto de desbloqueo: grupo de revelación de la lista base."
+        },
+        {
+          "name": "NBA The Run Entrega especial",
+          "description": "Tipo: Estrellas de la NBA. Jugadores: LaMelo Ball, Trae Young, Tyrese Maxey. Enfoque del rol: guardias rápidos, pases creativos, ritmo, tiros desde arriba y ataque rápido. Contexto de desbloqueo: grupo de revelación de la lista base."
+        },
+        {
+          "name": "NBA The Run Rellenos de hojas de estadísticas",
+          "description": "Tipo: Estrellas de la NBA. Jugadores: Luka Dončić, Josh Giddey, Jaylen Brown. Enfoque de rol: creación integral, ayuda en rebotes, equilibrio de anotaciones y adaptación flexible al equipo. Contexto de desbloqueo: grupo de revelación de la lista base."
+        },
+        {
+          "name": "NBA The Run Adiciones a la comunidad",
+          "description": "Tipo: Estrellas de la NBA. Jugadores: Kawhi Leonard, Damian Lillard. Enfoque de rol: Anotación bidireccional, tiros de élite, presión perimetral y ofensiva al final del juego. Contexto de desbloqueo: agregado a la lista de lanzamiento a través de la respuesta de la comunidad."
+        },
+        {
+          "name": "NBA The Run Variantes de novato",
+          "description": "Tipo: Versiones alternativas de NBA Star. Jugadores: LeBron James '03, Kevin Durant '07, Stephen Curry '09, Luka Dončić '18, Shai Gilgeous-Alexander '18. Enfoque de rol: versiones alternativas al principio de su carrera con diferentes apariencias y estilos de juego. Contexto de desbloqueo: Disponible a través de The Shop y recompensas de progresión."
+        },
+        {
+          "name": "NBA The Run Street Legends",
+          "description": "Tipo: Leyendas ficticias del streetball. Jugadores: Bobbito García y cuatro Street Legends ficticios adicionales. Enfoque de rol: Construcciones de streetball estilizadas con fortalezas importantes, debilidades claras y un juego impulsado por la personalidad. Contexto de desbloqueo: se desbloquea al subir de rango."
         }
       ],
       "growthMilestones": [
-        "Fertilizar una semilla",
-        "Cosechar una nuez completamente crecida",
-        "Crear ciclos de materiales repetibles",
-        "Convertir el cultivo en progresión a largo plazo"
+        "NBA The Run Más de 30 estrellas de la NBA en el lanzamiento",
+        "NBA The Run 5 variantes novatos en la tienda",
+        "NBA The Run 5 Street Legends Incluyendo Bobbito García",
+        "NBA The Run Adiciones a la comunidad: Kawhi Leonard y Damian Lillard"
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
-      "title": "Mejores desbloqueos iniciales de Lucid Blocks",
-      "displayType": "priorityCards",
-      "intro": "Los desbloqueos iniciales más fuertes son aquellos que mejoran la seguridad, el almacenamiento y el movimiento. En Lucid Blocks, unas pocas mejoras prácticas pueden hacer que el resto del juego sea mucho más fluido.",
+      "title": "NBA The Run Lista de seguimiento de los mejores jugadores",
+      "displayType": "tarjetas de prioridad",
+      "intro": "NBA THE RUN se basa en rondas eliminatorias cortas en línea, cambios de impulso rápidos, habilidades en la zona y formación de equipos al estilo streetball. Las mejores selecciones son jugadores que puedan crear una ofensiva instantánea, proteger el aro, castigar a los defensores en el espacio o encajar limpiamente junto a otras dos estrellas.",
       "priorities": [
         {
-          "name": "Qualia personal",
-          "priority": "Esencial",
-          "description": "Tan pronto como obtengas acceso a tu Qualia personal, tu partida se volverá mucho más estable. Actúa como un centro confiable para el almacenamiento, la construcción y el reagrupamiento."
+          "name": "NBA The Run Núcleos de adquisición 3v3",
+          "priority": "Nivel S",
+          "description": "Jugadores: LeBron James, Luka Dončić, Nikola Jokić, Giannis Antetokounmpo, Victor Wembanyama. Ideal para: formar un equipo en torno a un creador dominante o un factor decisivo en el enfrentamiento. Ajuste del equipo: Únase a un tirador y un rematador defensivo para un juego equilibrado Solos o Squads."
         },
         {
-          "name": "Pico de Escarcha",
-          "priority": "Muy alta",
-          "description": "Una herramienta de minería inicial rápida y barata hecha de Osmio y Palo. Es una de las mejoras más útiles para acelerar la recolección inicial de recursos."
+          "name": "NBA The Run Creadores de tiros de élite",
+          "priority": "Nivel A+",
+          "description": "Jugadores: Stephen Curry, Kevin Durant, Shai Gilgeous-Alexander, Devin Booker, Jayson Tatum, Damian Lillard. Lo mejor para: espaciar la cancha, crear canastas tardías y castigar el exceso de ayuda. Ajuste del equipo: combínalo con un corredor de aro o un ancla defensiva para que la gravedad de puntuación abra los finales fáciles."
         },
         {
-          "name": "Cubo de Almacenamiento",
-          "priority": "Muy alta",
-          "description": "La presión del inventario comienza pronto, por lo que obtener tu primer contenedor confiable tipo cofre es una mejora importante de calidad de vida."
+          "name": "NBA The Run Terminadores de presión de llantas",
+          "priority": "Un nivel",
+          "description": "Jugadores: Anthony Edwards, Ja Morant, Zion Williamson, Anthony Davis, Joel Embiid, Paolo Banchero. Ideal para: mates, remates de contacto, presión de pintura y cambios rápidos de impulso. Ajuste del equipo: Únase a un pasador o tirador para mantener abiertos los carriles de conducción."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "Alta",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y rápidamente hace que la exploración sea más rápida y segura."
+          "name": "NBA The Run Defensa y control bidireccional",
+          "priority": "Nivel A",
+          "description": "Jugadores: Bam Adebayo, Scottie Barnes, Kawhi Leonard, Jaylen Brown, Amen Thompson, Cooper Flagg. Ideal para: detener ataques, cambiar enfrentamientos, perseguir balones sueltos y convertir la defensa en ofensiva. Ajuste del equipo: Únase a un anotador principal para que las paradas defensivas se conviertan rápidamente en puntos de transición."
         },
         {
-          "name": "Guante planeador",
-          "priority": "Alta",
-          "description": "El guante planeador añade otro gran impulso a la movilidad y hace que el movimiento a larga distancia sea mucho más eficiente."
+          "name": "NBA The Run Guardias de velocidad y transeúntes",
+          "priority": "Nivel B+",
+          "description": "Jugadores: LaMelo Ball, Trae Young, Tyrese Maxey, Donovan Mitchell, Jalen Brunson, Tyrese Haliburton. Ideal para: posesiones rápidas, ofensiva pull-up, movimientos rompedores de tobillos y lecturas de pases rápidos. Forma de equipo: Únase a un jugador que realiza mates y a un defensor para cubrir el tamaño mientras mantiene la ofensiva explosiva."
         },
         {
-          "name": "Varita de proyectiles o bombas",
-          "priority": "Alta",
-          "description": "Una herramienta a distancia o una opción explosiva te brinda una respuesta más segura ante enemigos peligrosos y encuentros tipo desafío."
+          "name": "NBA The Run Creadores de equipos flexibles",
+          "priority": "Nivel B",
+          "description": "Jugadores: Cade Cunningham, Josh Giddey, James Harden, Tyrese Haliburton, Kevin Durant '07, Stephen Curry '09. Ideal para: experimentos creativos con escuadrones, estilos de juego alternativos y creación de alineaciones basadas en roles. Ajuste del equipo: utilice estas selecciones para completar la habilidad que falta en una alineación: pase, tiro, tamaño o ritmo."
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
-      "title": "Seguimiento de logros de Lucid Blocks",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks tiene actualmente 19 logros de Steam, y se dividen naturalmente en progresión de exploración, artesanía, movilidad, combate y crecimiento.",
+      "title": "NBA The Run En la zona Habilidades",
+      "displayType": "grupos",
+      "intro": "En NBA THE RUN, las habilidades características funcionan como un momento de toma de control del streetball: haz grandes jugadas, aprovecha el impulso, activa en el momento adecuado y obliga al otro equipo a adaptarse. El sistema premia el tiempo, la defensa, la presión del aro y los estilos de juego específicos de las estrellas.",
       "groups": [
         {
-          "name": "Exploración",
+          "name": "NBA The Run Posterizador",
           "achievements": [
             {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "Entrar en una qualia."
+              "title": "NBA The Run Mejor uso del posterizador",
+              "description": "Función: Presión de llanta. Ejemplo de jugador: Giannis Antetokounmpo. Ataca la canasta, remata a través del contacto y convierte un intento de volcada en un movimiento de impulso."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "Descubrir una línea ley de tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "Superar un desafío de tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "Logro oculto."
+              "title": "NBA The Run Consejo para el equipo de posterizadores",
+              "description": "Utilice Posterizer con una guardia espaciadora para que los defensores no puedan colapsar temprano sin renunciar a un tiro."
             }
           ]
         },
         {
-          "name": "Artesanía e invocación",
+          "name": "NBA The Run La Sombra",
           "achievements": [
             {
-              "title": "Apotheosis α",
-              "description": "Fusionar un objeto."
+              "title": "NBA The Run El mejor uso de la sombra",
+              "description": "Rol: Defensa del bloqueo. Ejemplo de jugador: Jayson Tatum. Sujeta a los manejadores del balón, presiona las posesiones tardías y ralentiza a los anotadores aislados."
             },
             {
-              "title": "Apotheosis β",
-              "description": "Fusionar una alimaña."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fusionar un artefacto divino."
-            },
-            {
-              "title": "Arcángel β",
-              "description": "Invoca tu fe."
+              "title": "NBA The Run El consejo del escuadrón de la sombra",
+              "description": "Actívalo cuando el oponente esté intentando montar a un anotador en una ronda cerrada."
             }
           ]
         },
         {
-          "name": "Movilidad y utilidad",
+          "name": "NBA The Run Rompetobillos",
           "achievements": [
             {
-              "title": "Virtud α",
-              "description": "Volar con el guante planeador."
+              "title": "NBA The Run Mejor uso del rompetobillos",
+              "description": "Rol: Manejar la creación. Ejemplo de jugador: Jalen Brunson. Crea separación con cruces, castiga a los defensores agresivos y abre ventanas pull-up o drive."
             },
             {
-              "title": "Virtud β",
-              "description": "Dominar un gancho."
-            },
-            {
-              "title": "Arcángel α",
-              "description": "Empuñar una varita de proyectiles."
-            },
-            {
-              "title": "Arcángel γ",
-              "description": "Empuñar un explosivo."
+              "title": "NBA The Run Consejo para el equipo rompetobillos",
+              "description": "Empareja un guardia de Ankle Breaker con un volcador esperando que la defensa de ayuda gire."
             }
           ]
         },
         {
-          "name": "Combate y criaturas",
+          "name": "NBA The Run Ciclo de centrifugado",
           "achievements": [
             {
-              "title": "Masacre de __PROTECTED_26ee183b__",
-              "description": "Derrotar osos burbuja inocentes."
+              "title": "NBA The Run Mejor uso del ciclo de centrifugado",
+              "description": "Rol: Manijas de leyenda callejera. Ejemplo de jugador: Bobbito García. Utilice el ritmo de los giros, la presión del mango y el movimiento creativo del streetball para crear espacios o ángulos de pase."
             },
             {
-              "title": "Arcángel δ",
-              "description": "Eliminar una criatura blasfema."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "Morir."
-            },
-            {
-              "title": "Dominio γ",
-              "description": "Cambiar el nombre a una alimaña adorable."
+              "title": "NBA The Run Consejo para el equipo de ciclos de giro",
+              "description": "Úselo cuando los defensores se excedan en el primer movimiento y persigan el balón con demasiada fuerza."
             }
           ]
         },
         {
-          "name": "Crecimiento y cultivo",
+          "name": "NBA The Run Generador de impulso",
           "achievements": [
             {
-              "title": "Dominio α",
-              "description": "Fertilizar una semilla."
+              "title": "NBA The Run Mejor uso de Momentum Builder",
+              "description": "Rol: Núcleo del sistema. Ejemplo de jugador: todos los jugadores. Realiza grandes jugadas ofensivas o defensivas para desbloquear En la Zona más rápido durante rondas eliminatorias cortas."
             },
             {
-              "title": "Dominio β",
-              "description": "Cosechar una nuez completamente crecida."
+              "title": "NBA The Run Consejo para el equipo Momentum Builder",
+              "description": "Bloqueos, robos, alley-oops, mates de cartel y creación de tiros limpios ayudan a balancear la energía de posesión."
+            }
+          ]
+        },
+        {
+          "name": "NBA The Run Momento de adquisición",
+          "achievements": [
+            {
+              "title": "NBA The Run Momento de adquisición Mejor uso",
+              "description": "Rol: Estrategia de Activación. Ejemplo de jugador: todos los jugadores. Activación de guardado para la posesión que decide una remontada, cierra una ronda o rompe un partido empatado."
             },
             {
-              "title": "Dominio δ",
-              "description": "Logro oculto."
+              "title": "NBA The Run Consejo para el equipo de sincronización de adquisiciones",
+              "description": "Evite gastar un impulso en posesiones de bajo apalancamiento y manténgalo durante la posesión del swing."
             }
           ]
         }
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Preguntas frecuentes sobre un solo jugador y plataformas de Lucid Blocks",
-      "displayType": "accordion",
-      "intro": "Estas son las preguntas principales sobre plataformas y acceso que los jugadores suelen hacer antes de comprar Lucid Blocks.",
+      "title": "NBA The Run Controles y movimientos de habilidad",
+      "displayType": "preguntas frecuentes",
+      "intro": "NBA THE RUN está diseñado en torno al movimiento sensible del joystick, retroceso del código de red, ofensiva por encima del aro y defensa física. Utilice este flujo para practicar lo que importa primero antes de saltar a Solos, Squads, Shootaround o Knockout Friends.",
       "faqs": [
         {
-          "question": "¿Es Lucid Blocks para un solo jugador?",
-          "answer": "Sí. Lucid Blocks es un juego para un solo jugador."
+          "question": "¿Cómo deben los jugadores NBA The Run moverse al espacio antes de cada jugada?",
+          "answer": "Comienza cada posesión leyendo al defensor, espaciando la cancha y eligiendo si atacar, pasar o reiniciar. Utilízalo antes de cada intento de drive o tiro para que tu primer movimiento tenga un propósito claro."
         },
         {
-          "question": "¿Está planeado el multijugador o cooperativo?",
-          "answer": "No. No se planea multijugador para el lanzamiento ni para futuras actualizaciones."
+          "question": "¿Cómo crean ventajas los NBA The Run cruces y movimientos de rotura de tobillos?",
+          "answer": "Utilice cambios rápidos de dirección para cruzar a los defensores agresivos y crear separación. Aplica esto contra los defensores que exageran en un lado, luego encadena un movimiento limpio en un tiro, avance o pase."
         },
         {
-          "question": "¿Dónde puedo jugar Lucid Blocks?",
-          "answer": "Actualmente está disponible en Steam para Windows."
+          "question": "¿Cuándo deben los jugadores NBA The Run atacar con mates y remates de aro?",
+          "answer": "Ataca las líneas abiertas con mates de alto vuelo y una fuerte presión en el aro cuando los defensores llegan tarde. Calcula tu despegue para que los defensores deban elegir entre disputar el tiro o ceder un pase."
         },
         {
-          "question": "¿Cuánto cuesta Lucid Blocks?",
-          "answer": "$9.99 en Steam."
+          "question": "¿Cómo pueden los jugadores NBA The Run cambiar a una bandeja durante un intento de mate?",
+          "answer": "Utilice un cambio de remate en el aire cuando un bloqueador se encuentre con usted en el aro o salte temprano. Lea al defensor antes del despegue, luego cambie solo cuando se acerque el bloqueo."
         },
         {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello."
+          "question": "¿Cómo se conecta el movimiento de giro NBA The Run con las configuraciones de alley-oop?",
+          "answer": "Utilice un movimiento giratorio para cambiar la defensa, luego lance un globo cuando un compañero de equipo corte detrás de la cobertura o el protector del aro se acerque al balón. Practica el tiempo entre el giro, la apertura de carril y el salto del receptor."
         },
         {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 o 9.0.4 es la configuración recomendada habitualmente para Steam Deck."
+          "question": "¿Cuál es la NBA The Run prioridad defensiva para bloqueos, robos y lanzamientos de balón suelto?",
+          "answer": "Utilice bloqueos en el aro, robos contra regates predecibles y se lanza cuando el balón queda libre después del contacto. Primero manténgase en posición, luego castigue el mal momento en lugar de perseguir cada robo."
         },
         {
-          "question": "¿Lucid Blocks funciona en Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
+          "question": "¿Cuándo deben activar los jugadores NBA The Run En la zona durante una ronda?",
+          "answer": "Genere impulso a través de grandes jugadas y luego active un impulso característico cuando una posesión pueda decidir la ronda, detener una remontada o crear una racha anotadora."
         },
         {
-          "question": "¿Habrá soporte para Mac o Android?",
-          "answer": "Es posible que sean compatibles en el futuro, pero no son plataformas de lanzamiento actuales."
-        },
-        {
-          "question": "¿Lucid Blocks tiene traducciones?",
-          "answer": "No. Actualmente no hay traducciones planeadas."
-        },
-        {
-          "question": "¿Lucid Blocks seguirá recibiendo actualizaciones?",
-          "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
+          "question": "¿Dónde deberían los jugadores de NBA The Run practicar los controles antes de las colas competitivas?",
+          "answer": "Utilice Shootaround y Knockout Friends para repetir secuencias principales: un cruce hacia un avance, un cambio final en el aire, una parada defensiva y una activación en la zona."
         }
       ]
     },
     "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks en Steam Deck y controles",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks puede ejecutarse en Steam Deck, pero la configuración predeterminada puede necesitar ajustes. El teclado y el mouse siguen siendo la opción más fluida para los menús y el juego en general.",
-      "faqs": [
+      "title": "NBA The Run Tribunales",
+      "displayType": "lista de tarjetas",
+      "intro": "NBA THE RUN envía equipos a través de canchas de streetball icónicas de todo el mundo en Knockout Tournaments en línea, y los juegos de campeonato terminan en una de las cuatro canchas finales.",
+      "items": [
         {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 funciona bien, y Proton 9.0.4 es una solución compartida habitualmente para problemas en Steam Deck."
+          "icon": "Gamepad2",
+          "title": "NBA The Run Venice Beach",
+          "location": "Venice Beach",
+          "type": "Cancha de Streetball confirmada",
+          "description": "NBA The Run Venice Beach es una de las canchas legendarias con nombre en la ruta global Knockout donde los equipos se unen, ganan, avanzan y repiten.",
+          "highlights": [
+            "Nombrado en las descripciones oficiales de la tienda.",
+            "Parte del modo multijugador en línea Knockout Tournaments",
+            "Resultado principal para búsquedas de mapas y arenas"
+          ]
         },
         {
-          "question": "¿Qué debo hacer si los controles de Steam Deck no funcionan?",
-          "answer": "Fuerza la compatibilidad y cambia el juego a Proton 9.0.4. Es posible que la configuración predeterminada no acepte correctamente la entrada del control."
+          "icon": "Home",
+          "title": "NBA The Run La vivienda",
+          "location": "Filipinas",
+          "type": "Cancha de Streetball confirmada",
+          "description": "NBA The Run The Tenement es otra ubicación confirmada y le da al juego una identidad global de streetball más allá de los hitos típicos del baloncesto estadounidense.",
+          "highlights": [
+            "Nombrado junto a Venice Beach",
+            "Utilizado en el marco de torneos mundiales.",
+            "Importante para las búsquedas judiciales en Filipinas"
+          ]
         },
         {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús del juego no están diseñados para ello."
+          "icon": "TrendingUp",
+          "title": "NBA The Run Dirige los tribunales mundiales",
+          "location": "Rotación mundial",
+          "type": "Rotación de la cancha del torneo",
+          "description": "NBA The Run Run the World es un Knockout Tournament de cuatro rondas donde equipos de tres compiten en canchas cambiantes con rondas cortas y conjuntos de reglas aleatorias.",
+          "highlights": [
+            "Estructura del torneo de cuatro rondas",
+            "Equipos de tres compiten cara a cara.",
+            "Cambios en la estrategia de tribunal a tribunal por conjunto de reglas"
+          ]
         },
         {
-          "question": "¿Es posible el soporte para Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
-        },
-        {
-          "question": "¿Cuál es la mejor configuración de entrada?",
-          "answer": "El teclado y el mouse son la opción más fluida para la navegación por los menús y el juego general momento a momento."
+          "icon": "Star",
+          "title": "NBA The Run Rotación de la cancha de finales",
+          "location": "Ronda de campeonato",
+          "type": "Tribunales finales",
+          "description": "Cada torneo NBA The Run Run the World termina en una de las cuatro canchas finales designadas donde los equipos compiten por el trofeo y el derecho a presumir.",
+          "highlights": [
+            "Cuatro canchas finales designadas",
+            "Destino del juego de campeonato",
+            "Conectado a la progresión del trofeo Run the World"
+          ]
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
-      "title": "Ajustes y accesibilidad de Lucid Blocks",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks ya cuenta con algunos ajustes prácticos y notas de compatibilidad que son importantes de inmediato cuando los jugadores inician el juego por primera vez.",
-      "settings": [
+      "title": "NBA The Run Multijugador",
+      "displayType": "acordeón",
+      "intro": "El modo multijugador NBA THE RUN se basa en el baloncesto callejero 3v3 en línea con Solos, Squads, torneos privados y funciones multiplataforma.",
+      "items": [
         {
-          "name": "Ajustes de pantalla",
-          "type": "Opción de comodidad",
-          "description": "Los ajustes de pantalla incluyen una opción que permite a los jugadores ocultar las manos en pantalla."
+          "question": "¿Cuántos jugadores en línea admite NBA The Run?",
+          "answer": "NBA The Run está diseñado en torno al baloncesto 3v3 en línea. Los listados de plataformas muestran soporte para hasta seis jugadores en línea dependiendo de las definiciones de la tienda.",
+          "details": [
+            "El formato principal del partido es online 3v3.",
+            "La lista de PlayStation incluye hasta 6 jugadores en línea",
+            "La lista de Xbox incluye 2-6 multijugador en línea",
+            "Steam listas de filas de características Online PvP"
+          ]
         },
         {
-          "name": "Compatibilidad de gráficos",
-          "type": "Requisito del sistema",
-          "description": "Se requiere soporte de __PROTECTED_38625270__ para que los gráficos se rendericen correctamente. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados y errores gráficos graves."
+          "question": "¿Qué es NBA The Run Knockout Squads?",
+          "answer": "NBA The Run Knockout Squads te permite controlar a un jugador en un equipo de tres jugadores y completar la alineación con amigos o compañeros de equipo.",
+          "details": [
+            "El tamaño del equipo es de 3 jugadores.",
+            "Controlas a un jugador del equipo.",
+            "Llena el equipo con amigos o emparejamiento"
+          ]
         },
         {
-          "name": "Preferencia de entrada",
-          "type": "Configuración de control",
-          "description": "Existe soporte para controles, pero el teclado y el mouse brindan una experiencia más fluida porque los menús no están diseñados para el uso de controles."
+          "question": "¿Qué es NBA The Run Knockout Solos?",
+          "answer": "NBA The Run Knockout Solos te permite crear y controlar un equipo completo de tres contra otros equipos creados por jugadores en el mismo formato de grupo competitivo.",
+          "details": [
+            "Crea un equipo completo de 3",
+            "Controla tu equipo directamente",
+            "Compite contra otros equipos de jugadores."
+          ]
         },
         {
-          "name": "Soporte de idiomas",
-          "type": "Localización",
-          "description": "La configuración actual es solo en inglés y no hay traducciones planeadas en este momento."
+          "question": "¿Qué es NBA The Run Knockout Friends?",
+          "answer": "NBA The Run Knockout Friends es el modo de torneo privado con carreras de un solo contra IA, escuadrones de amigos contra IA y competencias cara a cara invitadas.",
+          "details": [
+            "Formato de torneo privado",
+            "Juega solo contra la IA",
+            "Forma equipo con amigos contra la IA",
+            "Admite torneos cara a cara por invitación",
+            "Admite hasta 48 jugadores en el lanzamiento"
+          ]
+        },
+        {
+          "question": "¿NBA The Run admite el modo multijugador multiplataforma?",
+          "answer": "Los listados de tiendas NBA The Run destacan la compatibilidad con multijugador multiplataforma en Steam y Xbox en toda la línea de plataformas de lanzamiento.",
+          "details": [
+            "Steam listas de filas de características Multijugador multiplataforma",
+            "Las capacidades de Xbox incluyen multijugador multiplataforma",
+            "Las plataformas de lanzamiento incluyen PS5, Xbox Series X|S y PC a través de Steam"
+          ]
+        },
+        {
+          "question": "¿Qué requisitos en línea se enumeran para NBA The Run?",
+          "answer": "Las páginas de la plataforma NBA The Run enumeran los requisitos de juego en línea por ecosistema, incluidas las suscripciones en consola y los requisitos de conexión a Internet en PC.",
+          "details": [
+            "PS5 enumera el juego en línea requerido",
+            "PS5 enumera la PS Plus necesaria para jugar en línea",
+            "Xbox requiere Game Pass Core o Ultimate para el modo multijugador de consola",
+            "Los requisitos de PC Steam incluyen Internet de banda ancha"
+          ]
+        },
+        {
+          "question": "¿Cómo deberían ver los jugadores el juego local o sin conexión en NBA The Run?",
+          "answer": "NBA The Run lanza centros de mensajería sobre PvP en línea, Solos, Squads, práctica de tiro y torneos privados respaldados por IA.",
+          "details": [
+            "Las filas de funciones de la tienda se centran en el juego en línea",
+            "El tiroteo figura como modo de práctica.",
+            "Knockout Friends admite sesiones privadas con IA y jugadores invitados"
+          ]
         }
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Actualizaciones y notas del parche de Lucid Blocks",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks ya está recibiendo correcciones rápidas post-lanzamiento y pequeñas actualizaciones de usabilidad.",
-      "entries": [
+      "title": "NBA The Run Progresión",
+      "displayType": "lista de tarjetas",
+      "intro": "La progresión de NBA THE RUN recorre las victorias, Cred, la tienda, las recompensas de clasificación y la carrera de trofeos para que los jugadores puedan priorizar la ruta de desbloqueo que más les interese.",
+      "items": [
         {
-          "title": "Actualización 2.8.2",
-          "type": "Actualización de IU",
-          "description": "Se cambió el nombre de \"awaken\" (despertar) a \"exit\" (salir) en el menú principal."
+          "icon": "BookOpen",
+          "title": "NBA The Run Cred",
+          "reward_type": "Moneda del juego",
+          "unlock_path": "Obtenido al ganar partidos",
+          "description": "NBA The Run Cred es la moneda de progresión principal que se utiliza para desbloquear recompensas a través de The Shop después de ganar una partida competitiva.",
+          "examples": [
+            "Productos cosméticos",
+            "camisetas",
+            "mates avanzados",
+            "Burlas",
+            "Insignias",
+            "pancartas"
+          ]
         },
         {
-          "title": "Pequeño parche para cierres al iniciar",
-          "type": "Hotfix",
-          "description": "Se lanzó un parche dedicado para los jugadores cuyo juego se cerraba inesperadamente al iniciar."
+          "icon": "Package",
+          "title": "NBA The Run La tienda",
+          "reward_type": "Centro de recompensas",
+          "unlock_path": "Gaste Cred en recompensas seleccionadas",
+          "description": "NBA The Run La Tienda se basa en la elección del jugador y abarca la identidad visual, el estilo de animación y las variantes de personajes de alto valor.",
+          "examples": [
+            "Ajustes retro de la NBA",
+            "720 mates",
+            "Burlas demasiado pequeñas",
+            "Variantes de novato"
+          ]
         },
         {
-          "title": "Soporte de contenido post-lanzamiento",
-          "type": "Nota de hoja de ruta",
-          "description": "Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
+          "icon": "Sparkles",
+          "title": "NBA The Run Cosméticos de estilo",
+          "reward_type": "Personalización",
+          "unlock_path": "Desbloqueado con Cred",
+          "description": "Las recompensas de estilo NBA The Run personalizan la forma en que los jugadores se presentan en los partidos a través de vestimenta, estilo y animaciones exclusivas.",
+          "examples": [
+            "camisetas",
+            "Animaciones avanzadas de mates.",
+            "Burlas",
+            "Insignias",
+            "pancartas"
+          ]
+        },
+        {
+          "icon": "Users",
+          "title": "NBA The Run Variantes de novato",
+          "reward_type": "Variantes de jugador",
+          "unlock_path": "Disponible a través de la tienda",
+          "description": "NBA The Run Las variantes de novato son versiones alternativas de NBA All-Stars con diferentes apariencias e identidades de juego.",
+          "examples": [
+            "Steph Curry en 2009",
+            "Kevin Durant sobre los SuperSonics",
+            "Cinco variantes del All-Star de la NBA para novatos"
+          ]
+        },
+        {
+          "icon": "Shield",
+          "title": "NBA The Run Leyendas del streetball",
+          "reward_type": "Desbloqueos de rango",
+          "unlock_path": "Desbloqueado al subir de rango",
+          "description": "La progresión de rango NBA The Run desbloquea leyendas ficticias de Streetball diseñadas con fortalezas, debilidades y estilos distintos claros.",
+          "examples": [
+            "Cinco leyendas ficticias del Streetball en el lanzamiento",
+            "Distintas fortalezas y debilidades",
+            "Personajes estilizados hechos a mano."
+          ]
+        },
+        {
+          "icon": "MessageCircle",
+          "title": "NBA The Run Bobbito García",
+          "reward_type": "Leyenda jugable",
+          "unlock_path": "Progresión de la leyenda del streetball",
+          "description": "NBA The Run incluye a Bobbito García como una leyenda del Streetball jugable, conectando la identidad del locutor del juego con la progresión de la plantilla.",
+          "examples": [
+            "Leyenda jugable",
+            "Conexión del locutor",
+            "Identidad de streetball centrada en el mango"
+          ]
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "NBA The Run Trofeos del torneo",
+          "reward_type": "Progresión competitiva",
+          "unlock_path": "Apilar trofeos mediante Knockout Tournaments",
+          "description": "NBA The Run los torneos ofrecen un objetivo competitivo repetible a medida que los equipos avanzan en rondas rápidas hacia las canchas finales y los trofeos.",
+          "examples": [
+            "Torneos de cuatro rondas",
+            "Final del juego de campeonato",
+            "Corre la persecución del trofeo mundial"
+          ]
         }
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Solución de cierres inesperados y solución de problemas de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "La mayoría de los problemas inmediatos de inicio y cierres deben revisarse en un orden sencillo: nivel de parche, soporte de gráficos, compatibilidad de plataforma y registros.",
-      "steps": [
+      "title": "NBA The Run Requisitos del sistema",
+      "displayType": "mesa",
+      "intro": "Los requisitos del sistema NBA THE RUN y las características de la tienda confirman actualmente la compatibilidad con 64 bits, los requisitos en línea y las capacidades de la plataforma, mientras que varios campos detallados de hardware de PC aún están marcados por determinar.",
+      "rows": [
         {
-          "title": "Instala el último hotfix para cierres inesperados",
-          "description": "Si el juego se cierra al iniciar, actualiza primero y prueba de nuevo con el parche más reciente para cierres al inicio."
+          "category": "NBA The Run Plataforma de lanzamiento para PC",
+          "pc_minimum": "PC a través de Steam",
+          "pc_recommended": "PC a través de Steam",
+          "platform_notes": "NBA The Run figura en Steam con un lanzamiento previsto para junio de 2026."
         },
         {
-          "title": "Verifica el soporte de __PROTECTED_38625270__",
-          "description": "Lucid Blocks requiere soporte de __PROTECTED_38625270__. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados o problemas graves de renderizado."
+          "category": "NBA The Run Procesador y sistema operativo",
+          "pc_minimum": "Requiere un procesador y un sistema operativo de 64 bits.",
+          "pc_recommended": "Requiere un procesador y un sistema operativo de 64 bits.",
+          "platform_notes": "Steam enumera la compatibilidad con 64 bits para las secciones de requisitos mínimos y recomendados."
         },
         {
-          "title": "Usa Proton 9.0.4 en Steam Deck",
-          "description": "Si la entrada o el comportamiento de inicio en Steam Deck fallan, fuerza la compatibilidad y cambia a Proton 9.0.4."
+          "category": "NBA The Run Sistema operativo",
+          "pc_minimum": "Por determinar",
+          "pc_recommended": "Por determinar",
+          "platform_notes": "Los campos detallados del sistema operativo Steam se enumeran actualmente como TBD."
         },
         {
-          "title": "Recopila registros de cierres (logs)",
-          "description": "Abre Ejecutar de Windows, pega %APPDATA%, ve a lucid blocks/logs y reúne los archivos .txt para solucionar el problema."
+          "category": "NBA The Run Procesador",
+          "pc_minimum": "Por determinar",
+          "pc_recommended": "Por determinar",
+          "platform_notes": "Los campos detallados del procesador Steam se enumeran actualmente como TBD."
         },
         {
-          "title": "Reporta el problema correctamente",
-          "description": "Comparte los registros y los detalles del dispositivo a través del foro oficial de reportes de errores en Discord o en la página de la comunidad de Steam."
+          "category": "NBA The Run Gráficos",
+          "pc_minimum": "Por determinar",
+          "pc_recommended": "Por determinar",
+          "platform_notes": "Los campos gráficos detallados Steam actualmente figuran como TBD."
+        },
+        {
+          "category": "NBA The Run Red",
+          "pc_minimum": "Conexión a internet de banda ancha",
+          "pc_recommended": "Conexión a internet de banda ancha",
+          "platform_notes": "Los requisitos Steam incluyen conectividad a Internet de banda ancha."
+        },
+        {
+          "category": "NBA The Run Tarjeta de sonido",
+          "pc_minimum": "Por determinar",
+          "pc_recommended": "Por determinar",
+          "platform_notes": "Los campos detallados de la tarjeta de sonido Steam se muestran actualmente como TBD."
+        },
+        {
+          "category": "NBA The Run Steam Características",
+          "pc_minimum": "Online PvP, Multijugador multiplataforma, Steam Logros, Compartir en familia",
+          "pc_recommended": "Online PvP, Multijugador multiplataforma, Steam Logros, Compartir en familia",
+          "platform_notes": "Steam enumera PvP en línea y multijugador multiplataforma como características clave de PC."
+        },
+        {
+          "category": "NBA The Run Steam Elementos interactivos",
+          "pc_minimum": "Compras dentro del juego, chat dentro del juego, interactividad en línea",
+          "pc_recommended": "Compras dentro del juego, chat dentro del juego, interactividad en línea",
+          "platform_notes": "Steam los enumera como elementos interactivos en la página de la tienda."
+        },
+        {
+          "category": "NBA The Run Requisitos en línea de PlayStation 5",
+          "pc_minimum": "No aplicable",
+          "pc_recommended": "No aplicable",
+          "platform_notes": "PlayStation enumera PS Plus necesario para jugar en línea, juego en línea requerido y soporte para hasta 6 jugadores en línea."
+        },
+        {
+          "category": "NBA The Run Requisitos de Xbox en línea",
+          "pc_minimum": "No aplicable",
+          "pc_recommended": "No aplicable",
+          "platform_notes": "Xbox incluye modo multijugador en línea para 2 a 6 jugadores y requiere Game Pass Core o Ultimate para el modo multijugador en línea en la consola."
+        },
+        {
+          "category": "NBA The Run Funciones de plataforma y rendimiento de Xbox",
+          "pc_minimum": "No aplicable",
+          "pc_recommended": "No aplicable",
+          "platform_notes": "Xbox destaca 4K Ultra HD, trazado de rayos, 60 fps+, sonido espacial, guardado en la nube, logros y optimización de Xbox Series X|S."
         }
-      ]
+      ],
+      "supportLinks": [
+        "NBA The Run Discordia oficial",
+        "NBA The Run Steam Comunidad"
+      ],
+      "supportPrompt": "Utilice los canales comunitarios oficiales NBA The Run para obtener actualizaciones técnicas y publicaciones de soporte."
     }
   },
   "faq": {
-    "title": "Preguntas",
-    "titleHighlight": "frecuentes",
-    "subtitle": "Todo lo que necesitas saber sobre Lucid Blocks",
+    "title": "NBA The Run Preguntas frecuentes",
+    "titleHighlight": "Preguntas",
+    "subtitle": "Todo lo que necesitas saber sobre NBA The Run antes del lanzamiento",
     "questions": [
       {
-        "question": "¿Es Lucid Blocks un juego para un solo jugador?",
-        "answer": "Sí. Lucid Blocks es un juego exclusivamente para un solo jugador, sin planes para multijugador o cooperativo."
+        "question": "¿Cuándo se lanza NBA The Run?",
+        "answer": "NBA The Run está anunciado actualmente para una ventana de lanzamiento en junio de 2026."
       },
       {
-        "question": "¿Qué es el sistema Apotheosis en Lucid Blocks?",
-        "answer": "Apotheosis es el sistema de creación por fusión de forma libre de Lucid Blocks. En lugar de seguir recetas fijas, combinas materiales y descubres tus propias rutas de creación."
+        "question": "¿Cómo puedo unirme a la prueba de juego NBA The Run?",
+        "answer": "NBA The Run el registro de prueba de juego está disponible a través del flujo de registro oficial de FirstLook."
       },
       {
-        "question": "¿Dónde puedo jugar Lucid Blocks?",
-        "answer": "Lucid Blocks está disponible actualmente en Steam para Windows. El soporte para Linux y Steam Deck está disponible a través de Proton 9.0."
+        "question": "¿Dónde puedo jugar NBA The Run?",
+        "answer": "NBA The Run se anuncia para PlayStation 5, Xbox Series X|S y Steam para PC."
       },
       {
-        "question": "¿Cuánto cuesta Lucid Blocks?",
-        "answer": "Lucid Blocks cuesta $9.99 en Steam."
+        "question": "¿Qué modos están confirmados para NBA The Run?",
+        "answer": "NBA The Run muestra formatos centrados en eliminatorias que incluyen opciones en solitario, en equipo y basadas en amigos."
       },
       {
-        "question": "¿Lucid Blocks es compatible con controles?",
-        "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello. El teclado y el mouse son la opción más fluida."
+        "question": "¿Qué son las habilidades NBA The Run In The Zone?",
+        "answer": "NBA The Run Las habilidades de In The Zone son mejoras impulsadas por el impulso que pueden hacer pivotar posesiones clave."
       },
       {
-        "question": "¿Recibirá actualizaciones Lucid Blocks?",
-        "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no se pretende que continúen con un calendario regular indefinido."
+        "question": "¿Cómo funciona la progresión NBA The Run?",
+        "answer": "La progresión NBA The Run utiliza el rendimiento del partido y Cred para desbloquear opciones cosméticas y de identidad."
       }
     ]
   },
   "cta": {
-    "title": "¿Listo para explorar Lucid Blocks?",
-    "description": "¡Únete a la comunidad de Lucid Blocks en Discord para ver guías, actualizaciones y discusiones!",
-    "joinCommunity": "Únete a Discord",
-    "joinGame": "Juega en Steam"
+    "title": "¿Listo para NBA THE RUN?",
+    "description": "Únase a la comunidad NBA THE RUN y siga las actualizaciones de lanzamiento, pruebas de juego y revelaciones de juego.",
+    "joinCommunity": "Únete a Discord oficial",
+    "joinGame": "Lista de deseos el Steam"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Tu centro completo de recursos para la fabricación, biomas, criaturas, logros y guías de supervivencia de Lucid Blocks.",
+    "title": "NBA THE RUN Wiki",
+    "description": "Tu centro de recursos para fans para NBA THE RUN actualizaciones de lanzamiento, modos, seguimiento de listas y guías de juego.",
     "resources": "Recursos",
     "community": "Comunidad",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Comunidad de Steam",
-    "steamStore": "Tienda de Steam",
+    "discord": "Discordia oficial",
+    "twitter": "Oficial X",
+    "steamCommunity": "Steam Comunidad",
+    "steamStore": "Steam Tienda",
     "about": "Acerca de",
-    "privacy": "Política de privacidad",
+    "privacy": "política de privacidad",
     "terms": "Términos de servicio",
     "copyrightNotice": "Derechos de autor",
-    "copyright": "© 2026 Wiki de Lucid Blocks. No afiliada con los desarrolladores de Lucid Blocks.",
-    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+    "copyright": "© 2026 NBA THE RUN Wiki. Recurso no oficial creado por fanáticos que no está afiliado a Play by Play Studios, la NBA o la NBPA.",
+    "disclaimer": "Todas las marcas comerciales y activos del juego pertenecen a sus respectivos propietarios.",
+    "youtube": "Tráiler oficial de YouTube"
   },
   "pages": {
-    "guides": {
-      "title": "Guías de Lucid Blocks",
-      "description": "Guías completas de juego, desde conceptos básicos para principiantes hasta estrategias avanzadas de Apotheosis. Domina la supervivencia y la fabricación.",
-      "metaTitle": "Guías de Lucid Blocks - Estrategias de principiante a avanzado",
-      "metaDescription": "Guías completas de Lucid Blocks que cubren consejos para principiantes, el sistema Apotheosis, estrategias de supervivencia y tácticas expertas para dominar este sandbox surrealista.",
-      "categoryLabel": "GUÍAS DEL JUEGO",
-      "whatIs": "¿Qué son las guías?",
-      "whatIsDescription": "Guías exhaustivas que cubren mecánicas de juego, estrategias de supervivencia y el sistema de fabricación Apotheosis. Aprende todo, desde los primeros pasos hasta técnicas avanzadas.",
-      "why": "¿Por qué leer las guías?",
+    "release": {
+      "title": "NBA The Run Lanzamiento",
+      "description": "Realice un seguimiento del calendario de lanzamiento de NBA The Run, los hitos oficiales y las actualizaciones del cronograma en un solo lugar.",
+      "metaTitle": "NBA The Run Lanzamiento: ventana de inicio y cronograma",
+      "metaDescription": "Siga la cobertura del lanzamiento de NBA The Run con hitos de la ventana de lanzamiento, anuncios oficiales y actualizaciones del cronograma de implementación.",
+      "categoryLabel": "CRONOGRAMA DE LANZAMIENTO",
+      "whatIs": "¿Qué es la cobertura de liberación NBA The Run?",
+      "whatIsDescription": "Esta categoría rastrea NBA The Run ventanas de lanzamiento, anuncios de hitos y actualizaciones relacionadas con fechas de los canales oficiales.",
+      "why": "¿Por qué seguir las actualizaciones de la versión NBA The Run?",
       "whySteps": {
-        "step1Title": "Aprende las mecánicas principales",
-        "step1Description": "Entiende el sistema Apotheosis y evita errores comunes de principiante",
-        "step2Title": "Progresión rápida",
-        "step2Description": "Sigue caminos probados para sobrevivir y prosperar en este mundo surrealista",
-        "step3Title": "Domina las estrategias",
-        "step3Description": "Desarrolla tácticas avanzadas para la exploración y la fabricación"
+        "step1Title": "Ver cambios de fecha anticipados",
+        "step1Description": "Realice un seguimiento de cómo cambian las ventanas de lanzamiento de NBA The Run a medida que se publican nuevos anuncios.",
+        "step2Title": "Planifica tu horario",
+        "step2Description": "Utilice el tiempo de los hitos para preparar la configuración de su plataforma antes del lanzamiento de NBA The Run.",
+        "step3Title": "Evite perderse noticias de lanzamiento",
+        "step3Description": "Mantenga toda la información de la publicación NBA The Run en una línea de tiempo enfocada."
       },
       "featured": "Destacado y esencial",
-      "all": "Todas las guías"
+      "all": "Todos los artículos de lanzamiento de NBA The Run"
     },
-    "crafting": {
-      "title": "Fabricación en Lucid Blocks",
-      "description": "Domina el sistema de fusión Apotheosis con mecánicas de esencia, recetas y estrategias de fabricación para objetos poderosos.",
-      "metaTitle": "Fabricación en Lucid Blocks - Sistema Apotheosis y recetas",
-      "metaDescription": "Domina el sistema de fabricación Apotheosis de Lucid Blocks. Aprende mecánicas de esencia, recetas de fusión y estrategias para crear herramientas y armas poderosas.",
-      "categoryLabel": "SISTEMA DE FABRICACIÓN",
-      "whatIs": "¿Qué es la fabricación?",
-      "whatIsDescription": "El sistema Apotheosis es una mecánica de fusión única impulsada por esencias donde combinas hasta seis objetos para descubrir nuevas recetas. Sin menús de fabricación fijos: la experimentación es la clave.",
-      "why": "¿Por qué dominar la fabricación?",
+    "playtest": {
+      "title": "NBA The Run Prueba de juego",
+      "description": "Supervise las rondas de prueba de juego de NBA The Run, los pasos de acceso y la preparación para la participación.",
+      "metaTitle": "NBA The Run Prueba de juego: acceso y preparación de la sesión",
+      "metaDescription": "Obtenga NBA The Run actualizaciones de pruebas de juego, incluido el flujo de registro, ventanas de sesión y detalles de preparación de acceso.",
+      "categoryLabel": "ACCESO A LA PRUEBA DE JUEGO",
+      "whatIs": "¿Qué es la cobertura de NBA The Run Playtest?",
+      "whatIsDescription": "Esta categoría se centra en NBA The Run sesiones de prueba, pasos de ingreso y preparación práctica para las próximas rondas.",
+      "why": "¿Por qué realizar un seguimiento de las actualizaciones de las pruebas de juego de NBA The Run?",
       "whySteps": {
-        "step1Title": "Desbloquea objetos poderosos",
-        "step1Description": "Descubre herramientas esenciales, armas y equipo de movilidad a través de la fusión",
-        "step2Title": "Entiende las esencias",
-        "step2Description": "Aprende cómo se combinan las esencias de los objetos para crear resultados predecibles",
-        "step3Title": "Optimiza recursos",
-        "step3Description": "Usa mecánicas de dilución para maximizar la producción con materiales baratos"
+        "step1Title": "Seguir el flujo de entrada",
+        "step1Description": "Comprenda cómo se manejan las invitaciones y el registro de la prueba de juego NBA The Run.",
+        "step2Title": "Prepárese antes de las sesiones",
+        "step2Description": "Configure cuentas, acceso a la plataforma y disponibilidad antes de los NBA The Run períodos de prueba.",
+        "step3Title": "Seguimiento de nuevas rondas de prueba",
+        "step3Description": "Manténgase actualizado cuando NBA The Run anuncie oportunidades de prueba de juego adicionales."
       },
       "featured": "Destacado y esencial",
-      "all": "Todas las guías de fabricación"
+      "all": "Todos los artículos de prueba de juego de NBA The Run"
     },
-    "items": {
-      "title": "Objetos de Lucid Blocks",
-      "description": "Guías detalladas de objetos que cubren herramientas, armas, equipo de movilidad y soluciones de almacenamiento con recetas de fabricación y consejos de uso.",
-      "metaTitle": "Objetos de Lucid Blocks - Guía de herramientas, armas y equipo",
-      "metaDescription": "Base de datos completa de objetos para Lucid Blocks, incluyendo herramientas, armas, equipo de movilidad y almacenamiento. Aprende a fabricar y usar cada objeto de manera efectiva.",
-      "categoryLabel": "OBJETOS Y EQUIPAMIENTO",
-      "whatIs": "¿Qué son los objetos?",
-      "whatIsDescription": "Guías exhaustivas de herramientas, armas, equipo de movilidad y objetos funcionales. Aprende recetas de fabricación, estrategias de uso y combinaciones óptimas.",
-      "why": "¿Por qué consultar las guías de objetos?",
+    "platforms": {
+      "title": "NBA The Run Plataformas",
+      "description": "Explora la cobertura de la plataforma NBA The Run en Steam, PlayStation 5 y Xbox Series X|S.",
+      "metaTitle": "Plataformas NBA The Run: cobertura de Steam, PS5 y Xbox",
+      "metaDescription": "Revise los detalles de la plataforma NBA The Run, incluidos Steam, PlayStation 5, Xbox Series X|S y notas de disponibilidad de lanzamiento.",
+      "categoryLabel": "COBERTURA DE PLATAFORMA",
+      "whatIs": "¿Qué son los artículos de NBA The Run Plataformas?",
+      "whatIsDescription": "Esta categoría organiza NBA The Run la disponibilidad de la plataforma, la presencia en la tienda y las notas de acceso multiplataforma.",
+      "why": "¿Por qué leer las guías de la plataforma NBA The Run?",
       "whySteps": {
-        "step1Title": "Aprende recetas de fabricación",
-        "step1Description": "Descubre cómo fabricar herramientas y armas esenciales usando Apotheosis",
-        "step2Title": "Optimiza tu equipamiento",
-        "step2Description": "Elige los mejores objetos para tu estilo de juego y etapa de progresión",
-        "step3Title": "Mejora tu supervivencia",
-        "step3Description": "Equípate con equipo de movilidad y armas para navegar por este mundo peligroso"
+        "step1Title": "Elige tu plataforma",
+        "step1Description": "Compare dónde está disponible NBA The Run y cómo se presenta cada entrada de la plataforma.",
+        "step2Title": "Seguimiento del estado de la tienda",
+        "step2Description": "Siga las actualizaciones de las NBA The Run páginas de la tienda, las opciones de la lista de deseos y los cambios en las listas.",
+        "step3Title": "Preparar el juego multiplataforma",
+        "step3Description": "Comprenda cómo el soporte de la plataforma NBA The Run afecta a su equipo y a su lista de amigos."
       },
       "featured": "Destacado y esencial",
-      "all": "Todos los objetos"
+      "all": "Todos los artículos de plataformas NBA The Run"
     },
-    "biomes": {
-      "title": "Biomas de Lucid Blocks",
-      "description": "Explora las regiones del mundo, características ambientales, ubicaciones de recursos y consejos de supervivencia para cada bioma.",
-      "metaTitle": "Biomas de Lucid Blocks - Regiones del mundo y exploración",
-      "metaDescription": "Explora los biomas de Lucid Blocks, incluyendo las Líneas Ley de Tiamana, Fog Meadow y regiones surrealistas. Encuentra recursos, evita peligros y navega por un mundo infinito.",
-      "categoryLabel": "REGIONES DEL MUNDO",
-      "whatIs": "¿Qué son los biomas?",
-      "whatIsDescription": "Guías de las diferentes regiones del mundo, características ambientales, distribución de recursos y zonas de peligro. Aprende qué esperar y cómo prepararte para cada área.",
-      "why": "¿Por qué explorar los biomas?",
+    "price": {
+      "title": "NBA The Run Precio",
+      "description": "Siga las NBA The Run actualizaciones de precios, detalles de edición e información de compras a medida que se anuncian.",
+      "metaTitle": "NBA The Run Precio - Ediciones y detalles de compra",
+      "metaDescription": "Realice un seguimiento de NBA The Run actualizaciones de precios, diferencias de edición y detalles relacionados con las compras para la planificación del lanzamiento.",
+      "categoryLabel": "SEGUIMIENTO DE PRECIOS",
+      "whatIs": "¿Qué es NBA The Run Cobertura de precios?",
+      "whatIsDescription": "Esta categoría rastrea los precios de NBA The Run, los desgloses de las ediciones y la información del flujo de compra de las actualizaciones oficiales de la tienda.",
+      "why": "¿Por qué consultar las NBA The Run páginas de precios?",
       "whySteps": {
-        "step1Title": "Encuentra recursos",
-        "step1Description": "Localiza materiales raros y esencias específicas de cada región",
-        "step2Title": "Evita peligros",
-        "step2Description": "Entiende los riesgos ambientales y las criaturas hostiles",
-        "step3Title": "Planifica tu exploración",
-        "step3Description": "Prepara las herramientas y el equipo adecuados para cada tipo de bioma"
+        "step1Title": "Ver actualizaciones de precios",
+        "step1Description": "Manténgase informado con los anuncios de precios oficiales NBA The Run y las revisiones de la tienda.",
+        "step2Title": "Comparar ediciones",
+        "step2Description": "Revise las opciones de edición NBA The Run y decida qué paquete se adapta mejor a sus planes.",
+        "step3Title": "Planifica tu compra",
+        "step3Description": "Utilice NBA The Run precios y detalles de edición para preparar el flujo de pago del día del lanzamiento."
       },
       "featured": "Destacado y esencial",
-      "all": "Todos los biomas"
+      "all": "Todos los artículos de precios NBA The Run"
     },
-    "building": {
-      "title": "Construcción en Lucid Blocks",
-      "description": "Domina las dimensiones personales Qualia, la construcción de bases, la gestión de almacenamiento y técnicas creativas de construcción.",
-      "metaTitle": "Construcción en Lucid Blocks - Qualia y construcción de bases",
-      "metaDescription": "Domina la construcción en Lucid Blocks con las dimensiones personales Qualia, construcción de bases, soluciones de almacenamiento y técnicas creativas de construcción.",
-      "categoryLabel": "CONSTRUCCIÓN Y BASES",
-      "whatIs": "¿Qué es la construcción?",
-      "whatIsDescription": "Guías sobre el sistema de dimensiones personales Qualia, construcción de bases, gestión de almacenamiento y construcción creativa. Aprende a crear tu refugio seguro en este mundo surrealista.",
-      "why": "¿Por qué construir bases?",
+    "guide": {
+      "title": "NBA The Run Guía",
+      "description": "Aprenda los fundamentos de NBA The Run con guías prácticas para controles, ritmo, roles y decisiones de partidos.",
+      "metaTitle": "NBA The Run Guía: conceptos básicos para principiantes y competitivos",
+      "metaDescription": "Utilice los artículos de la guía NBA The Run para mejorar los fundamentos, la coordinación del equipo y las decisiones durante el partido desde el primer día.",
+      "categoryLabel": "GUÍA DEL JUEGO",
+      "whatIs": "¿Qué es la categoría de guía NBA The Run?",
+      "whatIsDescription": "Esta categoría cubre NBA The Run fundamentos, pasos de incorporación y hábitos de juego que mejoran la coherencia.",
+      "why": "¿Por qué leer los artículos de la guía NBA The Run?",
       "whySteps": {
-        "step1Title": "Crea espacios seguros",
-        "step1Description": "Establece bases seguras para el almacenamiento y las operaciones de fabricación",
-        "step2Title": "Gestiona tus recursos",
-        "step2Description": "Organiza tus materiales de manera eficiente con soluciones de almacenamiento",
-        "step3Title": "Desbloquea Qualia",
-        "step3Description": "Accede a dimensiones de bolsillo personales para la máxima comodidad"
+        "step1Title": "Desarrollar habilidades básicas",
+        "step1Description": "Aprenda NBA The Run prioridades de movimiento, espaciado y posesión con desgloses prácticos claros.",
+        "step2Title": "Mejorar la coordinación del equipo",
+        "step2Description": "Utilice sugerencias de guía NBA The Run basadas en roles para comunicarse y rotar de manera más efectiva en 3v3.",
+        "step3Title": "Juega más limpio bajo presión",
+        "step3Description": "Aplique las listas de verificación de la guía NBA The Run para tomar decisiones más sólidas en momentos decisivos rápidos."
       },
       "featured": "Destacado y esencial",
-      "all": "Todas las guías de construcción"
+      "all": "Todos los artículos de la guía NBA The Run"
     },
-    "support": {
-      "title": "Soporte de Lucid Blocks",
-      "description": "Soporte técnico, compatibilidad de plataformas, optimización de rendimiento y solución de problemas comunes.",
-      "metaTitle": "Soporte de Lucid Blocks - Ayuda técnica y soluciones",
-      "metaDescription": "Obtén soporte técnico para Lucid Blocks, incluyendo la configuración de Steam Deck, soluciones a cierres inesperados, optimización de rendimiento y guías de compatibilidad de plataformas.",
-      "categoryLabel": "SOPORTE TÉCNICO",
-      "whatIs": "¿Qué es el soporte?",
-      "whatIsDescription": "Guías técnicas que cubren la compatibilidad de plataformas, optimización de rendimiento, soluciones a cierres inesperados y problemas comunes. Obtén ayuda con Steam Deck, preguntas sobre multijugador y ajustes.",
-      "why": "¿Por qué consultar el soporte?",
+    "modes": {
+      "title": "NBA The Run Modos",
+      "description": "Desglose los formatos de modo NBA The Run, los tipos de cola y las estructuras de torneo.",
+      "metaTitle": "Modos NBA The Run: Solos, Squads y formatos de torneo",
+      "metaDescription": "Comprenda los modos NBA The Run con cobertura enfocada en solos, escuadrones, sesiones de amigos y estructuras eliminatorias.",
+      "categoryLabel": "DESGLOSE DE MODOS",
+      "whatIs": "¿Qué son los artículos NBA The Run Modos?",
+      "whatIsDescription": "Esta categoría explica NBA The Run tipos de colas, estructuras de rondas y formatos de competencia.",
+      "why": "¿Por qué seguir las guías de modo NBA The Run?",
       "whySteps": {
-        "step1Title": "Soluciona problemas técnicos",
-        "step1Description": "Resuelve cierres inesperados, problemas de rendimiento y de compatibilidad",
-        "step2Title": "Optimiza el rendimiento",
-        "step2Description": "Configura los ajustes para obtener la mejor experiencia en tu plataforma",
-        "step3Title": "Compatibilidad de plataformas",
-        "step3Description": "Aprende sobre Steam Deck, soporte para controles y requisitos del sistema"
+        "step1Title": "Elija la cola correcta",
+        "step1Description": "Haga coincidir la selección del modo NBA The Run con el tamaño de su equipo y los objetivos de la sesión.",
+        "step2Title": "Comprender el flujo del torneo",
+        "step2Description": "Aprenda NBA The Run el ritmo y la estructura de las rondas antes de ingresar a los grupos eliminatorios.",
+        "step3Title": "Adaptar por formato",
+        "step3Description": "Utilice el contexto del modo NBA The Run para ajustar las estrategias entre sesiones en solitario, en escuadrones y con amigos."
       },
       "featured": "Destacado y esencial",
-      "all": "Todos los artículos de soporte"
+      "all": "Todos los artículos sobre modos NBA The Run"
+    },
+    "roster": {
+      "title": "NBA The Run Lista",
+      "description": "Realice un seguimiento de las noticias de la plantilla de NBA The Run, incluidos jugadores destacados, leyendas y arquetipos de roles.",
+      "metaTitle": "NBA The Run Plantilla: jugadores, leyendas y arquetipos de roles",
+      "metaDescription": "Siga las actualizaciones de la plantilla de NBA The Run con jugadores destacados, arquetipos de roles y contexto de planificación de la alineación.",
+      "categoryLabel": "SEGUIMIENTO DE LA PLANTILLA",
+      "whatIs": "¿Qué es NBA The Run cobertura de lista?",
+      "whatIsDescription": "Esta categoría rastrea NBA The Run revelaciones de jugadores, opciones de alineación e identidades de roles para la planificación del equipo.",
+      "why": "¿Por qué monitorear las actualizaciones de la lista NBA The Run?",
+      "whySteps": {
+        "step1Title": "Seguimiento del reproductor revelado",
+        "step1Description": "Manténgase actualizado con NBA The Run anuncios de la plantilla y aspectos destacados de las leyendas.",
+        "step2Title": "Roles de alineación del plan",
+        "step2Description": "Utilice el contexto de la lista NBA The Run para equilibrar anotadores, facilitadores y defensores.",
+        "step3Title": "Ajustar la estrategia del equipo",
+        "step3Description": "Aplica NBA The Run cambios en la plantilla para perfeccionar las prioridades de tu equipo con el tiempo."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de la lista NBA The Run"
     }
   }
 }

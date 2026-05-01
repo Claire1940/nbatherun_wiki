@@ -36,6 +36,11 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Optional
 
+try:
+    from deep_translator import GoogleTranslator
+except Exception:
+    GoogleTranslator = None
+
 # ─── 自动定位项目根目录 ────────────────────────────────────────────────────────
 
 script_dir = Path(os.path.dirname(os.path.abspath(__file__)))
@@ -135,6 +140,133 @@ def clean_json_response(text: str) -> str:
     text = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', text)
     return text.strip()
 
+
+NON_TRANSLATABLE_KEYS = {
+    'icon',
+    'videoId',
+    'youtubeUrl',
+    'url',
+    '@id',
+    '@type',
+    '@context',
+    'query-input',
+}
+
+
+def build_protected_terms(config: dict) -> list[str]:
+    protected = config.get('protected_terms', {})
+    return (
+        protected.get('game_names', [])
+        + protected.get('character_names', [])
+        + protected.get('technical_terms', [])
+    )
+
+
+def protect_terms(text: str, terms: list[str]) -> tuple[str, dict[str, str]]:
+    replaced = text
+    placeholders: dict[str, str] = {}
+    sorted_terms = sorted({t for t in terms if t}, key=len, reverse=True)
+    for idx, term in enumerate(sorted_terms):
+        token = f"__PROTECTED_TERM_{idx}__"
+        if term in replaced:
+            replaced = replaced.replace(term, token)
+            placeholders[token] = term
+    return replaced, placeholders
+
+
+def unprotect_terms(text: str, placeholders: dict[str, str]) -> str:
+    restored = text
+    for token, original in placeholders.items():
+        restored = restored.replace(token, original)
+    return restored
+
+
+def split_long_text(text: str, max_len: int = 3500) -> list[str]:
+    if len(text) <= max_len:
+        return [text]
+
+    parts: list[str] = []
+    current = []
+    current_len = 0
+    for sentence in re.split(r'(\. |\? |! |\n)', text):
+        piece = sentence
+        if not piece:
+            continue
+        if current_len + len(piece) > max_len and current:
+            parts.append(''.join(current))
+            current = [piece]
+            current_len = len(piece)
+        else:
+            current.append(piece)
+            current_len += len(piece)
+
+    if current:
+        parts.append(''.join(current))
+    return parts
+
+
+def translate_text_with_deep_translator(
+    text: str,
+    target_lang: str,
+    protected_terms: list[str],
+    cache: dict[tuple[str, str], str],
+) -> str:
+    if not text or not text.strip():
+        return text
+    cache_key = (target_lang, text)
+    if cache_key in cache:
+        return cache[cache_key]
+
+    if GoogleTranslator is None:
+        return text
+
+    # Skip obvious machine keys / placeholders / urls / emails
+    if text.startswith('http://') or text.startswith('https://') or '@' in text:
+        return text
+    if text.startswith('__PROTECTED_') and text.endswith('__'):
+        return text
+
+    masked, placeholders = protect_terms(text, protected_terms)
+    try:
+        translator = GoogleTranslator(source='auto', target=target_lang)
+        parts = split_long_text(masked)
+        translated_parts = []
+        for part in parts:
+            translated_parts.append(translator.translate(part))
+        translated = ''.join(translated_parts)
+        translated = unprotect_terms(translated, placeholders)
+        cache[cache_key] = translated
+        return translated
+    except Exception:
+        return text
+
+
+def translate_obj_with_deep_translator(
+    obj,
+    target_lang: str,
+    protected_terms: list[str],
+    cache: dict[tuple[str, str], str],
+    path: tuple[str, ...] = (),
+):
+    if isinstance(obj, dict):
+        out = {}
+        for k, v in obj.items():
+            if k in NON_TRANSLATABLE_KEYS:
+                out[k] = v
+            else:
+                out[k] = translate_obj_with_deep_translator(
+                    v, target_lang, protected_terms, cache, path + (k,)
+                )
+        return out
+    if isinstance(obj, list):
+        return [
+            translate_obj_with_deep_translator(v, target_lang, protected_terms, cache, path)
+            for v in obj
+        ]
+    if isinstance(obj, str):
+        return translate_text_with_deep_translator(obj, target_lang, protected_terms, cache)
+    return obj
+
 # ─── chunk 拆分 ───────────────────────────────────────────────────────────────
 
 
@@ -205,7 +337,14 @@ def deep_merge(base: dict, update: dict) -> dict:
 # ─── 翻译单个语言 ─────────────────────────────────────────────────────────────
 
 
-def translate_chunk_task(idx: int, total: int, chunk: dict, lang_name: str, config: dict) -> tuple:
+def translate_chunk_task(
+    idx: int,
+    total: int,
+    chunk: dict,
+    lang_code: str,
+    lang_name: str,
+    config: dict,
+) -> tuple:
     """单个 chunk 的翻译任务，返回 (idx, chunk_key_order, translated_dict)"""
     keys_preview = ', '.join(list(chunk.keys())[:3])
     suffix = '...' if len(chunk) > 3 else ''
@@ -213,6 +352,8 @@ def translate_chunk_task(idx: int, total: int, chunk: dict, lang_name: str, conf
 
     chunk_json = json.dumps(chunk, ensure_ascii=False, indent=2)
     result = call_api(chunk_json, lang_name, config)
+    protected_terms = build_protected_terms(config)
+    cache: dict[tuple[str, str], str] = {}
 
     if result:
         cleaned = clean_json_response(result)
@@ -221,11 +362,15 @@ def translate_chunk_task(idx: int, total: int, chunk: dict, lang_name: str, conf
             print(f"    chunk {idx}/{total}: [{keys_preview}{suffix}] ✓")
             return (idx, list(chunk.keys()), parsed)
         except json.JSONDecodeError as e:
-            print(f"    chunk {idx}/{total}: [{keys_preview}{suffix}] ✗ JSON解析失败({e})，英文兜底")
-            return (idx, list(chunk.keys()), chunk)
+            print(f"    chunk {idx}/{total}: [{keys_preview}{suffix}] ✗ JSON解析失败({e})，尝试备用翻译")
+            fallback = translate_obj_with_deep_translator(chunk, lang_code, protected_terms, cache)
+            print(f"    chunk {idx}/{total}: [{keys_preview}{suffix}] ~ 备用翻译完成")
+            return (idx, list(chunk.keys()), fallback)
     else:
-        print(f"    chunk {idx}/{total}: [{keys_preview}{suffix}] ✗ API失败，英文兜底")
-        return (idx, list(chunk.keys()), chunk)
+        print(f"    chunk {idx}/{total}: [{keys_preview}{suffix}] ✗ API失败，尝试备用翻译")
+        fallback = translate_obj_with_deep_translator(chunk, lang_code, protected_terms, cache)
+        print(f"    chunk {idx}/{total}: [{keys_preview}{suffix}] ~ 备用翻译完成")
+        return (idx, list(chunk.keys()), fallback)
 
 
 def translate_language(
@@ -272,7 +417,7 @@ def translate_language(
     results = [None] * total
     with ThreadPoolExecutor(max_workers=concurrency) as executor:
         futures = {
-            executor.submit(translate_chunk_task, idx + 1, total, chunk, lang_name, config): idx
+            executor.submit(translate_chunk_task, idx + 1, total, chunk, lang, lang_name, config): idx
             for idx, chunk in enumerate(chunks)
         }
         for future in as_completed(futures):
