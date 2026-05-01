@@ -1,12 +1,19 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "id": "/",
+  "name": "NBA The Run Wiki - Release Date, Roster & Gameplay Guide",
+  "short_name": "NBA The Run",
+  "description": "NBA The Run Wiki covering release date, Steam beta, roster, 3v3 gameplay, platforms, requirements, trailers, and beginner tips.",
+  "lang": "en-US",
+  "dir": "ltr",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#f04e23",
+  "background_color": "#0f0f10",
+  "categories": ["games", "sports", "entertainment"],
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -21,19 +28,60 @@
       "purpose": "any maskable"
     },
     {
-      "src": "/favicon-16x16.png",
-      "sizes": "16x16",
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
       "type": "image/png"
     },
     {
-      "src": "/favicon-32x32.png",
-      "sizes": "32x32",
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
       "type": "image/png"
     },
     {
       "src": "/apple-touch-icon.png",
       "sizes": "180x180",
       "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Wishlist on Steam",
+      "short_name": "Steam",
+      "description": "Open the official NBA THE RUN Steam page",
+      "url": "https://store.steampowered.com/app/2866670/NBA_THE_RUN/",
+      "icons": [
+        {
+          "src": "/android-chrome-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Official Site",
+      "short_name": "Website",
+      "description": "Visit NBA THE RUN official website",
+      "url": "https://nbatherun.com/",
+      "icons": [
+        {
+          "src": "/android-chrome-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Playtest Signup",
+      "short_name": "Playtest",
+      "description": "Join NBA THE RUN playtest registration",
+      "url": "https://nbatherun.firstlook.gg/",
+      "icons": [
+        {
+          "src": "/android-chrome-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     }
   ]
 }
