@@ -263,116 +263,142 @@
     "lucidBlocksQualiaAndBaseBuilding": {
       "title": "NBA The Run Gameplay Overview",
       "displayType": "cards",
-      "intro": "NBA THE RUN is built around online 3v3 street basketball with arcade pacing, physical defense, and ability-driven momentum swings.",
+      "intro": "NBA The Run is an online 3v3 street basketball game built for speed, style, and knockout pressure. The core loop is simple: pick your players, enter Solos or Squads, play fast matches on iconic courts, win to advance, and earn Cred.",
       "cards": [
         {
-          "name": "NBA The Run Core Match Loop",
-          "description": "Short, intense games prioritize quick decisions, spacing reads, and possession value."
+          "name": "NBA The Run Online 3v3 Street Basketball",
+          "description": "NBA The Run is built around fast-paced online 3v3 basketball on streetball courts around the world. Players take NBA stars and streetball legends into short, high-energy matchups where winning keeps the run alive."
         },
         {
-          "name": "NBA The Run Team Structure",
-          "description": "Three-player teams combine scoring roles, defensive pressure, and transition execution."
+          "name": "NBA The Run Arcade-Style Offense",
+          "description": "The offense is designed around posterizing dunks, stepback logo threes, ankle-breaking tricks, alley-oops, spin moves, and mid-air decisions like switching from a dunk to a layup to avoid a block."
         },
         {
-          "name": "NBA The Run Competitive Identity",
-          "description": "Knockout sessions and random rule twists keep each tournament run dynamic."
+          "name": "NBA The Run Defense Is a Core Feature",
+          "description": "Defense is treated as a major part of the fun, not just a support role. Blocks, steals, diving for loose balls, and physical defensive plays can create momentum swings and lead directly to wins."
         },
         {
-          "name": "NBA The Run Online Focus",
-          "description": "Online multiplayer architecture and netcode are central to the gameplay experience."
+          "name": "NBA The Run Rollback Netcode for Online Play",
+          "description": "NBA The Run uses true rollback netcode so actions like crossovers, loose-ball dives, and alley-oops stay synchronized for online players. This supports the game's focus on fast, responsive multiplayer control."
+        },
+        {
+          "name": "NBA The Run Tournament-First Match Flow",
+          "description": "Instead of only presenting standalone matches, NBA The Run centers on Knockout Tournaments. Players enter, win, advance, and repeat across short rounds with randomized rulesets that change how each game feels."
         }
       ],
       "highlights": [
-        "NBA The Run 3v3 Pace",
-        "NBA The Run Streetball Style",
-        "NBA The Run Ability Bursts",
-        "NBA The Run Tournament Pressure"
+        "NBA The Run Online 3v3 Matches",
+        "NBA The Run Above-the-Rim Offense",
+        "NBA The Run Defense Momentum Swings",
+        "NBA The Run True Rollback Netcode",
+        "NBA The Run Knockout Tournament Flow"
       ]
     },
     "lucidBlocksWorldRegions": {
       "title": "NBA The Run Beginner Guide",
       "displayType": "regionCards",
-      "intro": "New players can learn NBA THE RUN faster by focusing on spacing fundamentals, possession value, and predictable team rotations before chasing advanced highlights.",
+      "intro": "NBA The Run beginner progress is fastest when you learn the knockout format first, then build your offense, defense, momentum timing, and practice routine in that order.",
       "regions": [
         {
-          "name": "NBA The Run First Session Focus",
-          "type": "Starter Priority",
-          "description": "Start with movement, passing lanes, and defensive recovery timing in early matches."
+          "name": "NBA The Run Step 1: Choose Solos or Squads",
+          "type": "Beginner Step",
+          "description": "Start by choosing how much control you want. In Knockout Solos, you build and control your own team of three. In Knockout Squads, you control one player on a three-player squad. Beginner tip: Pick Solos for full team control or Squads for a co-op role experience."
         },
         {
-          "name": "NBA The Run Team Role Basics",
-          "type": "Starter Priority",
-          "description": "Assign clear scoring, support, and defensive roles to reduce possession chaos."
+          "name": "NBA The Run Step 2: Understand the Knockout Format",
+          "type": "Beginner Step",
+          "description": "Every run is based on a four-round knockout tournament. Win to advance and adapt to randomized rulesets each round. Beginner tip: Treat each round as a short challenge and learn the rule twist fast."
         },
         {
-          "name": "NBA The Run Momentum Awareness",
-          "type": "Starter Priority",
-          "description": "Track ability charge windows and avoid forcing shots when momentum is against your side."
+          "name": "NBA The Run Step 3: Learn the Offensive Flow",
+          "type": "Beginner Step",
+          "description": "Offense is fast and highlight-driven, with poster dunks, stepback threes, crossovers, alley-oops, spin moves, and quick rim reads. Beginner tip: Play with pace and timing instead of slowing every possession."
         },
         {
-          "name": "NBA The Run Post-Match Review",
-          "type": "Starter Priority",
-          "description": "Review turnovers and transition mistakes first to improve quickly between runs."
+          "name": "NBA The Run Step 4: Do Not Ignore Defense",
+          "type": "Beginner Step",
+          "description": "Defense is as important as offense. Blocks, steals, physical pressure, and loose-ball dives create direct scoring chances. Beginner tip: Learn when to pressure, when to contest, and when to gamble for a steal."
+        },
+        {
+          "name": "NBA The Run Step 5: Use In the Zone Momentum",
+          "type": "Beginner Step",
+          "description": "In the Zone is a momentum system that unlocks powerful signature abilities. Big plays charge it faster, and timing can flip close games. Beginner tip: Save your strongest momentum moment for key possessions."
+        },
+        {
+          "name": "NBA The Run Step 6: Earn Cred and Unlock Style Rewards",
+          "type": "Beginner Step",
+          "description": "Winning matches earns Cred for cosmetics like jerseys, advanced dunks, taunts, badges, banners, and Rookie Variants. Beginner tip: Build a style you enjoy first, then scale your unlock plan."
+        },
+        {
+          "name": "NBA The Run Step 7: Practice Before Competitive Runs",
+          "type": "Beginner Step",
+          "description": "Shootaround is the core practice space, while Knockout Friends supports private tournament setups versus AI, with friends, or against invited players. Beginner tip: Use practice and private play to lock in movement and finishing timing."
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
       "title": "NBA The Run Game Modes",
       "displayType": "threatCards",
-      "intro": "NBA THE RUN mode design centers around knockout competition with multiple entry styles for solo players, squads, and friend-driven sessions.",
+      "intro": "NBA The Run launches with three confirmed knockout modes. Each one changes who you control, how team setup works, and how social or private play is handled.",
       "creatures": [
         {
-          "name": "NBA The Run Knockout Solos",
-          "role": "Core Mode",
-          "description": "Solo queue flow for players who want independent progression and matchmaking."
+          "name": "NBA The Run Knockout Squads",
+          "role": "Co-Op Knockout Mode",
+          "description": "You control one player on a squad of three and fill the team with friends or matched players. Best for role-based team play where each person controls one athlete."
         },
         {
-          "name": "NBA The Run Knockout Squads",
-          "role": "Core Mode",
-          "description": "Premade team structure for coordinated tournament runs with shared strategy."
+          "name": "NBA The Run Knockout Solos",
+          "role": "Full-Team Control Mode",
+          "description": "You build and control your own team of three against other three-player teams. Best for players who want full control over switching, offense, defense, and match decisions."
         },
         {
           "name": "NBA The Run Knockout Friends",
-          "role": "Core Mode",
-          "description": "Friend-focused tournament experiences built around private or social sessions."
-        },
-        {
-          "name": "NBA The Run Shootaround",
-          "role": "Practice Mode",
-          "description": "Practice-oriented space for testing timing, dribble rhythm, and finishing setup."
+          "role": "Private Tournament Mode",
+          "description": "Private tournament format with the widest setup range: play solo versus AI, team up with friends versus AI, or run invited head-to-head competition. Supports up to 48 players at launch."
         }
       ]
     },
     "lucidBlocksMobilityGear": {
       "title": "NBA The Run Knockout Tournament",
       "displayType": "cards",
-      "intro": "Knockout tournaments are the heartbeat of NBA THE RUN, where short rounds and shifting rules force fast adaptation.",
+      "intro": "NBA The Run tournaments run on a four-round knockout structure: enter, survive short 3v3 rounds, adapt to ruleset changes, reach the finals court, and run it back with Cred rewards.",
       "items": [
         {
-          "name": "NBA The Run Round One Pace",
-          "type": "Tournament Step",
-          "description": "Opening round momentum matters because early mistakes can eliminate strong teams fast."
+          "name": "NBA The Run Step 1: Enter a Knockout Tournament",
+          "type": "Tournament Step 1",
+          "description": "Every game starts as a four-round knockout run. Entry can come through Solos, Squads, or private Knockout Friends setup. Player goal: Start the run and prepare to win multiple short rounds."
         },
         {
-          "name": "NBA The Run Rule Variation",
-          "type": "Tournament Step",
-          "description": "Randomized rulesets change spacing, shot value, or possession decisions each session."
+          "name": "NBA The Run Step 2: Play Fast 3v3 Rounds",
+          "type": "Tournament Step 2",
+          "description": "Teams of three play quick-burst rounds on iconic streetball courts around the world. Player goal: Win the current matchup and stay alive in the bracket."
         },
         {
-          "name": "NBA The Run Finals Pressure",
-          "type": "Tournament Step",
-          "description": "Final rounds amplify execution value and reward teams that preserve composure."
+          "name": "NBA The Run Step 3: Adapt to Randomized Rulesets",
+          "type": "Tournament Step 3",
+          "description": "Each round can include a randomized ruleset that changes offensive, defensive, and momentum decisions. Player goal: Read the rule twist quickly and adjust before opponents do."
         },
         {
-          "name": "NBA The Run Adaptation Priority",
-          "type": "Tournament Step",
-          "description": "Teams that read format changes early gain an advantage over static game plans."
+          "name": "NBA The Run Step 4: Win to Advance",
+          "type": "Tournament Step 4",
+          "description": "The loop is direct: win, advance, repeat. A loss ends the run, while a win moves your team toward the final. Player goal: Stack wins across all four rounds."
+        },
+        {
+          "name": "NBA The Run Step 5: Reach the Championship Game",
+          "type": "Tournament Step 5",
+          "description": "Each tournament ends on one of four designated finals courts where the Run the World trophy is decided. Player goal: Win the final and complete the run."
+        },
+        {
+          "name": "NBA The Run Step 6: Earn Cred and Run It Back",
+          "type": "Tournament Step 6",
+          "description": "Winning rounds and tournaments earns Cred for cosmetics including jerseys, advanced dunks, taunts, badges, banners, and Rookie Variants. Player goal: Customize your style, then queue the next run."
         }
       ],
       "unlockMilestones": [
-        "NBA The Run Win Opening Round",
-        "NBA The Run Adjust to Rule Shift",
-        "NBA The Run Close Finals Possessions"
+        "NBA The Run Enter Through Solos, Squads, or Friends",
+        "NBA The Run Adapt to Randomized Rulesets",
+        "NBA The Run Win the Championship Game",
+        "NBA The Run Convert Wins Into Cred Unlocks"
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
