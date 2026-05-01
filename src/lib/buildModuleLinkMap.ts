@@ -26,34 +26,34 @@ const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
   lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
   lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
   lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  lucidBlocksSteamDeckAndController: { field: 'items', nameKey: 'title' },
+  lucidBlocksSettingsAndAccessibility: { field: 'items', nameKey: 'question' },
+  lucidBlocksUpdatesAndPatchNotes: { field: 'items', nameKey: 'title' },
+  lucidBlocksCrashFixAndTroubleshooting: { field: 'rows', nameKey: 'category' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  lucidBlocksBeginnerGuide: ['release date', 'launch window', 'june 2026', 'countdown', 'announcements'],
+  lucidBlocksApotheosisCrafting: ['steam playtest', 'closed beta', 'invite', 'waitlist', 'playtest dashboard'],
+  lucidBlocksToolsAndWeapons: ['platforms', 'steam', 'playstation 5', 'xbox series x s', 'store pages'],
+  lucidBlocksStorageAndInventory: ['gameplay trailer', 'official trailer', '3v3 footage', 'streetball', 'showcase'],
+  lucidBlocksQualiaAndBaseBuilding: ['gameplay overview', 'online 3v3', 'in the zone', 'momentum', 'solos', 'squads'],
+  lucidBlocksWorldRegions: ['beginner guide', 'knockout format', 'offense', 'defense', 'progression'],
+  lucidBlocksCreaturesAndEnemies: ['game modes', 'knockout squads', 'solos', 'private run', 'multiplayer'],
+  lucidBlocksMobilityGear: ['knockout tournament', 'four rounds', 'elimination', 'semifinal', 'finals'],
+  lucidBlocksFarmingAndGrowth: ['roster', 'playmakers', 'shooters', 'dunkers', 'defensive anchors', 'two way'],
+  lucidBlocksBestEarlyUnlocks: ['best players', 'watchlist', 'takeover cores', 'archetypes', 'lineups'],
+  lucidBlocksAchievementTracker: ['in the zone', 'abilities', 'posterizer', 'signature', 'momentum'],
+  lucidBlocksSingleplayerAndPlatformFAQ: ['controls', 'skill moves', 'rollback netcode', 'dribble', 'timing'],
+  lucidBlocksSteamDeckAndController: ['courts', 'venice beach', 'rinconada', 'neo seoul', 'dubai rooftop'],
+  lucidBlocksSettingsAndAccessibility: ['multiplayer', 'online 3v3', 'private tournaments', 'cross platform', 'squads'],
+  lucidBlocksUpdatesAndPatchNotes: ['progression', 'cred', 'the shop', 'ranked rewards', 'trophies'],
+  lucidBlocksCrashFixAndTroubleshooting: ['system requirements', '64 bit', 'storage', 'network', 'support links'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['nba', 'run', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +77,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of "NBA The Run")
+  const strippedQuery = normalizedQuery.replace(/nba( the)? run\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/nba( the)? run\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }
