@@ -1,4 +1,13 @@
-import type { LucideIcon } from 'lucide-react'
+import {
+	BadgeDollarSign,
+	BookOpen,
+	CalendarDays,
+	FlaskConical,
+	MonitorSmartphone,
+	Trophy,
+	Users,
+	type LucideIcon,
+} from 'lucide-react'
 
 export interface NavigationItem {
 	key: string // 用于翻译键，如 'codes' -> t('nav.codes')
@@ -7,7 +16,50 @@ export interface NavigationItem {
 	isContentType: boolean // 是否对应 content/ 目录
 }
 
-export const NAVIGATION_CONFIG: NavigationItem[] = []
+export const NAVIGATION_CONFIG: NavigationItem[] = [
+	{
+		key: 'release',
+		path: '/release',
+		icon: CalendarDays,
+		isContentType: true,
+	},
+	{
+		key: 'playtest',
+		path: '/playtest',
+		icon: FlaskConical,
+		isContentType: true,
+	},
+	{
+		key: 'platforms',
+		path: '/platforms',
+		icon: MonitorSmartphone,
+		isContentType: true,
+	},
+	{
+		key: 'price',
+		path: '/price',
+		icon: BadgeDollarSign,
+		isContentType: true,
+	},
+	{
+		key: 'guide',
+		path: '/guide',
+		icon: BookOpen,
+		isContentType: true,
+	},
+	{
+		key: 'modes',
+		path: '/modes',
+		icon: Trophy,
+		isContentType: true,
+	},
+	{
+		key: 'roster',
+		path: '/roster',
+		icon: Users,
+		isContentType: true,
+	},
+]
 
 // 从配置派生内容类型列表（用于路由和内容加载）
 export const CONTENT_TYPES = NAVIGATION_CONFIG.filter((item) => item.isContentType).map(

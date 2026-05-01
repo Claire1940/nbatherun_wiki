@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Guides",
-    "crafting": "Fabrication",
-    "items": "Objets",
-    "biomes": "Biomes",
-    "building": "Construction",
-    "support": "Support"
+    "release": "Release",
+    "playtest": "Playtest",
+    "platforms": "Platforms",
+    "price": "Price",
+    "guide": "Guide",
+    "modes": "Modes",
+    "roster": "Roster"
   },
   "common": {
     "home": "Accueil",

@@ -1,47 +1,101 @@
 {
+  "content_count_after_merge": 60,
   "categories": [
     {
-      "category": "Guides",
+      "category": "release",
       "keywords": [
-        "lucid blocks guide"
+        "NBA The Run release date",
+        "NBA The Run date",
+        "NBA The Run game release date",
+        "NBA The Run ps5 release date",
+        "NBA The Run xbox release date",
+        "NBA The Run when does it come out",
+        "NBA The Run when does it release",
+        "NBA The Run is it out",
+        "NBA The Run early access"
       ]
     },
     {
-      "category": "Crafting",
+      "category": "playtest",
       "keywords": [
-        "lucid blocks crafting recipes",
-        "lucid blocks apotheosis"
+        "NBA The Run playtest",
+        "NBA The Run beta",
+        "NBA The Run playtesting",
+        "NBA The Run play test",
+        "NBA The Run sign up",
+        "NBA The Run demo"
       ]
     },
     {
-      "category": "Items",
+      "category": "platforms",
       "keywords": [
-        "lucid blocks faith wand",
-        "lucid blocks bee glider",
-        "lucid blocks chest",
-        "lucid blocks osmium"
+        "NBA The Run steam",
+        "NBA The Run pc",
+        "NBA The Run ps5",
+        "NBA The Run xbox",
+        "NBA The Run xbox series x",
+        "NBA The Run switch 2",
+        "NBA The Run nintendo switch",
+        "NBA The Run android",
+        "NBA The Run mobile",
+        "NBA The Run ps4"
       ]
     },
     {
-      "category": "Biomes",
+      "category": "price",
       "keywords": [
-        "lucid blocks tiamana leyline"
+        "NBA The Run price",
+        "NBA The Run cost",
+        "NBA The Run free",
+        "NBA The Run free to play",
+        "NBA The Run preorder"
       ]
     },
     {
-      "category": "Building",
+      "category": "guide",
       "keywords": [
-        "lucid blocks qualia"
+        "NBA The Run guide",
+        "NBA The Run beginner guide",
+        "NBA The Run how to play",
+        "NBA The Run tips",
+        "NBA The Run controls",
+        "NBA The Run best settings",
+        "NBA The Run faq",
+        "NBA The Run online only",
+        "NBA The Run offline",
+        "NBA The Run offline mode",
+        "NBA The Run single player",
+        "NBA The Run how many players",
+        "NBA The Run crossplay"
       ]
     },
     {
-      "category": "Support",
+      "category": "modes",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks full screen",
-        "lucid blocks multiplayer",
-        "lucid blocks android"
+        "NBA The Run game modes",
+        "NBA The Run create a player",
+        "NBA The Run story mode",
+        "NBA The Run multiplayer",
+        "NBA The Run squads",
+        "NBA The Run solos",
+        "NBA The Run tournaments",
+        "NBA The Run championship",
+        "NBA The Run rollback netcode"
+      ]
+    },
+    {
+      "category": "roster",
+      "keywords": [
+        "NBA The Run roster",
+        "NBA The Run players",
+        "NBA The Run characters",
+        "NBA The Run legends",
+        "NBA The Run street legends",
+        "NBA The Run lebron",
+        "NBA The Run ja morant",
+        "NBA The Run stretch monroe"
       ]
     }
-  ]
+  ],
+  "contentCountAfterMerging": 60
 }

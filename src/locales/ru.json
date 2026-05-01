@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Руководства",
-    "crafting": "Крафт",
-    "items": "Предметы",
-    "biomes": "Биомы",
-    "building": "Строительство",
-    "support": "Поддержка"
+    "release": "Release",
+    "playtest": "Playtest",
+    "platforms": "Platforms",
+    "price": "Price",
+    "guide": "Guide",
+    "modes": "Modes",
+    "roster": "Roster"
   },
   "common": {
     "home": "Главная",

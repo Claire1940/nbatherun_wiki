@@ -10,7 +10,15 @@
       "twitterDescription": "NBA THE RUN guide for release updates, playtests, roster news, gameplay systems, and platform details."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "playtest": "Playtest",
+    "platforms": "Platforms",
+    "price": "Price",
+    "guide": "Guide",
+    "modes": "Modes",
+    "roster": "Roster"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -994,125 +1002,145 @@
     "youtube": "Official YouTube Trailer"
   },
   "pages": {
-    "guides": {
-      "title": "NBA The Run Guides",
-      "description": "Practical NBA The Run guides for release prep, match fundamentals, and competitive improvement.",
-      "metaTitle": "NBA The Run Guides - Beginner to Advanced Play",
-      "metaDescription": "NBA The Run guides covering release prep, team play, knockout strategy, and core gameplay systems.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are NBA The Run Guides?",
-      "whatIsDescription": "Guides focused on NBA The Run match flow, team roles, tournaments, and progression systems.",
-      "why": "Why read NBA The Run guides?",
+    "release": {
+      "title": "NBA The Run Release",
+      "description": "Track NBA The Run launch timing, official milestones, and timeline updates in one place.",
+      "metaTitle": "NBA The Run Release - Launch Window and Timeline",
+      "metaDescription": "Follow NBA The Run release coverage with launch window milestones, official announcements, and rollout timeline updates.",
+      "categoryLabel": "RELEASE TIMELINE",
+      "whatIs": "What is NBA The Run Release coverage?",
+      "whatIsDescription": "This category tracks NBA The Run launch windows, milestone announcements, and date-related updates from official channels.",
+      "why": "Why follow NBA The Run release updates?",
       "whySteps": {
-        "step1Title": "Learn Core Flow",
-        "step1Description": "Understand NBA The Run pacing, possession value, and match priorities",
-        "step2Title": "Improve Team Play",
-        "step2Description": "Build stronger 3v3 coordination and cleaner decision-making",
-        "step3Title": "Win More Rounds",
-        "step3Description": "Apply proven knockout tournament habits under pressure"
+        "step1Title": "See Date Changes Early",
+        "step1Description": "Track how NBA The Run release windows shift as new announcements go live.",
+        "step2Title": "Plan Your Schedule",
+        "step2Description": "Use milestone timing to prepare your platform setup before NBA The Run launches.",
+        "step3Title": "Avoid Missing Launch News",
+        "step3Description": "Keep all NBA The Run release information in one focused timeline feed."
       },
       "featured": "Featured & Essential",
-      "all": "All NBA The Run Guides"
+      "all": "All NBA The Run Release Articles"
     },
-    "crafting": {
+    "playtest": {
       "title": "NBA The Run Playtest",
-      "description": "Track NBA The Run playtest timing, invite flow, and preparation checklists.",
-      "metaTitle": "NBA The Run Playtest - Sign-Up & Access Guide",
-      "metaDescription": "NBA The Run playtest guide covering registration, invite handling, and first-session preparation.",
-      "categoryLabel": "PLAYTEST TRACKER",
-      "whatIs": "What is the NBA The Run Playtest?",
-      "whatIsDescription": "A scheduled closed test process used to gather gameplay feedback before full launch.",
-      "why": "Why follow playtest updates?",
+      "description": "Monitor NBA The Run playtest rounds, access steps, and participation preparation.",
+      "metaTitle": "NBA The Run Playtest - Access and Session Prep",
+      "metaDescription": "Get NBA The Run playtest updates, including sign-up flow, session windows, and access preparation details.",
+      "categoryLabel": "PLAYTEST ACCESS",
+      "whatIs": "What is NBA The Run Playtest coverage?",
+      "whatIsDescription": "This category focuses on NBA The Run test sessions, entry steps, and practical preparation for upcoming rounds.",
+      "why": "Why track NBA The Run playtest updates?",
       "whySteps": {
-        "step1Title": "Know Access Steps",
-        "step1Description": "Follow the NBA The Run registration and invite workflow",
-        "step2Title": "Prepare Early",
-        "step2Description": "Set up platform accounts and session availability before test windows",
-        "step3Title": "Track New Rounds",
-        "step3Description": "Stay current as NBA The Run announces additional tests"
+        "step1Title": "Follow Entry Flow",
+        "step1Description": "Understand how NBA The Run playtest registration and invites are handled.",
+        "step2Title": "Prepare Before Sessions",
+        "step2Description": "Set up accounts, platform access, and availability before NBA The Run test windows.",
+        "step3Title": "Track New Test Rounds",
+        "step3Description": "Stay current when NBA The Run announces additional playtest opportunities."
       },
       "featured": "Featured & Essential",
       "all": "All NBA The Run Playtest Articles"
     },
-    "items": {
-      "title": "NBA The Run Roster",
-      "description": "Roster guides for NBA stars, Street Legends, and variant player identities.",
-      "metaTitle": "NBA The Run Roster - Players & Variants",
-      "metaDescription": "Track NBA The Run roster updates, confirmed players, Street Legends, and role expectations.",
-      "categoryLabel": "ROSTER & ROLES",
-      "whatIs": "What is in the NBA The Run roster?",
-      "whatIsDescription": "Coverage of confirmed players, style archetypes, and updates as official roster news expands.",
-      "why": "Why follow roster guides?",
+    "platforms": {
+      "title": "NBA The Run Platforms",
+      "description": "Explore NBA The Run platform coverage across Steam, PlayStation 5, and Xbox Series X|S.",
+      "metaTitle": "NBA The Run Platforms - Steam, PS5, and Xbox Coverage",
+      "metaDescription": "Review NBA The Run platform details including Steam, PlayStation 5, Xbox Series X|S, and launch availability notes.",
+      "categoryLabel": "PLATFORM COVERAGE",
+      "whatIs": "What are NBA The Run Platforms articles?",
+      "whatIsDescription": "This category organizes NBA The Run platform availability, store presence, and cross-platform access notes.",
+      "why": "Why read NBA The Run platform guides?",
       "whySteps": {
-        "step1Title": "Track Confirmed Names",
-        "step1Description": "See which NBA The Run players are officially revealed",
-        "step2Title": "Build Better Teams",
-        "step2Description": "Understand role fit for 3v3 team combinations",
-        "step3Title": "Plan Progression",
-        "step3Description": "Prioritize player identities that match your playstyle"
+        "step1Title": "Pick Your Platform",
+        "step1Description": "Compare where NBA The Run is available and how each platform entry is presented.",
+        "step2Title": "Track Store Status",
+        "step2Description": "Follow updates to NBA The Run store pages, wishlist options, and listing changes.",
+        "step3Title": "Prepare Cross-Platform Play",
+        "step3Description": "Understand how NBA The Run platform support affects your team and friends list."
+      },
+      "featured": "Featured & Essential",
+      "all": "All NBA The Run Platforms Articles"
+    },
+    "price": {
+      "title": "NBA The Run Price",
+      "description": "Follow NBA The Run pricing updates, edition details, and purchasing information as they are announced.",
+      "metaTitle": "NBA The Run Price - Editions and Purchase Details",
+      "metaDescription": "Track NBA The Run price updates, edition differences, and purchase-related details for launch planning.",
+      "categoryLabel": "PRICE TRACKER",
+      "whatIs": "What is NBA The Run Price coverage?",
+      "whatIsDescription": "This category tracks NBA The Run pricing, edition breakdowns, and buy-flow information from official storefront updates.",
+      "why": "Why check NBA The Run price pages?",
+      "whySteps": {
+        "step1Title": "Watch Price Updates",
+        "step1Description": "Stay aligned with official NBA The Run pricing announcements and store revisions.",
+        "step2Title": "Compare Editions",
+        "step2Description": "Review NBA The Run edition options and decide which package best fits your plans.",
+        "step3Title": "Plan Your Purchase",
+        "step3Description": "Use NBA The Run price and edition details to prepare your launch-day checkout flow."
+      },
+      "featured": "Featured & Essential",
+      "all": "All NBA The Run Price Articles"
+    },
+    "guide": {
+      "title": "NBA The Run Guide",
+      "description": "Learn NBA The Run fundamentals with practical guides for controls, pacing, roles, and match decisions.",
+      "metaTitle": "NBA The Run Guide - Beginner and Competitive Basics",
+      "metaDescription": "Use NBA The Run guide articles to improve fundamentals, team coordination, and in-match decisions from day one.",
+      "categoryLabel": "GAME GUIDE",
+      "whatIs": "What is the NBA The Run Guide category?",
+      "whatIsDescription": "This category covers NBA The Run fundamentals, onboarding steps, and gameplay habits that improve consistency.",
+      "why": "Why read NBA The Run guide articles?",
+      "whySteps": {
+        "step1Title": "Build Core Skills",
+        "step1Description": "Learn NBA The Run movement, spacing, and possession priorities with clear practical breakdowns.",
+        "step2Title": "Improve Team Coordination",
+        "step2Description": "Use role-based NBA The Run guide tips to communicate and rotate more effectively in 3v3.",
+        "step3Title": "Play Cleaner Under Pressure",
+        "step3Description": "Apply NBA The Run guide checklists to make stronger decisions in fast knockout moments."
+      },
+      "featured": "Featured & Essential",
+      "all": "All NBA The Run Guide Articles"
+    },
+    "modes": {
+      "title": "NBA The Run Modes",
+      "description": "Break down NBA The Run mode formats, queue types, and tournament structures.",
+      "metaTitle": "NBA The Run Modes - Solos, Squads, and Tournament Formats",
+      "metaDescription": "Understand NBA The Run modes with focused coverage of solos, squads, friend sessions, and knockout structures.",
+      "categoryLabel": "MODE BREAKDOWN",
+      "whatIs": "What are NBA The Run Modes articles?",
+      "whatIsDescription": "This category explains NBA The Run queue types, round structures, and competition formats.",
+      "why": "Why follow NBA The Run mode guides?",
+      "whySteps": {
+        "step1Title": "Choose the Right Queue",
+        "step1Description": "Match NBA The Run mode selection to your squad size and session goals.",
+        "step2Title": "Understand Tournament Flow",
+        "step2Description": "Learn NBA The Run round pacing and structure before entering knockout brackets.",
+        "step3Title": "Adapt by Format",
+        "step3Description": "Use NBA The Run mode context to adjust strategies between solos, squads, and friend sessions."
+      },
+      "featured": "Featured & Essential",
+      "all": "All NBA The Run Modes Articles"
+    },
+    "roster": {
+      "title": "NBA The Run Roster",
+      "description": "Track NBA The Run roster news including featured players, legends, and role archetypes.",
+      "metaTitle": "NBA The Run Roster - Players, Legends, and Role Archetypes",
+      "metaDescription": "Follow NBA The Run roster updates with player spotlights, role archetypes, and lineup planning context.",
+      "categoryLabel": "ROSTER TRACKER",
+      "whatIs": "What is NBA The Run Roster coverage?",
+      "whatIsDescription": "This category tracks NBA The Run player reveals, lineup options, and role identities for team planning.",
+      "why": "Why monitor NBA The Run roster updates?",
+      "whySteps": {
+        "step1Title": "Track Player Reveals",
+        "step1Description": "Stay current with NBA The Run roster announcements and legend spotlights.",
+        "step2Title": "Plan Lineup Roles",
+        "step2Description": "Use NBA The Run roster context to balance scorers, facilitators, and defenders.",
+        "step3Title": "Adjust Team Strategy",
+        "step3Description": "Apply NBA The Run roster changes to refine your squad priorities over time."
       },
       "featured": "Featured & Essential",
       "all": "All NBA The Run Roster Articles"
-    },
-    "biomes": {
-      "title": "NBA The Run Courts",
-      "description": "Court guides covering known locations, visual identity, and match atmosphere.",
-      "metaTitle": "NBA The Run Courts - Locations & Match Style",
-      "metaDescription": "Explore NBA The Run courts, including highlighted streetball locations and visual match identity.",
-      "categoryLabel": "COURTS & LOCATIONS",
-      "whatIs": "What are NBA The Run courts?",
-      "whatIsDescription": "Court-focused coverage for known locations and how they frame gameplay presentation.",
-      "why": "Why follow court updates?",
-      "whySteps": {
-        "step1Title": "Know Featured Locations",
-        "step1Description": "Track core NBA The Run court settings from official media",
-        "step2Title": "Understand Match Identity",
-        "step2Description": "See how each court supports the streetball atmosphere",
-        "step3Title": "Follow New Additions",
-        "step3Description": "Update your knowledge as NBA The Run expands court variety"
-      },
-      "featured": "Featured & Essential",
-      "all": "All NBA The Run Court Articles"
-    },
-    "building": {
-      "title": "NBA The Run Modes",
-      "description": "Mode explainers for knockout formats, team queues, and multiplayer structures.",
-      "metaTitle": "NBA The Run Modes - Solos, Squads, and Tournaments",
-      "metaDescription": "Learn NBA The Run modes including knockout rounds, solo and squad queues, and progression flow.",
-      "categoryLabel": "MODES & COMPETITION",
-      "whatIs": "What are NBA The Run modes?",
-      "whatIsDescription": "A breakdown of the competitive formats and queue types available in NBA The Run.",
-      "why": "Why study mode guides?",
-      "whySteps": {
-        "step1Title": "Pick the Right Queue",
-        "step1Description": "Choose NBA The Run mode flow that matches your team setup",
-        "step2Title": "Adapt Faster",
-        "step2Description": "Use format knowledge to respond to round pressure",
-        "step3Title": "Improve Results",
-        "step3Description": "Match strategy to mode structure for cleaner tournament runs"
-      },
-      "featured": "Featured & Essential",
-      "all": "All NBA The Run Mode Articles"
-    },
-    "support": {
-      "title": "NBA The Run Support",
-      "description": "Technical support for setup checks, requirements tracking, and multiplayer readiness.",
-      "metaTitle": "NBA The Run Support - Setup & Requirement Guides",
-      "metaDescription": "Use NBA The Run support guides to track requirements, optimize setup, and troubleshoot common issues.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is NBA The Run support?",
-      "whatIsDescription": "Support content for system requirements, performance setup, and common technical guidance.",
-      "why": "Why check support guides?",
-      "whySteps": {
-        "step1Title": "Confirm Requirements",
-        "step1Description": "Track latest NBA The Run technical requirements before launch",
-        "step2Title": "Optimize Setup",
-        "step2Description": "Prepare platform and network settings for smooth online matches",
-        "step3Title": "Resolve Issues Quickly",
-        "step3Description": "Use targeted troubleshooting steps when issues appear"
-      },
-      "featured": "Featured & Essential",
-      "all": "All NBA The Run Support Articles"
     }
   }
 }
