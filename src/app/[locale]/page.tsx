@@ -19,6 +19,7 @@ const homeVideo = {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = await params
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.nbatherun.wiki'
+  const heroImageUrl = new URL('/images/hero.webp', siteUrl).toString()
   const title = 'NBA THE RUN - Release Date, Roster & Gameplay Guide'
   const description =
     'NBA THE RUN guide covering release date, Steam beta, roster, 3v3 gameplay, platforms, system requirements, trailers, news, and beginner tips.'
@@ -35,7 +36,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       siteName: 'NBA The Run',
       images: [
         {
-          url: `${siteUrl}/images/hero.webp`,
+          url: heroImageUrl,
           width: 1920,
           height: 1080,
           alt: 'NBA THE RUN - Official Hero Image',
@@ -46,7 +47,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       card: 'summary_large_image',
       title,
       description,
-      images: [`${siteUrl}/images/hero.webp`],
+      images: [heroImageUrl],
       creator: '@NBATHERUN',
     },
   }

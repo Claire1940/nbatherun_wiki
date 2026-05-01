@@ -88,6 +88,7 @@ export default function HomePageClient({
 }: HomePageClientProps) {
   const t = useMessages() as any
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.nbatherun.wiki'
+  const heroImageUrl = new URL('/images/hero.webp', siteUrl).toString()
   const externalLinks = {
     officialSite: 'https://nbatherun.com/',
     steamStore: 'https://store.steampowered.com/app/2866670/NBA_THE_RUN/',
@@ -111,7 +112,7 @@ export default function HomePageClient({
           'NBA THE RUN guide covering release date, Steam beta, roster, 3v3 gameplay, platforms, trailers, and beginner tips.',
         image: {
           '@type': 'ImageObject',
-          url: `${siteUrl}/images/hero.webp`,
+          url: heroImageUrl,
           width: 1920,
           height: 1080,
           caption: 'NBA THE RUN - Official Gameplay',
@@ -138,7 +139,7 @@ export default function HomePageClient({
         },
         image: {
           '@type': 'ImageObject',
-          url: `${siteUrl}/images/hero.webp`,
+          url: heroImageUrl,
           width: 1920,
           height: 1080,
           caption: 'NBA THE RUN - 3v3 Street Basketball',

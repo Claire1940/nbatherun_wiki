@@ -39,6 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.nbatherun.wiki'
 	const path = '/'
 	const localizedUrl = locale === 'en' ? siteUrl : `${siteUrl}/${locale}`
+	const heroImageUrl = new URL('/images/hero.webp', siteUrl).toString()
 	const metadataTitle = 'NBA THE RUN - Release Date, Roster & Gameplay Guide'
 	const metadataDescription =
 		'NBA THE RUN guide covering release date, Steam beta, roster, 3v3 gameplay, platforms, system requirements, trailers, news, and beginner tips.'
@@ -66,7 +67,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 			description: metadataDescription,
 			images: [
 				{
-					url: `${siteUrl}/images/hero.webp`,
+					url: heroImageUrl,
 					width: 1920,
 					height: 1080,
 					alt: 'NBA THE RUN - Official Hero Image',
@@ -77,7 +78,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 			card: 'summary_large_image',
 			title: metadataTitle,
 			description: metadataDescription,
-			images: [`${siteUrl}/images/hero.webp`],
+			images: [heroImageUrl],
 			creator: '@NBATHERUN',
 		},
 		icons: {
