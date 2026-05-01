@@ -103,22 +103,22 @@
       {
         "icon": "TrendingUp",
         "title": "NBA The Run Roster",
-        "description": "NBA stars, Street Legends, and rookie variants."
+        "description": "Grouped reveal pools for stars, variants, and legends."
       },
       {
         "icon": "Star",
-        "title": "NBA The Run Best Players",
-        "description": "Pre-launch watchlist by role and team fit."
+        "title": "NBA The Run Best Players Watchlist",
+        "description": "Tiered lineup cores, scorers, finishers, and defenders."
       },
       {
         "icon": "ClipboardCheck",
         "title": "NBA The Run In The Zone Abilities",
-        "description": "Momentum boosts and signature ability impact."
+        "description": "Best-use windows and squad tips for each signature boost."
       },
       {
         "icon": "MessageCircle",
-        "title": "NBA The Run Controls",
-        "description": "Input priorities for offense, defense, and movement."
+        "title": "NBA The Run Controls and Skill Moves",
+        "description": "Step-by-step practice flow for movement, defense, and timing."
       },
       {
         "icon": "Gamepad2",
@@ -404,124 +404,226 @@
     "lucidBlocksFarmingAndGrowth": {
       "title": "NBA The Run Roster",
       "displayType": "sections",
-      "intro": "NBA THE RUN roster coverage tracks confirmed NBA stars, Street Legends, and rookie variants as official updates expand the lineup.",
+      "intro": "NBA THE RUN centers its roster around high-impact streetball roles: shooters, dunkers, defensive anchors, playmakers, young two-way stars, and Street Legends. The launch pool includes more than 30 NBA stars, five Rookie Variants of NBA All-Stars, and five fictional Street Legends led by playable announcer Bobbito Garcia.",
       "sections": [
         {
-          "name": "NBA The Run NBA Stars",
-          "description": "Core roster identity is built around official NBA player representation."
+          "name": "NBA The Run Court Visionaries",
+          "description": "Type: NBA Stars. Players: LeBron James, Cade Cunningham, Tyrese Haliburton. Role focus: Primary playmaking, tempo control, passing, and half-court creation. Unlock context: Base roster reveal group."
         },
         {
-          "name": "NBA The Run Street Legends",
-          "description": "Streetball legends add style-specific identity beyond traditional NBA roles."
+          "name": "NBA The Run Green Light",
+          "description": "Type: NBA Stars. Players: Stephen Curry, Donovan Mitchell, Jalen Brunson. Role focus: Deep shooting, quick-release scoring, guard creation, and heat-check offense. Unlock context: Base roster reveal group."
+        },
+        {
+          "name": "NBA The Run Midrange Masters",
+          "description": "Type: NBA Stars. Players: Kevin Durant, Devin Booker, Shai Gilgeous-Alexander. Role focus: Shot creation, midrange scoring, isolation offense, and clutch buckets. Unlock context: Base roster reveal group."
+        },
+        {
+          "name": "NBA The Run Got Next",
+          "description": "Type: NBA Stars. Players: Cooper Flagg, Amen Thompson, Victor Wembanyama. Role focus: Young two-way upside, length, athleticism, and highlight plays. Unlock context: Base roster reveal group."
+        },
+        {
+          "name": "NBA The Run Flight Club",
+          "description": "Type: NBA Stars. Players: Anthony Edwards, Ja Morant, Zion Williamson. Role focus: Vertical finishing, contact dunks, speed, and above-the-rim pressure. Unlock context: Base roster reveal group."
+        },
+        {
+          "name": "NBA The Run Beasts in the East",
+          "description": "Type: NBA Stars. Players: Giannis Antetokounmpo, Jayson Tatum, Paolo Banchero. Role focus: Big-wing scoring, physical drives, defensive versatility, and takeover potential. Unlock context: Base roster reveal group."
+        },
+        {
+          "name": "NBA The Run No Fly Zone",
+          "description": "Type: NBA Stars. Players: Bam Adebayo, Scottie Barnes, Anthony Davis. Role focus: Defense, rim protection, switching, steals, blocks, and loose-ball pressure. Unlock context: Base roster reveal group."
+        },
+        {
+          "name": "NBA The Run Triple Threat MVPs",
+          "description": "Type: NBA Stars. Players: Nikola Jokić, James Harden, Joel Embiid. Role focus: MVP-level scoring, passing, post pressure, and matchup control. Unlock context: Base roster reveal group."
+        },
+        {
+          "name": "NBA The Run Special Delivery",
+          "description": "Type: NBA Stars. Players: LaMelo Ball, Trae Young, Tyrese Maxey. Role focus: Fast guards, creative passing, pace, pull-up shooting, and quick offense. Unlock context: Base roster reveal group."
+        },
+        {
+          "name": "NBA The Run Stat Sheet Stuffers",
+          "description": "Type: NBA Stars. Players: Luka Dončić, Josh Giddey, Jaylen Brown. Role focus: All-around creation, rebounding help, scoring balance, and flexible team fit. Unlock context: Base roster reveal group."
+        },
+        {
+          "name": "NBA The Run Community Additions",
+          "description": "Type: NBA Stars. Players: Kawhi Leonard, Damian Lillard. Role focus: Two-way scoring, elite shot-making, perimeter pressure, and late-game offense. Unlock context: Added to the launch roster through community response."
         },
         {
           "name": "NBA The Run Rookie Variants",
-          "description": "Younger-era player variants are part of the cosmetic and identity progression layer."
+          "description": "Type: Alternate NBA Star Versions. Players: LeBron James '03, Kevin Durant '07, Stephen Curry '09, Luka Dončić '18, Shai Gilgeous-Alexander '18. Role focus: Alternate early-career versions with different looks and play styles. Unlock context: Available through The Shop and progression rewards."
         },
         {
-          "name": "NBA The Run Ongoing Roster Tracking",
-          "description": "Roster pages should be updated as soon as official announcements add names."
+          "name": "NBA The Run Street Legends",
+          "description": "Type: Fictional Streetball Legends. Players: Bobbito Garcia and four additional fictional Street Legends. Role focus: Stylized streetball builds with major strengths, clear weaknesses, and personality-driven play. Unlock context: Unlocked by ranking up."
         }
       ],
       "growthMilestones": [
-        "NBA The Run Confirmed Star List",
-        "NBA The Run Street Legend Updates",
-        "NBA The Run Variant Expansion"
+        "NBA The Run 30+ NBA Stars at Launch",
+        "NBA The Run 5 Rookie Variants in The Shop",
+        "NBA The Run 5 Street Legends Including Bobbito Garcia",
+        "NBA The Run Community Additions: Kawhi Leonard and Damian Lillard"
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
-      "title": "NBA The Run Best Players",
+      "title": "NBA The Run Best Players Watchlist",
       "displayType": "priorityCards",
-      "intro": "Before full stats are available, NBA THE RUN best-player watchlists are built around role fit, playstyle impact, and synergy in 3v3 team structures.",
+      "intro": "NBA THE RUN is built around short online Knockout rounds, fast momentum swings, In the Zone abilities, and streetball-style team building. The best picks are players who can create instant offense, protect the rim, punish defenders in space, or fit cleanly beside two other stars.",
       "priorities": [
         {
-          "name": "NBA The Run Scoring Creator Watchlist",
-          "priority": "Essential",
-          "description": "Primary shot creators who can score through contact and create space under pressure."
+          "name": "NBA The Run 3v3 Takeover Cores",
+          "priority": "S Tier",
+          "description": "Players: LeBron James, Luka Dončić, Nikola Jokić, Giannis Antetokounmpo, Victor Wembanyama. Best for: Building a squad around one dominant creator or matchup breaker. Team fit: Pair with one shooter and one defensive finisher for balanced Solos or Squads play."
         },
         {
-          "name": "NBA The Run Rim Pressure Watchlist",
-          "priority": "Very High",
-          "description": "High-vertical finishers who convert transition opportunities and collapse defenses."
+          "name": "NBA The Run Elite Shot Creators",
+          "priority": "A+ Tier",
+          "description": "Players: Stephen Curry, Kevin Durant, Shai Gilgeous-Alexander, Devin Booker, Jayson Tatum, Damian Lillard. Best for: Spacing the court, creating late-clock buckets, and punishing overhelp. Team fit: Pair with a rim runner or defensive anchor so scoring gravity opens easy finishes."
         },
         {
-          "name": "NBA The Run Two-Way Defender Watchlist",
-          "priority": "High",
-          "description": "Perimeter disruptors with strong steal timing and switch coverage discipline."
+          "name": "NBA The Run Rim Pressure Finishers",
+          "priority": "A Tier",
+          "description": "Players: Anthony Edwards, Ja Morant, Zion Williamson, Anthony Davis, Joel Embiid, Paolo Banchero. Best for: Dunks, contact finishes, paint pressure, and quick momentum swings. Team fit: Pair with a passer or shooter to keep driving lanes open."
         },
         {
-          "name": "NBA The Run Team Engine Watchlist",
-          "priority": "High",
-          "description": "Playmakers who stabilize tempo and create efficient shots for teammates."
+          "name": "NBA The Run Defense and Two-Way Control",
+          "priority": "A- Tier",
+          "description": "Players: Bam Adebayo, Scottie Barnes, Kawhi Leonard, Jaylen Brown, Amen Thompson, Cooper Flagg. Best for: Stopping drives, switching matchups, chasing loose balls, and turning defense into offense. Team fit: Pair with a primary scorer so defensive stops quickly become transition points."
+        },
+        {
+          "name": "NBA The Run Speed Guards and Passers",
+          "priority": "B+ Tier",
+          "description": "Players: LaMelo Ball, Trae Young, Tyrese Maxey, Donovan Mitchell, Jalen Brunson, Tyrese Haliburton. Best for: Fast possessions, pull-up offense, ankle-breaking moves, and quick passing reads. Team fit: Pair with a dunker and a defender to cover size while keeping the offense explosive."
+        },
+        {
+          "name": "NBA The Run Flexible Team Builders",
+          "priority": "B Tier",
+          "description": "Players: Cade Cunningham, Josh Giddey, James Harden, Tyrese Haliburton, Kevin Durant '07, Stephen Curry '09. Best for: Creative squad experiments, alternate play styles, and role-based lineup building. Team fit: Use these picks to fill the missing skill in a lineup: passing, shooting, size, or pace."
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
       "title": "NBA The Run In The Zone Abilities",
       "displayType": "groups",
-      "intro": "In The Zone abilities act as momentum amplifiers in NBA THE RUN, creating high-impact swings when activated at the right moment.",
+      "intro": "In NBA THE RUN, signature abilities work like a streetball takeover moment: make big plays, fill momentum, activate at the right time, and force the other team to adjust. The system rewards timing, defense, rim pressure, and star-specific play styles.",
       "groups": [
         {
-          "name": "NBA The Run Offensive Ability Focus",
+          "name": "NBA The Run Posterizer",
           "achievements": [
             {
-              "title": "NBA The Run Posterizer Timing",
-              "description": "Use burst windows to convert high-value finishing opportunities at the rim."
+              "title": "NBA The Run Posterizer Best Use",
+              "description": "Role: Rim Pressure. Player example: Giannis Antetokounmpo. Attack the basket, finish through contact, and turn a dunk attempt into a momentum swing."
             },
             {
-              "title": "NBA The Run Space-Creation Burst",
-              "description": "Trigger momentum effects to separate from defenders and reset shot quality."
+              "title": "NBA The Run Posterizer Squad Tip",
+              "description": "Use Posterizer with a spacing guard so defenders cannot collapse early without giving up a shot."
             }
           ]
         },
         {
-          "name": "NBA The Run Defensive Ability Focus",
+          "name": "NBA The Run The Shadow",
           "achievements": [
             {
-              "title": "NBA The Run The Shadow Pressure",
-              "description": "Disrupt ball handlers with high-pressure defensive takeovers during key possessions."
+              "title": "NBA The Run The Shadow Best Use",
+              "description": "Role: Lockdown Defense. Player example: Jayson Tatum. Clamp ballhandlers, pressure late-clock possessions, and slow down isolation scorers."
             },
             {
-              "title": "NBA The Run Possession Swing Value",
-              "description": "Ability-driven steals and blocks can decide short-round tournament outcomes."
+              "title": "NBA The Run The Shadow Squad Tip",
+              "description": "Activate it when the opponent is trying to ride one scorer through a close round."
             }
           ]
         },
         {
-          "name": "NBA The Run Team Ability Coordination",
+          "name": "NBA The Run Ankle Breaker",
           "achievements": [
             {
-              "title": "NBA The Run Staggered Activation Plan",
-              "description": "Avoid overlapping burst windows so your team keeps momentum over longer stretches."
+              "title": "NBA The Run Ankle Breaker Best Use",
+              "description": "Role: Handle Creation. Player example: Jalen Brunson. Create separation with crossovers, punish aggressive defenders, and open pull-up or drive windows."
             },
             {
-              "title": "NBA The Run End-Game Ability Discipline",
-              "description": "Save reliable activation options for final possessions in close rounds."
+              "title": "NBA The Run Ankle Breaker Squad Tip",
+              "description": "Pair an Ankle Breaker guard with a dunker waiting for help defense to rotate."
+            }
+          ]
+        },
+        {
+          "name": "NBA The Run Spin Cycle",
+          "achievements": [
+            {
+              "title": "NBA The Run Spin Cycle Best Use",
+              "description": "Role: Street Legend Handles. Player example: Bobbito Garcia. Use spin rhythm, handle pressure, and creative streetball movement to create space or passing angles."
+            },
+            {
+              "title": "NBA The Run Spin Cycle Squad Tip",
+              "description": "Use it when defenders are overplaying the first move and chasing the ball too tightly."
+            }
+          ]
+        },
+        {
+          "name": "NBA The Run Momentum Builder",
+          "achievements": [
+            {
+              "title": "NBA The Run Momentum Builder Best Use",
+              "description": "Role: System Core. Player example: All players. Make big offensive or defensive plays to unlock In the Zone faster during short Knockout rounds."
+            },
+            {
+              "title": "NBA The Run Momentum Builder Squad Tip",
+              "description": "Blocks, steals, alley-oops, poster dunks, and clean shot creation all help swing possession energy."
+            }
+          ]
+        },
+        {
+          "name": "NBA The Run Takeover Timing",
+          "achievements": [
+            {
+              "title": "NBA The Run Takeover Timing Best Use",
+              "description": "Role: Activation Strategy. Player example: All players. Save activation for the possession that decides a comeback, closes a round, or breaks a tied game."
+            },
+            {
+              "title": "NBA The Run Takeover Timing Squad Tip",
+              "description": "Avoid spending a boost on low-leverage possessions and hold it for the swing possession."
             }
           ]
         }
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "NBA The Run Controls",
+      "title": "NBA The Run Controls and Skill Moves",
       "displayType": "faq",
-      "intro": "NBA THE RUN controls should be approached through practical priorities first: movement control, ball security, passing reads, shot timing, and defensive reactions.",
+      "intro": "NBA THE RUN is designed around responsive stick movement, rollback netcode, above-the-rim offense, and physical defense. Use this flow to practice what matters first before jumping into Solos, Squads, Shootaround, or Knockout Friends.",
       "faqs": [
         {
-          "question": "How should NBA The Run players start learning controls?",
-          "answer": "NBA The Run players should begin with movement, passing, and defensive positioning before advanced dribble chains."
+          "question": "How should NBA The Run players move into space before each play?",
+          "answer": "Start each possession by reading the defender, spacing the floor, and choosing whether to attack, pass, or reset. Use this before every drive or shot attempt so your first move has a clear purpose."
         },
         {
-          "question": "What control habits help NBA The Run offense?",
-          "answer": "NBA The Run offense improves when players protect possession, choose clean passing lanes, and finish high-value attempts."
+          "question": "How do NBA The Run crossovers and ankle-breaking moves create advantages?",
+          "answer": "Use quick direction changes to cross up aggressive defenders and create separation. Apply this against defenders overplaying one side, then chain one clean move into a shot, drive, or pass."
         },
         {
-          "question": "What control habits help NBA The Run defense?",
-          "answer": "NBA The Run defense improves with disciplined contest timing, help rotations, and measured steal attempts."
+          "question": "When should NBA The Run players attack with dunks and rim finishes?",
+          "answer": "Attack open lanes with high-flying dunks and strong rim pressure when help defenders are late. Time your takeoff so defenders must choose between contesting the shot or giving up a pass."
         },
         {
-          "question": "How should NBA The Run teams practice inputs?",
-          "answer": "NBA The Run teams can rehearse set actions and recovery routes in practice sessions before tournament queues."
+          "question": "How can NBA The Run players switch to a layup during a dunk attempt?",
+          "answer": "Use a mid-air finish change when a shot blocker meets you at the rim or jumps early. Read the defender before takeoff, then switch only when the block is coming."
+        },
+        {
+          "question": "How does NBA The Run spin movement connect to alley-oop setups?",
+          "answer": "Use a spin move to shift the defense, then throw a lob when a teammate cuts behind coverage or the rim protector steps toward the ball. Practice the timing between the spin, lane opening, and receiver jump."
+        },
+        {
+          "question": "What is the NBA The Run defensive priority for blocks, steals, and loose-ball dives?",
+          "answer": "Use blocks at the rim, steals against predictable dribbles, and dives when the ball comes free after contact. Stay in position first, then punish bad timing instead of chasing every steal."
+        },
+        {
+          "question": "When should NBA The Run players activate In the Zone during a round?",
+          "answer": "Build momentum through big plays, then activate a signature boost when one possession can decide the round, stop a comeback, or create a scoring run."
+        },
+        {
+          "question": "Where should NBA The Run players practice controls before competitive queues?",
+          "answer": "Use Shootaround and Knockout Friends to repeat core sequences: one crossover into a drive, one mid-air finish change, one defensive stop, and one In the Zone activation."
         }
       ]
     },
