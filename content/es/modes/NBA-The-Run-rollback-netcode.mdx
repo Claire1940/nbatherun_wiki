@@ -1,0 +1,166 @@
+export const metadata = {
+  title: "Rollback Netcode de NBA The Run: Guía de juego online y expectativas 2026",
+  description: "Una guía práctica de 2026 sobre expectativas del rollback netcode de NBA The Run, configuración, preparación de partidas y mejores prácticas competitivas online.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=NBA+The+Run+Netcode+Guide",
+  date: "2026-05-02",
+  author: "Equipo de NBA Wiki"
+}
+
+Si planeas competir online en el lanzamiento, entender el **rollback netcode de NBA The Run** debería estar al tope de tu lista de preparación. Los jugadores ya están preguntando si el **rollback netcode de NBA The Run** permitirá partidas fluidas entre regiones, timing de dribleo reactivo y disputas de tiro consistentes en juego de torneo. Ese enfoque tiene sentido: en títulos deportivos rápidos, el código online puede afectar desde tu explosión en el primer paso hasta las lecturas defensivas en los segundos finales. Esta guía desglosa qué significa el rollback netcode en términos prácticos, cómo configurar tu conexión para partidas más limpias y qué señales observar cuando el juego salga en junio de 2026. También obtendrás una lista de verificación para la semana de lanzamiento, un plan de pruebas y un marco realista para evaluar la calidad online sin sobrerreaccionar a la volatilidad del primer día.
+
+## Qué significa el rollback netcode para el juego online estilo NBA
+
+El rollback netcode predice las entradas inmediatas del jugador para que el juego se sienta responsivo, y luego corrige el estado si las entradas remotas difieren. En un título de baloncesto, eso importa porque las interacciones de fracción de segundo ocurren constantemente: robos, armado de tiro, closeouts, pantallas y saltos a líneas de pase dependen de ventanas de timing.
+
+Para el **rollback netcode de NBA The Run**, la pregunta clave no es “¿incluye rollback?” de forma aislada, sino qué tan bien la implementación maneja interacciones específicas del baloncesto bajo latencia real. Una buena implementación puede reducir la sensación de “estar bajo el agua” común en sistemas basados en delay. Una más débil aún puede sentirse entrecortada o con correcciones visuales durante acciones intensas.
+
+| Concepto de netcode | Lo que sientes en el juego | Por qué importa en modos 5v5/Street |
+|---|---|---|
+| **Predicción de entradas** | Respuesta más rápida al driblar o cambiar de defensor | Mantiene los controles precisos durante posesiones de presión |
+| **Corrección de estado (rollback)** | Ajuste visual ocasional si la predicción fue incorrecta | Puede afectar la confianza en intentos de finalización ajustados |
+| **Ventana de tolerancia a la latencia** | Algunas partidas se sienten estables incluso con ping alto | Amplía el rango de emparejamiento jugable |
+| **Manejo de desincronización** | La partida continúa vs. tirones/desconexiones | Crítico para la integridad del ranked y los torneos |
+
+> **Consejo:** Evalúa la calidad online con muestras repetidas de partidas (10–20 juegos), no con una sola sala mala. El tráfico temprano del lanzamiento en 2026 puede sesgar temporalmente las primeras impresiones.
+
+## Lo que sabemos oficialmente hasta ahora (y lo que hay que verificar en el lanzamiento)
+
+El material público actualmente enfatiza energía global, poder de estrellas y una vibra de torneo, con lanzamiento en junio de 2026 y mensajes de wishlist. Eso ayuda a enmarcar la dirección competitiva del juego, pero aún no ofrece especificaciones técnicas profundas de netcode en ese mismo material.
+
+Por ahora, trata las afirmaciones detalladas sobre el **rollback netcode de NBA The Run** como “por validar en el lanzamiento”, a menos que estén documentadas explícitamente por los desarrolladores.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/By-__8OWQCM"
+    title="NBA The Run - Official Gameplay Trailer"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+Puedes seguir actualizaciones oficiales mediante el [tráiler oficial de jugabilidad de NBA The Run](https://www.youtube.com/watch?v=By-__8OWQCM) y canales relacionados del editor a medida que se acerque el lanzamiento.
+
+### Lista de verificación de lanzamiento para afirmaciones de netcode
+
+Usa esta lista en la primera semana para evaluar objetivamente el **rollback netcode de NBA The Run**:
+
+| Punto de control | Cómo probarlo | Señal de aprobado |
+|---|---|---|
+| **Sensación de input lag** | Cancel de dribleo, pase por íconos, timing de contest en 5+ partidas | Las entradas se sienten inmediatas en partidas de ping bajo/medio |
+| **Correcciones visuales** | Observa contacto en contraataques e intentos de robo | Solo correcciones menores, no ajustes bruscos frecuentes |
+| **Estabilidad entre regiones** | Haz cola con amigos de otras regiones | Ritmo jugable sin rubber-banding constante |
+| **Comportamiento ante desconexión** | Monitorea abandonos/congelamientos en 10 partidas | Baja tasa de crasheos/desync, lógica clara de reconexión |
+| **Justicia en ranked** | Compara el mismo emparejamiento en distintos horarios | Capacidad de respuesta similar entre sesiones |
+
+## Configuración de rollback netcode en NBA The Run: mejores prácticas de conexión
+
+Incluso una infraestructura online excelente se beneficia de una buena configuración local. Si quieres lecturas limpias en partidas competitivas, trata tu red como parte de tu build.
+
+### 1) Prioriza Ethernet por cable
+
+El Wi‑Fi introduce interferencias, especialmente en zonas con muchos apartamentos. Ethernet reduce jitter y pérdida de paquetes, lo cual puede importar más que la velocidad bruta de descarga.
+
+### 2) Estabiliza el tráfico de red local
+
+Pausa subidas grandes, respaldos en la nube y streaming en segundo plano en redes compartidas durante sesiones ranked. El stream 4K de un familiar puede disparar tu latencia en el peor momento.
+
+### 3) Elige matchmaking inteligente por región
+
+Si el juego ofrece filtros de región o indicadores de calidad de conexión, úsalos para juego serio. Regiones más amplias están bien para sesiones casuales, pero la consistencia en ranked mejora con rutas más ajustadas.
+
+### 4) Optimiza la configuración de tu plataforma
+
+Activa modos de pantalla de baja latencia, modo juego en TV/monitor y mandos por cable cuando sea posible. Las mejoras de netcode pueden verse perjudicadas por el lag local de pantalla.
+
+| Elemento de configuración | Base recomendada (2026) | Objetivo competitivo |
+|---|---|---|
+| **Tipo de conexión** | Ethernet por cable | Cable + perfil QoS del router |
+| **Ping a servidores del juego** | Menos de 60 ms | Menos de 35 ms |
+| **Jitter** | Menos de 10 ms | Menos de 5 ms |
+| **Pérdida de paquetes** | 0–1% | 0% |
+| **Latencia de pantalla** | Modo Juego en TV | Monitor gaming de baja latencia |
+
+> **Advertencia:** No persigas solo la “velocidad de descarga”. La calidad del netcode depende más de la estabilidad de latencia, el control del jitter y la consistencia de paquetes.
+
+## Cómo interactúa el rollback con las mecánicas centrales de baloncesto
+
+En un título deportivo, la calidad del rollback debe medirse contra eventos prácticos de gameplay, no solo por si el movimiento “se siente bien”.
+
+### Creación con dribleo y penetración
+Si el **rollback netcode de NBA The Run** está bien ajustado, las explosiones del primer paso y las transiciones de cadenas de dribleo deberían registrarse rápido. Deberías poder castigar sobredefensas sin sentir retraso en tus propias entradas.
+
+### Contest de tiros y closeouts
+Los sistemas de contest son sensibles al timing. Una sincronización deficiente puede hacer que los defensores se sientan medio tiempo tarde o causar discrepancias visuales sobre las ventanas de release.
+
+### Rebotes y balones sueltos
+Estos momentos generan mucha colisión y cambios de estado. Observa si las correcciones de posición de los jugadores se mantienen sutiles o se vuelven disruptivas.
+
+### Robos, desvíos y líneas de pase
+Las apuestas defensivas dependen de anticipación precisa. Una implementación sólida de rollback ofrece resultados legibles; una débil puede sentirse aleatoria en posesiones caóticas.
+
+| Momento de gameplay | Cómo se siente un buen online | Señal de alerta |
+|---|---|---|
+| **Defensa on-ball** | Respuesta lateral predecible | Deslizamiento o cambios de dirección con retraso |
+| **Timing de release de tiro** | Ritmo consistente entre señal y release | Comportamiento inconsistente de la ventana verde |
+| **Defensa en transición** | Inputs de sprint y cambio fiables | Acelerones/frenadas repentinas |
+| **Finalizaciones con contacto** | Los resultados coinciden con la posición visible | Correcciones frecuentes de finalización tipo “teletransporte” |
+
+## Plan de pruebas competitivo para semana uno y semana dos
+
+En lugar de depender del ruido en redes sociales, ejecuta tu propio protocolo corto de pruebas. Esto te da datos accionables y ayuda a tu escuadra a adaptarse más rápido.
+
+### Semana uno: muestreo base
+- Juega 12–15 partidas en dos franjas horarias (pico y valle).
+- Registra región estimada del rival, sensación de conexión y correcciones visibles.
+- Separa tus notas por modo (casual, ranked, salas privadas).
+
+### Semana dos: escenarios de estrés
+- Prueba partidas personalizadas entre regiones con amigos.
+- Entra en sets ranked consecutivos para observar la consistencia del servidor.
+- Vuelve a probar tras parches y hotfixes; el comportamiento online puede cambiar rápido en 2026.
+
+### Plantilla simple de registro de partidas
+
+| Partida # | Modo | Hora (Local) | Sensación de conexión (1-5) | Rollbacks visibles | Notas |
+|---|---|---|---|---|---|
+| 1 | Ranked | 8:30 PM | 4 | Bajo | Timing de dribleo limpio |
+| 2 | Ranked | 8:45 PM | 3 | Medio | Una corrección fuerte en la pintura |
+| 3 | Casual | 10:10 PM | 5 | Bajo | Ritmo de cancha completa fluido |
+| 4 | Privada | 11:00 PM | 2 | Alto | Picos de jitter entre regiones |
+
+Este estilo de seguimiento te ayuda a identificar si los problemas son específicos del modo, del horario o de la región, un contexto importante antes de culpar de todo al **rollback netcode de NBA The Run**.
+
+## Expectativas prácticas para el mes de lanzamiento de 2026
+
+Un lanzamiento sólido no requiere condiciones online perfectas en cada partida. Requiere progreso claro, comunicación y señales consistentes de mejora.
+
+Ajusta tus expectativas en torno a:
+1. **Cadencia temprana de parches** (primeras 2–4 semanas),
+2. **Tendencia de estabilidad** (menos desyncs y correcciones con el tiempo),
+3. **Controles de calidad del matchmaking** (conciencia de región y conexión),
+4. **Herramientas de integridad competitiva** (lógica de reingreso, manejo anti-abandono y justicia del ranking).
+
+Si creas contenido o entrenas a una escuadra, presenta conclusiones como “resultados de la muestra actual” en lugar de veredictos permanentes. Los ecosistemas online evolucionan rápido tras el lanzamiento, especialmente en un título enfocado en torneos.
+
+> **Consejo Pro:** Haz una lista previa a la sesión: revisión de cableado, horas de bajo uso de ancho de banda, revisión del modo de pantalla y dos partidas de calentamiento antes del ranked. La consistencia vence a la frustración.
+
+## FAQ
+
+**Q: Is NBA The Run rollback netcode confirmed to be perfect for every region?**
+
+A: Es mejor evitar el lenguaje de “perfecto”. Evalúa la calidad de las partidas por región, modo y hora del día tras el lanzamiento. Un modelo con rollback puede mejorar la respuesta, pero los resultados reales aún dependen del enrutamiento, la carga del servidor y tu configuración local.
+
+**Q: How many times should I test NBA The Run rollback netcode before judging it?**
+
+A: Apunta a al menos 10–20 partidas en distintas franjas horarias. Incluye pruebas ranked y privadas para comparar consistencia. Una o dos partidas malas no son datos suficientes.
+
+**Q: What’s the fastest way to improve my online experience in NBA The Run?**
+
+A: Empieza con Ethernet, reduce el tráfico de red en segundo plano y usa opciones de matchmaking inteligente por región cuando estén disponibles. Estos pasos suelen ofrecer mejoras de estabilidad notables en juego competitivo.
+
+**Q: Can rollback netcode fix every input delay issue by itself?**
+
+A: No por sí solo. El netcode ayuda, pero el lag de pantalla, las interferencias de Wi‑Fi, el jitter y la pérdida de paquetes también pueden afectar el timing. Trata toda tu configuración (red + hardware) como parte de tu plan de rendimiento.
