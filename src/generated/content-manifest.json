@@ -1,0 +1,1278 @@
+{
+  "de": {
+    "guide": [
+      {
+        "slug": "NBA-The-Run-Got-Next",
+        "file": "NBA-The-Run-Got-Next"
+      },
+      {
+        "slug": "NBA-The-Run-beginner-guide",
+        "file": "NBA-The-Run-beginner-guide"
+      },
+      {
+        "slug": "NBA-The-Run-best-settings",
+        "file": "NBA-The-Run-best-settings"
+      },
+      {
+        "slug": "NBA-The-Run-crossplay",
+        "file": "NBA-The-Run-crossplay"
+      },
+      {
+        "slug": "NBA-The-Run-faq",
+        "file": "NBA-The-Run-faq"
+      },
+      {
+        "slug": "NBA-The-Run-gameplay",
+        "file": "NBA-The-Run-gameplay"
+      },
+      {
+        "slug": "NBA-The-Run-guide",
+        "file": "NBA-The-Run-guide"
+      },
+      {
+        "slug": "NBA-The-Run-how-many-players",
+        "file": "NBA-The-Run-how-many-players"
+      },
+      {
+        "slug": "NBA-The-Run-how-to-play",
+        "file": "NBA-The-Run-how-to-play"
+      },
+      {
+        "slug": "NBA-The-Run-offline-mode",
+        "file": "NBA-The-Run-offline-mode"
+      },
+      {
+        "slug": "NBA-The-Run-offline",
+        "file": "NBA-The-Run-offline"
+      },
+      {
+        "slug": "NBA-The-Run-online-only",
+        "file": "NBA-The-Run-online-only"
+      },
+      {
+        "slug": "NBA-The-Run-review",
+        "file": "NBA-The-Run-review"
+      },
+      {
+        "slug": "NBA-The-Run-single-player",
+        "file": "NBA-The-Run-single-player"
+      },
+      {
+        "slug": "NBA-The-Run-tips",
+        "file": "NBA-The-Run-tips"
+      },
+      {
+        "slug": "NBA-The-Run-vs-NBA-2k",
+        "file": "NBA-The-Run-vs-NBA-2k"
+      },
+      {
+        "slug": "nba-the-run-cover",
+        "file": "nba-the-run-cover"
+      },
+      {
+        "slug": "nba-the-run-creator",
+        "file": "nba-the-run-creator"
+      },
+      {
+        "slug": "nba-the-run-soundtrack",
+        "file": "nba-the-run-soundtrack"
+      }
+    ],
+    "modes": [
+      {
+        "slug": "NBA-The-Run-championship",
+        "file": "NBA-The-Run-championship"
+      },
+      {
+        "slug": "NBA-The-Run-create-a-player",
+        "file": "NBA-The-Run-create-a-player"
+      },
+      {
+        "slug": "NBA-The-Run-game-modes",
+        "file": "NBA-The-Run-game-modes"
+      },
+      {
+        "slug": "NBA-The-Run-multiplayer",
+        "file": "NBA-The-Run-multiplayer"
+      },
+      {
+        "slug": "NBA-The-Run-rollback-netcode",
+        "file": "NBA-The-Run-rollback-netcode"
+      },
+      {
+        "slug": "NBA-The-Run-solos",
+        "file": "NBA-The-Run-solos"
+      },
+      {
+        "slug": "NBA-The-Run-squads",
+        "file": "NBA-The-Run-squads"
+      },
+      {
+        "slug": "NBA-The-Run-story-mode",
+        "file": "NBA-The-Run-story-mode"
+      },
+      {
+        "slug": "NBA-The-Run-tournaments",
+        "file": "NBA-The-Run-tournaments"
+      },
+      {
+        "slug": "NBA-The-Run-vs-NBA-Street",
+        "file": "NBA-The-Run-vs-NBA-Street"
+      },
+      {
+        "slug": "nba-the-run-courts",
+        "file": "nba-the-run-courts"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "NBA-The-Run-android",
+        "file": "NBA-The-Run-android"
+      },
+      {
+        "slug": "NBA-The-Run-mobile",
+        "file": "NBA-The-Run-mobile"
+      },
+      {
+        "slug": "NBA-The-Run-nintendo-switch",
+        "file": "NBA-The-Run-nintendo-switch"
+      },
+      {
+        "slug": "NBA-The-Run-pc",
+        "file": "NBA-The-Run-pc"
+      },
+      {
+        "slug": "NBA-The-Run-ps4",
+        "file": "NBA-The-Run-ps4"
+      },
+      {
+        "slug": "NBA-The-Run-ps5",
+        "file": "NBA-The-Run-ps5"
+      },
+      {
+        "slug": "NBA-The-Run-steam",
+        "file": "NBA-The-Run-steam"
+      },
+      {
+        "slug": "NBA-The-Run-switch-2",
+        "file": "NBA-The-Run-switch-2"
+      },
+      {
+        "slug": "NBA-The-Run-system-requirements",
+        "file": "NBA-The-Run-system-requirements"
+      },
+      {
+        "slug": "NBA-The-Run-xbox-series-x",
+        "file": "NBA-The-Run-xbox-series-x"
+      },
+      {
+        "slug": "NBA-The-Run-xbox",
+        "file": "NBA-The-Run-xbox"
+      },
+      {
+        "slug": "nba-the-run-switch",
+        "file": "nba-the-run-switch"
+      }
+    ],
+    "playtest": [
+      {
+        "slug": "NBA-The-Run-beta",
+        "file": "NBA-The-Run-beta"
+      },
+      {
+        "slug": "NBA-The-Run-demo",
+        "file": "NBA-The-Run-demo"
+      },
+      {
+        "slug": "NBA-The-Run-play-test",
+        "file": "NBA-The-Run-play-test"
+      },
+      {
+        "slug": "NBA-The-Run-playtest",
+        "file": "NBA-The-Run-playtest"
+      },
+      {
+        "slug": "NBA-The-Run-playtesting",
+        "file": "NBA-The-Run-playtesting"
+      },
+      {
+        "slug": "NBA-The-Run-sign-up",
+        "file": "NBA-The-Run-sign-up"
+      }
+    ],
+    "price": [
+      {
+        "slug": "NBA-The-Run-cost",
+        "file": "NBA-The-Run-cost"
+      },
+      {
+        "slug": "NBA-The-Run-free-to-play",
+        "file": "NBA-The-Run-free-to-play"
+      },
+      {
+        "slug": "NBA-The-Run-free",
+        "file": "NBA-The-Run-free"
+      },
+      {
+        "slug": "NBA-The-Run-preorder",
+        "file": "NBA-The-Run-preorder"
+      },
+      {
+        "slug": "NBA-The-Run-price",
+        "file": "NBA-The-Run-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "NBA-The-Run-date",
+        "file": "NBA-The-Run-date"
+      },
+      {
+        "slug": "NBA-The-Run-early-access",
+        "file": "NBA-The-Run-early-access"
+      },
+      {
+        "slug": "NBA-The-Run-game-release-date",
+        "file": "NBA-The-Run-game-release-date"
+      },
+      {
+        "slug": "NBA-The-Run-is-it-out",
+        "file": "NBA-The-Run-is-it-out"
+      },
+      {
+        "slug": "NBA-The-Run-news",
+        "file": "NBA-The-Run-news"
+      },
+      {
+        "slug": "NBA-The-Run-ps5-release-date",
+        "file": "NBA-The-Run-ps5-release-date"
+      },
+      {
+        "slug": "NBA-The-Run-release-date",
+        "file": "NBA-The-Run-release-date"
+      },
+      {
+        "slug": "NBA-The-Run-trailer",
+        "file": "NBA-The-Run-trailer"
+      },
+      {
+        "slug": "NBA-The-Run-update",
+        "file": "NBA-The-Run-update"
+      },
+      {
+        "slug": "NBA-The-Run-when-does-it-come-out",
+        "file": "NBA-The-Run-when-does-it-come-out"
+      },
+      {
+        "slug": "NBA-The-Run-when-does-it-release",
+        "file": "NBA-The-Run-when-does-it-release"
+      },
+      {
+        "slug": "NBA-The-Run-xbox-release-date",
+        "file": "NBA-The-Run-xbox-release-date"
+      }
+    ],
+    "roster": [
+      {
+        "slug": "NBA-The-Run-legends",
+        "file": "NBA-The-Run-legends"
+      },
+      {
+        "slug": "NBA-The-Run-players",
+        "file": "NBA-The-Run-players"
+      },
+      {
+        "slug": "NBA-The-Run-roster",
+        "file": "NBA-The-Run-roster"
+      },
+      {
+        "slug": "NBA-The-Run-street-legends",
+        "file": "NBA-The-Run-street-legends"
+      },
+      {
+        "slug": "nba-the-run-announcer",
+        "file": "nba-the-run-announcer"
+      }
+    ]
+  },
+  "en": {
+    "guide": [
+      {
+        "slug": "NBA-The-Run-Got-Next",
+        "file": "NBA-The-Run-Got-Next"
+      },
+      {
+        "slug": "NBA-The-Run-beginner-guide",
+        "file": "NBA-The-Run-beginner-guide"
+      },
+      {
+        "slug": "NBA-The-Run-best-settings",
+        "file": "NBA-The-Run-best-settings"
+      },
+      {
+        "slug": "NBA-The-Run-controls",
+        "file": "NBA-The-Run-controls"
+      },
+      {
+        "slug": "NBA-The-Run-crossplay",
+        "file": "NBA-The-Run-crossplay"
+      },
+      {
+        "slug": "NBA-The-Run-defense",
+        "file": "NBA-The-Run-defense"
+      },
+      {
+        "slug": "NBA-The-Run-faq",
+        "file": "NBA-The-Run-faq"
+      },
+      {
+        "slug": "NBA-The-Run-gameplay",
+        "file": "NBA-The-Run-gameplay"
+      },
+      {
+        "slug": "NBA-The-Run-guide",
+        "file": "NBA-The-Run-guide"
+      },
+      {
+        "slug": "NBA-The-Run-how-many-players",
+        "file": "NBA-The-Run-how-many-players"
+      },
+      {
+        "slug": "NBA-The-Run-how-to-play",
+        "file": "NBA-The-Run-how-to-play"
+      },
+      {
+        "slug": "NBA-The-Run-how-to-shoot",
+        "file": "NBA-The-Run-how-to-shoot"
+      },
+      {
+        "slug": "NBA-The-Run-meta",
+        "file": "NBA-The-Run-meta"
+      },
+      {
+        "slug": "NBA-The-Run-offline-mode",
+        "file": "NBA-The-Run-offline-mode"
+      },
+      {
+        "slug": "NBA-The-Run-offline",
+        "file": "NBA-The-Run-offline"
+      },
+      {
+        "slug": "NBA-The-Run-online-only",
+        "file": "NBA-The-Run-online-only"
+      },
+      {
+        "slug": "NBA-The-Run-player-count",
+        "file": "NBA-The-Run-player-count"
+      },
+      {
+        "slug": "NBA-The-Run-review",
+        "file": "NBA-The-Run-review"
+      },
+      {
+        "slug": "NBA-The-Run-single-player",
+        "file": "NBA-The-Run-single-player"
+      },
+      {
+        "slug": "NBA-The-Run-tier-list",
+        "file": "NBA-The-Run-tier-list"
+      },
+      {
+        "slug": "NBA-The-Run-tips",
+        "file": "NBA-The-Run-tips"
+      },
+      {
+        "slug": "NBA-The-Run-trophy-guide",
+        "file": "NBA-The-Run-trophy-guide"
+      },
+      {
+        "slug": "NBA-The-Run-vs-NBA-2k",
+        "file": "NBA-The-Run-vs-NBA-2k"
+      },
+      {
+        "slug": "nba-the-run-cover",
+        "file": "nba-the-run-cover"
+      },
+      {
+        "slug": "nba-the-run-creator",
+        "file": "nba-the-run-creator"
+      },
+      {
+        "slug": "nba-the-run-soundtrack",
+        "file": "nba-the-run-soundtrack"
+      }
+    ],
+    "modes": [
+      {
+        "slug": "NBA-The-Run-championship",
+        "file": "NBA-The-Run-championship"
+      },
+      {
+        "slug": "NBA-The-Run-create-a-player",
+        "file": "NBA-The-Run-create-a-player"
+      },
+      {
+        "slug": "NBA-The-Run-game-modes",
+        "file": "NBA-The-Run-game-modes"
+      },
+      {
+        "slug": "NBA-The-Run-gamebreaker",
+        "file": "NBA-The-Run-gamebreaker"
+      },
+      {
+        "slug": "NBA-The-Run-multiplayer",
+        "file": "NBA-The-Run-multiplayer"
+      },
+      {
+        "slug": "NBA-The-Run-rollback-netcode",
+        "file": "NBA-The-Run-rollback-netcode"
+      },
+      {
+        "slug": "NBA-The-Run-solos",
+        "file": "NBA-The-Run-solos"
+      },
+      {
+        "slug": "NBA-The-Run-squads",
+        "file": "NBA-The-Run-squads"
+      },
+      {
+        "slug": "NBA-The-Run-story-mode",
+        "file": "NBA-The-Run-story-mode"
+      },
+      {
+        "slug": "NBA-The-Run-tournaments",
+        "file": "NBA-The-Run-tournaments"
+      },
+      {
+        "slug": "NBA-The-Run-vs-NBA-Street",
+        "file": "NBA-The-Run-vs-NBA-Street"
+      },
+      {
+        "slug": "nba-the-run-courts",
+        "file": "nba-the-run-courts"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "NBA-The-Run-android",
+        "file": "NBA-The-Run-android"
+      },
+      {
+        "slug": "NBA-The-Run-mobile",
+        "file": "NBA-The-Run-mobile"
+      },
+      {
+        "slug": "NBA-The-Run-nintendo-switch",
+        "file": "NBA-The-Run-nintendo-switch"
+      },
+      {
+        "slug": "NBA-The-Run-pc",
+        "file": "NBA-The-Run-pc"
+      },
+      {
+        "slug": "NBA-The-Run-ps4",
+        "file": "NBA-The-Run-ps4"
+      },
+      {
+        "slug": "NBA-The-Run-ps5",
+        "file": "NBA-The-Run-ps5"
+      },
+      {
+        "slug": "NBA-The-Run-steam",
+        "file": "NBA-The-Run-steam"
+      },
+      {
+        "slug": "NBA-The-Run-switch-2",
+        "file": "NBA-The-Run-switch-2"
+      },
+      {
+        "slug": "NBA-The-Run-system-requirements",
+        "file": "NBA-The-Run-system-requirements"
+      },
+      {
+        "slug": "NBA-The-Run-xbox-series-x",
+        "file": "NBA-The-Run-xbox-series-x"
+      },
+      {
+        "slug": "NBA-The-Run-xbox",
+        "file": "NBA-The-Run-xbox"
+      },
+      {
+        "slug": "nba-the-run-switch",
+        "file": "nba-the-run-switch"
+      }
+    ],
+    "playtest": [
+      {
+        "slug": "NBA-The-Run-beta",
+        "file": "NBA-The-Run-beta"
+      },
+      {
+        "slug": "NBA-The-Run-demo",
+        "file": "NBA-The-Run-demo"
+      },
+      {
+        "slug": "NBA-The-Run-play-test",
+        "file": "NBA-The-Run-play-test"
+      },
+      {
+        "slug": "NBA-The-Run-playtest",
+        "file": "NBA-The-Run-playtest"
+      },
+      {
+        "slug": "NBA-The-Run-playtesting",
+        "file": "NBA-The-Run-playtesting"
+      },
+      {
+        "slug": "NBA-The-Run-sign-up",
+        "file": "NBA-The-Run-sign-up"
+      }
+    ],
+    "price": [
+      {
+        "slug": "NBA-The-Run-cost",
+        "file": "NBA-The-Run-cost"
+      },
+      {
+        "slug": "NBA-The-Run-free-to-play",
+        "file": "NBA-The-Run-free-to-play"
+      },
+      {
+        "slug": "NBA-The-Run-free",
+        "file": "NBA-The-Run-free"
+      },
+      {
+        "slug": "NBA-The-Run-preorder",
+        "file": "NBA-The-Run-preorder"
+      },
+      {
+        "slug": "NBA-The-Run-price",
+        "file": "NBA-The-Run-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "NBA-The-Run-date",
+        "file": "NBA-The-Run-date"
+      },
+      {
+        "slug": "NBA-The-Run-early-access",
+        "file": "NBA-The-Run-early-access"
+      },
+      {
+        "slug": "NBA-The-Run-game-release-date",
+        "file": "NBA-The-Run-game-release-date"
+      },
+      {
+        "slug": "NBA-The-Run-is-it-out",
+        "file": "NBA-The-Run-is-it-out"
+      },
+      {
+        "slug": "NBA-The-Run-news",
+        "file": "NBA-The-Run-news"
+      },
+      {
+        "slug": "NBA-The-Run-patch-notes",
+        "file": "NBA-The-Run-patch-notes"
+      },
+      {
+        "slug": "NBA-The-Run-ps5-release-date",
+        "file": "NBA-The-Run-ps5-release-date"
+      },
+      {
+        "slug": "NBA-The-Run-release-date",
+        "file": "NBA-The-Run-release-date"
+      },
+      {
+        "slug": "NBA-The-Run-roadmap",
+        "file": "NBA-The-Run-roadmap"
+      },
+      {
+        "slug": "NBA-The-Run-trailer",
+        "file": "NBA-The-Run-trailer"
+      },
+      {
+        "slug": "NBA-The-Run-update",
+        "file": "NBA-The-Run-update"
+      },
+      {
+        "slug": "NBA-The-Run-when-does-it-come-out",
+        "file": "NBA-The-Run-when-does-it-come-out"
+      },
+      {
+        "slug": "NBA-The-Run-when-does-it-release",
+        "file": "NBA-The-Run-when-does-it-release"
+      },
+      {
+        "slug": "NBA-The-Run-xbox-release-date",
+        "file": "NBA-The-Run-xbox-release-date"
+      }
+    ],
+    "roster": [
+      {
+        "slug": "NBA-The-Run-anthony-edwards",
+        "file": "NBA-The-Run-anthony-edwards"
+      },
+      {
+        "slug": "NBA-The-Run-aura",
+        "file": "NBA-The-Run-aura"
+      },
+      {
+        "slug": "NBA-The-Run-characters",
+        "file": "NBA-The-Run-characters"
+      },
+      {
+        "slug": "NBA-The-Run-ja-morant",
+        "file": "NBA-The-Run-ja-morant"
+      },
+      {
+        "slug": "NBA-The-Run-jalen-brunson",
+        "file": "NBA-The-Run-jalen-brunson"
+      },
+      {
+        "slug": "NBA-The-Run-jayson-tatum",
+        "file": "NBA-The-Run-jayson-tatum"
+      },
+      {
+        "slug": "NBA-The-Run-kyrie-irving",
+        "file": "NBA-The-Run-kyrie-irving"
+      },
+      {
+        "slug": "NBA-The-Run-lebron",
+        "file": "NBA-The-Run-lebron"
+      },
+      {
+        "slug": "NBA-The-Run-legends",
+        "file": "NBA-The-Run-legends"
+      },
+      {
+        "slug": "NBA-The-Run-michael-jordan",
+        "file": "NBA-The-Run-michael-jordan"
+      },
+      {
+        "slug": "NBA-The-Run-player-stats",
+        "file": "NBA-The-Run-player-stats"
+      },
+      {
+        "slug": "NBA-The-Run-players",
+        "file": "NBA-The-Run-players"
+      },
+      {
+        "slug": "NBA-The-Run-roster",
+        "file": "NBA-The-Run-roster"
+      },
+      {
+        "slug": "NBA-The-Run-street-legends",
+        "file": "NBA-The-Run-street-legends"
+      },
+      {
+        "slug": "NBA-The-Run-stretch-monroe",
+        "file": "NBA-The-Run-stretch-monroe"
+      },
+      {
+        "slug": "NBA-The-Run-teams",
+        "file": "NBA-The-Run-teams"
+      },
+      {
+        "slug": "NBA-The-Run-wemby",
+        "file": "NBA-The-Run-wemby"
+      },
+      {
+        "slug": "nba-the-run-announcer",
+        "file": "nba-the-run-announcer"
+      }
+    ]
+  },
+  "es": {
+    "guide": [
+      {
+        "slug": "NBA-The-Run-Got-Next",
+        "file": "NBA-The-Run-Got-Next"
+      },
+      {
+        "slug": "NBA-The-Run-beginner-guide",
+        "file": "NBA-The-Run-beginner-guide"
+      },
+      {
+        "slug": "NBA-The-Run-best-settings",
+        "file": "NBA-The-Run-best-settings"
+      },
+      {
+        "slug": "NBA-The-Run-crossplay",
+        "file": "NBA-The-Run-crossplay"
+      },
+      {
+        "slug": "NBA-The-Run-faq",
+        "file": "NBA-The-Run-faq"
+      },
+      {
+        "slug": "NBA-The-Run-gameplay",
+        "file": "NBA-The-Run-gameplay"
+      },
+      {
+        "slug": "NBA-The-Run-guide",
+        "file": "NBA-The-Run-guide"
+      },
+      {
+        "slug": "NBA-The-Run-how-many-players",
+        "file": "NBA-The-Run-how-many-players"
+      },
+      {
+        "slug": "NBA-The-Run-how-to-play",
+        "file": "NBA-The-Run-how-to-play"
+      },
+      {
+        "slug": "NBA-The-Run-offline-mode",
+        "file": "NBA-The-Run-offline-mode"
+      },
+      {
+        "slug": "NBA-The-Run-offline",
+        "file": "NBA-The-Run-offline"
+      },
+      {
+        "slug": "NBA-The-Run-online-only",
+        "file": "NBA-The-Run-online-only"
+      },
+      {
+        "slug": "NBA-The-Run-review",
+        "file": "NBA-The-Run-review"
+      },
+      {
+        "slug": "NBA-The-Run-single-player",
+        "file": "NBA-The-Run-single-player"
+      },
+      {
+        "slug": "NBA-The-Run-tips",
+        "file": "NBA-The-Run-tips"
+      },
+      {
+        "slug": "NBA-The-Run-vs-NBA-2k",
+        "file": "NBA-The-Run-vs-NBA-2k"
+      },
+      {
+        "slug": "nba-the-run-cover",
+        "file": "nba-the-run-cover"
+      },
+      {
+        "slug": "nba-the-run-creator",
+        "file": "nba-the-run-creator"
+      },
+      {
+        "slug": "nba-the-run-soundtrack",
+        "file": "nba-the-run-soundtrack"
+      }
+    ],
+    "modes": [
+      {
+        "slug": "NBA-The-Run-championship",
+        "file": "NBA-The-Run-championship"
+      },
+      {
+        "slug": "NBA-The-Run-create-a-player",
+        "file": "NBA-The-Run-create-a-player"
+      },
+      {
+        "slug": "NBA-The-Run-game-modes",
+        "file": "NBA-The-Run-game-modes"
+      },
+      {
+        "slug": "NBA-The-Run-multiplayer",
+        "file": "NBA-The-Run-multiplayer"
+      },
+      {
+        "slug": "NBA-The-Run-rollback-netcode",
+        "file": "NBA-The-Run-rollback-netcode"
+      },
+      {
+        "slug": "NBA-The-Run-solos",
+        "file": "NBA-The-Run-solos"
+      },
+      {
+        "slug": "NBA-The-Run-squads",
+        "file": "NBA-The-Run-squads"
+      },
+      {
+        "slug": "NBA-The-Run-story-mode",
+        "file": "NBA-The-Run-story-mode"
+      },
+      {
+        "slug": "NBA-The-Run-tournaments",
+        "file": "NBA-The-Run-tournaments"
+      },
+      {
+        "slug": "NBA-The-Run-vs-NBA-Street",
+        "file": "NBA-The-Run-vs-NBA-Street"
+      },
+      {
+        "slug": "nba-the-run-courts",
+        "file": "nba-the-run-courts"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "NBA-The-Run-android",
+        "file": "NBA-The-Run-android"
+      },
+      {
+        "slug": "NBA-The-Run-mobile",
+        "file": "NBA-The-Run-mobile"
+      },
+      {
+        "slug": "NBA-The-Run-nintendo-switch",
+        "file": "NBA-The-Run-nintendo-switch"
+      },
+      {
+        "slug": "NBA-The-Run-pc",
+        "file": "NBA-The-Run-pc"
+      },
+      {
+        "slug": "NBA-The-Run-ps4",
+        "file": "NBA-The-Run-ps4"
+      },
+      {
+        "slug": "NBA-The-Run-ps5",
+        "file": "NBA-The-Run-ps5"
+      },
+      {
+        "slug": "NBA-The-Run-steam",
+        "file": "NBA-The-Run-steam"
+      },
+      {
+        "slug": "NBA-The-Run-switch-2",
+        "file": "NBA-The-Run-switch-2"
+      },
+      {
+        "slug": "NBA-The-Run-system-requirements",
+        "file": "NBA-The-Run-system-requirements"
+      },
+      {
+        "slug": "NBA-The-Run-xbox-series-x",
+        "file": "NBA-The-Run-xbox-series-x"
+      },
+      {
+        "slug": "NBA-The-Run-xbox",
+        "file": "NBA-The-Run-xbox"
+      },
+      {
+        "slug": "nba-the-run-switch",
+        "file": "nba-the-run-switch"
+      }
+    ],
+    "playtest": [
+      {
+        "slug": "NBA-The-Run-beta",
+        "file": "NBA-The-Run-beta"
+      },
+      {
+        "slug": "NBA-The-Run-demo",
+        "file": "NBA-The-Run-demo"
+      },
+      {
+        "slug": "NBA-The-Run-play-test",
+        "file": "NBA-The-Run-play-test"
+      },
+      {
+        "slug": "NBA-The-Run-playtest",
+        "file": "NBA-The-Run-playtest"
+      },
+      {
+        "slug": "NBA-The-Run-playtesting",
+        "file": "NBA-The-Run-playtesting"
+      },
+      {
+        "slug": "NBA-The-Run-sign-up",
+        "file": "NBA-The-Run-sign-up"
+      }
+    ],
+    "price": [
+      {
+        "slug": "NBA-The-Run-cost",
+        "file": "NBA-The-Run-cost"
+      },
+      {
+        "slug": "NBA-The-Run-free-to-play",
+        "file": "NBA-The-Run-free-to-play"
+      },
+      {
+        "slug": "NBA-The-Run-free",
+        "file": "NBA-The-Run-free"
+      },
+      {
+        "slug": "NBA-The-Run-preorder",
+        "file": "NBA-The-Run-preorder"
+      },
+      {
+        "slug": "NBA-The-Run-price",
+        "file": "NBA-The-Run-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "NBA-The-Run-date",
+        "file": "NBA-The-Run-date"
+      },
+      {
+        "slug": "NBA-The-Run-early-access",
+        "file": "NBA-The-Run-early-access"
+      },
+      {
+        "slug": "NBA-The-Run-game-release-date",
+        "file": "NBA-The-Run-game-release-date"
+      },
+      {
+        "slug": "NBA-The-Run-is-it-out",
+        "file": "NBA-The-Run-is-it-out"
+      },
+      {
+        "slug": "NBA-The-Run-news",
+        "file": "NBA-The-Run-news"
+      },
+      {
+        "slug": "NBA-The-Run-ps5-release-date",
+        "file": "NBA-The-Run-ps5-release-date"
+      },
+      {
+        "slug": "NBA-The-Run-release-date",
+        "file": "NBA-The-Run-release-date"
+      },
+      {
+        "slug": "NBA-The-Run-trailer",
+        "file": "NBA-The-Run-trailer"
+      },
+      {
+        "slug": "NBA-The-Run-update",
+        "file": "NBA-The-Run-update"
+      },
+      {
+        "slug": "NBA-The-Run-when-does-it-come-out",
+        "file": "NBA-The-Run-when-does-it-come-out"
+      },
+      {
+        "slug": "NBA-The-Run-when-does-it-release",
+        "file": "NBA-The-Run-when-does-it-release"
+      },
+      {
+        "slug": "NBA-The-Run-xbox-release-date",
+        "file": "NBA-The-Run-xbox-release-date"
+      }
+    ],
+    "roster": [
+      {
+        "slug": "NBA-The-Run-legends",
+        "file": "NBA-The-Run-legends"
+      },
+      {
+        "slug": "NBA-The-Run-players",
+        "file": "NBA-The-Run-players"
+      },
+      {
+        "slug": "NBA-The-Run-roster",
+        "file": "NBA-The-Run-roster"
+      },
+      {
+        "slug": "NBA-The-Run-street-legends",
+        "file": "NBA-The-Run-street-legends"
+      },
+      {
+        "slug": "nba-the-run-announcer",
+        "file": "nba-the-run-announcer"
+      }
+    ]
+  },
+  "fr": {
+    "guide": [
+      {
+        "slug": "NBA-The-Run-Got-Next",
+        "file": "NBA-The-Run-Got-Next"
+      },
+      {
+        "slug": "NBA-The-Run-beginner-guide",
+        "file": "NBA-The-Run-beginner-guide"
+      },
+      {
+        "slug": "NBA-The-Run-best-settings",
+        "file": "NBA-The-Run-best-settings"
+      },
+      {
+        "slug": "NBA-The-Run-crossplay",
+        "file": "NBA-The-Run-crossplay"
+      },
+      {
+        "slug": "NBA-The-Run-faq",
+        "file": "NBA-The-Run-faq"
+      },
+      {
+        "slug": "NBA-The-Run-gameplay",
+        "file": "NBA-The-Run-gameplay"
+      },
+      {
+        "slug": "NBA-The-Run-guide",
+        "file": "NBA-The-Run-guide"
+      },
+      {
+        "slug": "NBA-The-Run-how-many-players",
+        "file": "NBA-The-Run-how-many-players"
+      },
+      {
+        "slug": "NBA-The-Run-how-to-play",
+        "file": "NBA-The-Run-how-to-play"
+      },
+      {
+        "slug": "NBA-The-Run-offline-mode",
+        "file": "NBA-The-Run-offline-mode"
+      },
+      {
+        "slug": "NBA-The-Run-offline",
+        "file": "NBA-The-Run-offline"
+      },
+      {
+        "slug": "NBA-The-Run-online-only",
+        "file": "NBA-The-Run-online-only"
+      },
+      {
+        "slug": "NBA-The-Run-review",
+        "file": "NBA-The-Run-review"
+      },
+      {
+        "slug": "NBA-The-Run-single-player",
+        "file": "NBA-The-Run-single-player"
+      },
+      {
+        "slug": "NBA-The-Run-tips",
+        "file": "NBA-The-Run-tips"
+      },
+      {
+        "slug": "NBA-The-Run-vs-NBA-2k",
+        "file": "NBA-The-Run-vs-NBA-2k"
+      },
+      {
+        "slug": "nba-the-run-cover",
+        "file": "nba-the-run-cover"
+      },
+      {
+        "slug": "nba-the-run-creator",
+        "file": "nba-the-run-creator"
+      },
+      {
+        "slug": "nba-the-run-soundtrack",
+        "file": "nba-the-run-soundtrack"
+      }
+    ],
+    "modes": [
+      {
+        "slug": "NBA-The-Run-championship",
+        "file": "NBA-The-Run-championship"
+      },
+      {
+        "slug": "NBA-The-Run-create-a-player",
+        "file": "NBA-The-Run-create-a-player"
+      },
+      {
+        "slug": "NBA-The-Run-game-modes",
+        "file": "NBA-The-Run-game-modes"
+      },
+      {
+        "slug": "NBA-The-Run-multiplayer",
+        "file": "NBA-The-Run-multiplayer"
+      },
+      {
+        "slug": "NBA-The-Run-rollback-netcode",
+        "file": "NBA-The-Run-rollback-netcode"
+      },
+      {
+        "slug": "NBA-The-Run-solos",
+        "file": "NBA-The-Run-solos"
+      },
+      {
+        "slug": "NBA-The-Run-squads",
+        "file": "NBA-The-Run-squads"
+      },
+      {
+        "slug": "NBA-The-Run-story-mode",
+        "file": "NBA-The-Run-story-mode"
+      },
+      {
+        "slug": "NBA-The-Run-tournaments",
+        "file": "NBA-The-Run-tournaments"
+      },
+      {
+        "slug": "NBA-The-Run-vs-NBA-Street",
+        "file": "NBA-The-Run-vs-NBA-Street"
+      },
+      {
+        "slug": "nba-the-run-courts",
+        "file": "nba-the-run-courts"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "NBA-The-Run-android",
+        "file": "NBA-The-Run-android"
+      },
+      {
+        "slug": "NBA-The-Run-mobile",
+        "file": "NBA-The-Run-mobile"
+      },
+      {
+        "slug": "NBA-The-Run-nintendo-switch",
+        "file": "NBA-The-Run-nintendo-switch"
+      },
+      {
+        "slug": "NBA-The-Run-pc",
+        "file": "NBA-The-Run-pc"
+      },
+      {
+        "slug": "NBA-The-Run-ps4",
+        "file": "NBA-The-Run-ps4"
+      },
+      {
+        "slug": "NBA-The-Run-ps5",
+        "file": "NBA-The-Run-ps5"
+      },
+      {
+        "slug": "NBA-The-Run-steam",
+        "file": "NBA-The-Run-steam"
+      },
+      {
+        "slug": "NBA-The-Run-switch-2",
+        "file": "NBA-The-Run-switch-2"
+      },
+      {
+        "slug": "NBA-The-Run-system-requirements",
+        "file": "NBA-The-Run-system-requirements"
+      },
+      {
+        "slug": "NBA-The-Run-xbox-series-x",
+        "file": "NBA-The-Run-xbox-series-x"
+      },
+      {
+        "slug": "NBA-The-Run-xbox",
+        "file": "NBA-The-Run-xbox"
+      },
+      {
+        "slug": "nba-the-run-switch",
+        "file": "nba-the-run-switch"
+      }
+    ],
+    "playtest": [
+      {
+        "slug": "NBA-The-Run-beta",
+        "file": "NBA-The-Run-beta"
+      },
+      {
+        "slug": "NBA-The-Run-demo",
+        "file": "NBA-The-Run-demo"
+      },
+      {
+        "slug": "NBA-The-Run-play-test",
+        "file": "NBA-The-Run-play-test"
+      },
+      {
+        "slug": "NBA-The-Run-playtest",
+        "file": "NBA-The-Run-playtest"
+      },
+      {
+        "slug": "NBA-The-Run-playtesting",
+        "file": "NBA-The-Run-playtesting"
+      },
+      {
+        "slug": "NBA-The-Run-sign-up",
+        "file": "NBA-The-Run-sign-up"
+      }
+    ],
+    "price": [
+      {
+        "slug": "NBA-The-Run-cost",
+        "file": "NBA-The-Run-cost"
+      },
+      {
+        "slug": "NBA-The-Run-free-to-play",
+        "file": "NBA-The-Run-free-to-play"
+      },
+      {
+        "slug": "NBA-The-Run-free",
+        "file": "NBA-The-Run-free"
+      },
+      {
+        "slug": "NBA-The-Run-preorder",
+        "file": "NBA-The-Run-preorder"
+      },
+      {
+        "slug": "NBA-The-Run-price",
+        "file": "NBA-The-Run-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "NBA-The-Run-date",
+        "file": "NBA-The-Run-date"
+      },
+      {
+        "slug": "NBA-The-Run-early-access",
+        "file": "NBA-The-Run-early-access"
+      },
+      {
+        "slug": "NBA-The-Run-game-release-date",
+        "file": "NBA-The-Run-game-release-date"
+      },
+      {
+        "slug": "NBA-The-Run-is-it-out",
+        "file": "NBA-The-Run-is-it-out"
+      },
+      {
+        "slug": "NBA-The-Run-news",
+        "file": "NBA-The-Run-news"
+      },
+      {
+        "slug": "NBA-The-Run-ps5-release-date",
+        "file": "NBA-The-Run-ps5-release-date"
+      },
+      {
+        "slug": "NBA-The-Run-release-date",
+        "file": "NBA-The-Run-release-date"
+      },
+      {
+        "slug": "NBA-The-Run-trailer",
+        "file": "NBA-The-Run-trailer"
+      },
+      {
+        "slug": "NBA-The-Run-update",
+        "file": "NBA-The-Run-update"
+      },
+      {
+        "slug": "NBA-The-Run-when-does-it-come-out",
+        "file": "NBA-The-Run-when-does-it-come-out"
+      },
+      {
+        "slug": "NBA-The-Run-when-does-it-release",
+        "file": "NBA-The-Run-when-does-it-release"
+      },
+      {
+        "slug": "NBA-The-Run-xbox-release-date",
+        "file": "NBA-The-Run-xbox-release-date"
+      }
+    ],
+    "roster": [
+      {
+        "slug": "NBA-The-Run-legends",
+        "file": "NBA-The-Run-legends"
+      },
+      {
+        "slug": "NBA-The-Run-players",
+        "file": "NBA-The-Run-players"
+      },
+      {
+        "slug": "NBA-The-Run-roster",
+        "file": "NBA-The-Run-roster"
+      },
+      {
+        "slug": "NBA-The-Run-street-legends",
+        "file": "NBA-The-Run-street-legends"
+      },
+      {
+        "slug": "nba-the-run-announcer",
+        "file": "nba-the-run-announcer"
+      }
+    ]
+  }
+}
